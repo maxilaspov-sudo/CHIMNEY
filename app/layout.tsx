@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import { SITE } from "@/lib/constants";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <StickyCallButton />
+        <Analytics />
       </body>
     </html>
   );
