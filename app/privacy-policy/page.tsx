@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-xl font-bold text-[#1E3A5F] mb-3">1. Who We Are</h2>
               <p>
                 Chimney Peak California operates the website at{" "}
-                <strong>www.californiachimneyservices.com</strong> and provides professional chimney
+                <strong>www.chimneycleaningca.com</strong> and provides professional chimney
                 cleaning, inspection, repair, and related services throughout California. When this
                 policy says &quot;we,&quot; &quot;us,&quot; or &quot;our,&quot; it refers to Chimney Peak California. For questions
                 about this policy, contact us at{" "}

@@ -41,7 +41,7 @@ export default function TermsOfServicePage() {
             <div>
               <h2 className="text-xl font-bold text-[#1E3A5F] mb-3">1. Acceptance of Terms</h2>
               <p>
-                By accessing or using the website at <strong>www.californiachimneyservices.com</strong>{" "}
+                By accessing or using the website at <strong>www.chimneycleaningca.com</strong>{" "}
                 (the &quot;Site&quot;), you agree to be bound by these Terms of Service. If you do not agree,
                 do not use this Site. These terms apply to all visitors, estimate requesters, and
                 customers of Chimney Peak California.

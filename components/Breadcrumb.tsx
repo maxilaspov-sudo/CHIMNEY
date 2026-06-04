@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SITE } from "@/lib/constants";
 
 interface Crumb {
   label: string;
@@ -13,7 +14,7 @@ export default function Breadcrumb({ crumbs }: { crumbs: Crumb[] }) {
       "@type": "ListItem",
       position: i + 1,
       name: c.label,
-      ...(c.href ? { item: `https://www.californiachimneyservices.com${c.href}` } : {}),
+      ...(c.href ? { item: `${SITE.baseUrl}${c.href}` } : {}),
     })),
   };
 

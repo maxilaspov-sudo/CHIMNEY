@@ -6,7 +6,7 @@ export const SITE = {
   phoneHref: "",
   email: "info@chimneycleaningca.com",
   address: "Los Angeles, CA",
-  baseUrl: "https://www.californiachimneyservices.com",
+  baseUrl: "https://www.chimneycleaningca.com",
   googleRating: "4.9",
   reviewCount: "847",
   yearsInBusiness: "15",
