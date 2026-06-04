@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { serviceCategories } from "@/lib/serviceCatalog";
 
-// ─── Category images — verified Pexels IDs ────────────────────────────────────
-const CATEGORY_IMAGES: Record<string, { id: number; alt: string }> = {
+// ─── Category images — use `src` for local files, `id` for Pexels CDN ────────
+const CATEGORY_IMAGES: Record<string, { id?: number; src?: string; alt: string }> = {
   "chimney-cleaning-maintenance":       { id: 20181619, alt: "Chimney sweep technician working on a residential rooftop" },
   "chimney-repair-restoration":         { id: 13279005, alt: "Masonry repair work on a brick chimney" },
-  "fireplace-cleaning-repair":          { id: 6312087,  alt: "Clean brick fireplace interior ready for use" },
+  "fireplace-cleaning-repair":          { src: "/category-fireplace-cleaning-repair.jpg", alt: "Professional technician cleaning a stone fireplace interior in a California home" },
   "fireplace-installation-design":      { id: 24245776, alt: "Elegant white fireplace mantel in a finished living room" },
   "chimney-parts-components":           { id: 11210095, alt: "Metal chimney caps on a residential rooftop" },
   "specialty-fireplace-stove-services": { id: 14681670, alt: "Gas fireplace with blue and orange flames burning" },
@@ -123,7 +123,7 @@ export default function HomepageCategoryCards() {
                   {img && (
                     <div className="relative h-48 sm:h-44 lg:h-48 overflow-hidden shrink-0">
                       <Image
-                        src={pexelsUrl(img.id)}
+                        src={img.src ?? pexelsUrl(img.id!)}
                         alt={img.alt}
                         fill
                         loading="lazy"
