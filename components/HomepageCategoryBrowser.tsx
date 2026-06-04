@@ -54,7 +54,7 @@ export default function HomepageCategoryBrowser() {
                 <span className="font-semibold text-[#1E3A5F] text-sm leading-snug block">
                   {cat.name}
                 </span>
-                <span className="text-xs text-gray-400 mt-0.5 block">
+                <span className="text-xs text-gray-500 mt-0.5 block">
                   {cat.services.length} services
                 </span>
               </div>
@@ -78,12 +78,12 @@ export default function HomepageCategoryBrowser() {
                       <span className="text-sm font-medium text-[#1E3A5F] group-hover:text-orange-500 transition-colors leading-snug block">
                         {svc.name}
                         {svc.isMajor && (
-                          <span className="ml-1.5 text-[9px] font-semibold bg-orange-50 text-orange-500 px-1 py-0.5 rounded-full align-middle border border-orange-100">
+                          <span className="ml-1.5 text-[11px] font-semibold bg-orange-50 text-orange-700 px-1 py-0.5 rounded-full align-middle border border-orange-100">
                             Full page
                           </span>
                         )}
                       </span>
-                      <span className="text-xs text-gray-400 leading-relaxed line-clamp-1 block mt-0.5">
+                      <span className="text-xs text-gray-500 leading-relaxed line-clamp-1 block mt-0.5">
                         {svc.shortDesc}
                       </span>
                     </div>

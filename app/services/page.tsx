@@ -145,7 +145,7 @@ export default function ServicesIndexPage() {
                       <p className="font-semibold text-[#1E3A5F] text-sm group-hover:text-orange-500 transition-colors leading-snug">
                         {item.name}
                         {item.isMajor && (
-                          <span className="ml-2 text-[10px] font-medium bg-orange-50 text-orange-600 px-1.5 py-0.5 rounded-full align-middle">
+                          <span className="ml-2 text-[11px] font-medium bg-orange-50 text-orange-700 px-1.5 py-0.5 rounded-full align-middle">
                             Full page
                           </span>
                         )}

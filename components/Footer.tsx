@@ -30,9 +30,11 @@ export default function Footer() {
             </span>
           </div>
           <div className="mt-4 flex items-center gap-1">
-            {"★★★★★".split("").map((s, i) => (
-              <span key={i} className="text-yellow-400 text-lg">{s}</span>
-            ))}
+            <div role="img" aria-label={`${SITE.googleRating} out of 5 stars`} className="flex gap-0.5">
+              {"★★★★★".split("").map((s, i) => (
+                <span key={i} aria-hidden="true" className="text-yellow-400 text-lg">{s}</span>
+              ))}
+            </div>
             <span className="text-sm ml-1 text-gray-300">{SITE.googleRating} ({SITE.reviewCount} reviews)</span>
           </div>
         </div>
@@ -137,5 +139,5 @@ function LocationIcon() {
   return <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s-8-7-8-12a8 8 0 1 1 16 0c0 5-8 12-8 12z"/><circle cx="12" cy="10" r="2"/></svg>;
 }
 function CheckIcon() {
-  return <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="3"><polyline points="20 6 9 17 4 12"/></svg>;
+  return <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="3" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>;
 }

@@ -57,7 +57,7 @@ export default function BlogGrid({ posts }: Props) {
               }`}
             >
               {cat}
-              <span className="ml-1.5 text-[11px] opacity-70">({count})</span>
+              <span className="ml-1.5 text-xs opacity-70">({count})</span>
             </button>
           );
         })}
@@ -90,7 +90,7 @@ export default function BlogGrid({ posts }: Props) {
               </div>
 
               <div className="p-5 flex flex-col flex-1 gap-3">
-                <div className="flex items-center gap-2 text-xs text-gray-400">
+                <div className="flex items-center gap-2 text-xs text-gray-500">
                   <time dateTime={post.publishDate}>
                     {new Date(post.publishDate).toLocaleDateString("en-US", {
                       year: "numeric",

@@ -40,10 +40,6 @@ export default function LocalBusinessSchema() {
       reviewCount: SITE.reviewCount,
       bestRating: "5",
     },
-    sameAs: [
-      "https://www.facebook.com/californiachimneyservices",
-      "https://www.yelp.com/biz/california-chimney-services",
-    ],
   };
 
   return (

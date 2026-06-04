@@ -1,5 +1,5 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useId } from "react";
 
 const LEAD_SERVICES = [
   "Chimney Cleaning",
@@ -99,6 +99,11 @@ export default function LeadForm({
   subheading = "We respond within 2 hours during business hours. Same-week appointments available.",
   dark = false,
 }: LeadFormProps) {
+  // useId generates a unique prefix per component instance, preventing duplicate
+  // HTML id attributes when this form is rendered more than once on the same page.
+  const uid = useId();
+  const f = (name: string) => `${uid}-${name}`;
+
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
@@ -221,11 +226,11 @@ export default function LeadForm({
       <form onSubmit={handleSubmit} noValidate className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {/* Name */}
         <div>
-          <label htmlFor="lf-name" className={labelClass}>
+          <label htmlFor={f("name")} className={labelClass}>
             Full Name <span className="text-red-500">*</span>
           </label>
           <input
-            id="lf-name"
+            id={f("name")}
             type="text"
             name="name"
             autoComplete="name"
@@ -234,21 +239,21 @@ export default function LeadForm({
             onChange={handleChange}
             onBlur={handleBlur}
             placeholder="John Smith"
-            aria-describedby={errors.name && touched.name ? "lf-name-error" : undefined}
+            aria-describedby={errors.name && touched.name ? f("name-error") : undefined}
             className={inputClass("name")}
           />
           {errors.name && touched.name && (
-            <p id="lf-name-error" className="text-red-500 text-xs mt-1">{errors.name}</p>
+            <p id={f("name-error")} className="text-red-500 text-xs mt-1">{errors.name}</p>
           )}
         </div>
 
         {/* Phone */}
         <div>
-          <label htmlFor="lf-phone" className={labelClass}>
+          <label htmlFor={f("phone")} className={labelClass}>
             Your Phone Number <span className="text-red-500">*</span>
           </label>
           <input
-            id="lf-phone"
+            id={f("phone")}
             type="tel"
             name="phone"
             autoComplete="tel"
@@ -257,21 +262,21 @@ export default function LeadForm({
             onChange={handleChange}
             onBlur={handleBlur}
             placeholder="(310) 000-0000"
-            aria-describedby={errors.phone && touched.phone ? "lf-phone-error" : undefined}
+            aria-describedby={errors.phone && touched.phone ? f("phone-error") : undefined}
             className={inputClass("phone")}
           />
           {errors.phone && touched.phone && (
-            <p id="lf-phone-error" className="text-red-500 text-xs mt-1">{errors.phone}</p>
+            <p id={f("phone-error")} className="text-red-500 text-xs mt-1">{errors.phone}</p>
           )}
         </div>
 
         {/* Email */}
         <div>
-          <label htmlFor="lf-email" className={labelClass}>
+          <label htmlFor={f("email")} className={labelClass}>
             Email Address
           </label>
           <input
-            id="lf-email"
+            id={f("email")}
             type="email"
             name="email"
             autoComplete="email"
@@ -279,19 +284,19 @@ export default function LeadForm({
             onChange={handleChange}
             onBlur={handleBlur}
             placeholder="you@example.com"
-            aria-describedby={errors.email && touched.email ? "lf-email-error" : undefined}
+            aria-describedby={errors.email && touched.email ? f("email-error") : undefined}
             className={errors.email && touched.email ? `${baseInput} border-red-400 bg-red-50` : `${baseInput} border-gray-200`}
           />
           {errors.email && touched.email && (
-            <p id="lf-email-error" className="text-red-500 text-xs mt-1">{errors.email}</p>
+            <p id={f("email-error")} className="text-red-500 text-xs mt-1">{errors.email}</p>
           )}
         </div>
 
         {/* City */}
         <div>
-          <label htmlFor="lf-city" className={labelClass}>City</label>
+          <label htmlFor={f("city")} className={labelClass}>City</label>
           <input
-            id="lf-city"
+            id={f("city")}
             type="text"
             name="city"
             autoComplete="address-level2"
@@ -304,9 +309,9 @@ export default function LeadForm({
 
         {/* Service */}
         <div>
-          <label htmlFor="lf-service" className={labelClass}>Service Needed</label>
+          <label htmlFor={f("service")} className={labelClass}>Service Needed</label>
           <select
-            id="lf-service"
+            id={f("service")}
             name="service"
             value={formData.service}
             onChange={handleChange}
@@ -322,9 +327,9 @@ export default function LeadForm({
 
         {/* Preferred time */}
         <div>
-          <label htmlFor="lf-time" className={labelClass}>Preferred Time</label>
+          <label htmlFor={f("time")} className={labelClass}>Preferred Time</label>
           <select
-            id="lf-time"
+            id={f("time")}
             name="preferredTime"
             value={formData.preferredTime}
             onChange={handleChange}
@@ -345,9 +350,9 @@ export default function LeadForm({
 
         {/* Message */}
         <div className="sm:col-span-2">
-          <label htmlFor="lf-message" className={labelClass}>Message (optional)</label>
+          <label htmlFor={f("message")} className={labelClass}>Message (optional)</label>
           <textarea
-            id="lf-message"
+            id={f("message")}
             name="message"
             value={formData.message}
             onChange={handleChange}
@@ -385,7 +390,7 @@ export default function LeadForm({
               </>
             )}
           </button>
-          <p className={`text-xs text-center mt-2 ${dark ? "text-gray-400" : "text-gray-400"}`}>
+          <p className={`text-xs text-center mt-2 ${dark ? "text-gray-400" : "text-gray-500"}`}>
             No spam. No pressure. We typically respond within 2 hours.
           </p>
         </div>

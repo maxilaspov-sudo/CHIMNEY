@@ -73,7 +73,7 @@ export default function ReviewSection() {
       <div className="container-base">
         <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-orange-700 text-sm font-semibold px-4 py-2 rounded-full mb-4">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
             4.9 Average Rating · 847 Verified Reviews
@@ -88,7 +88,7 @@ export default function ReviewSection() {
               <div className="flex items-start justify-between">
                 <div>
                   <p className="font-semibold text-gray-900">{r.name}</p>
-                  <p className="text-xs text-gray-400">{r.city} · {r.date}</p>
+                  <p className="text-xs text-gray-500">{r.city} · {r.date}</p>
                 </div>
                 <Stars count={r.rating} />
               </div>
@@ -102,7 +102,7 @@ export default function ReviewSection() {
           <div className="flex items-center justify-center gap-1 mb-4">
             <Stars count={5} large />
             <span className="font-bold text-gray-900 text-lg ml-2">4.9</span>
-            <span className="text-gray-400 text-sm">(847 reviews)</span>
+            <span className="text-gray-500 text-sm">(847 reviews)</span>
           </div>
         </div>
       </div>
@@ -112,9 +112,13 @@ export default function ReviewSection() {
 
 function Stars({ count, large = false }: { count: number; large?: boolean }) {
   return (
-    <div className={`flex gap-0.5 ${large ? "text-2xl" : "text-base"}`}>
+    <div
+      role="img"
+      aria-label={`${count} out of 5 stars`}
+      className={`flex gap-0.5 ${large ? "text-2xl" : "text-base"}`}
+    >
       {Array.from({ length: 5 }).map((_, i) => (
-        <span key={i} className={i < count ? "text-yellow-400" : "text-gray-200"}>★</span>
+        <span key={i} aria-hidden="true" className={i < count ? "text-yellow-400" : "text-gray-200"}>★</span>
       ))}
     </div>
   );

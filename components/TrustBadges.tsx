@@ -15,7 +15,7 @@ export default function TrustBadges({ dark = false }: { dark?: boolean }) {
         <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
           {badges.map((b, i) => (
             <div key={i} className="flex items-center gap-3 text-center">
-              <span className="text-2xl" role="img" aria-hidden="true">{b.icon}</span>
+              <span className="text-2xl" aria-hidden="true">{b.icon}</span>
               <div className="text-left">
                 <p className={`font-bold text-sm ${dark ? "text-white" : "text-gray-900"}`}>{b.label}</p>
                 <p className={`text-xs ${dark ? "text-gray-400" : "text-gray-500"}`}>{b.sub}</p>
