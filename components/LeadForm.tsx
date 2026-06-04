@@ -22,26 +22,45 @@ const LEAD_SERVICES = [
   "Residential Chimney Services",
 ];
 
-// ─── BACKEND CONNECTION POINT ────────────────────────────────────────────────
-// Replace `submitLead` below with your real submission logic.
-// Options:
-//   A) Email via Resend / SendGrid / Mailgun — POST to /api/leads with formData
-//   B) CRM (HubSpot, Pipedrive) — use their REST API / SDK
-//   C) Google Sheets — POST to a Google Apps Script webhook URL
-//   D) Any custom API endpoint — replace the mock delay below
-//
-// Example for a fetch-based backend:
-//   const res = await fetch("/api/leads", {
-//     method: "POST",
-//     headers: { "Content-Type": "application/json" },
-//     body: JSON.stringify(data),
-//   });
-//   if (!res.ok) throw new Error("Submission failed");
+// ─── Web3Forms submission ─────────────────────────────────────────────────────
+// Sends form data to maxilaspov@gmail.com via Web3Forms (web3forms.com).
+// NEXT_PUBLIC_WEB3FORMS_KEY must be set in Vercel environment variables.
+// The key is a public routing token — safe for client-side code.
 // ─────────────────────────────────────────────────────────────────────────────
 async function submitLead(data: LeadFormData): Promise<void> {
-  // TODO: replace this mock with your real API call (see comments above)
-  console.log("[LeadForm] Submission received:", data);
-  await new Promise((resolve) => setTimeout(resolve, 800)); // remove when wiring real API
+  const key = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
+  if (!key) throw new Error("Form is not configured. Please contact us by email.");
+
+  const pageUrl =
+    typeof window !== "undefined" ? window.location.href : "Unknown";
+  const timestamp = new Date().toLocaleString("en-US", {
+    timeZone: "America/Los_Angeles",
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
+
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Accept: "application/json" },
+    body: JSON.stringify({
+      access_key: key,
+      subject: `New Chimney Peak California Lead — ${data.service || "General Inquiry"}`,
+      from_name: "Chimney Peak California Website",
+      replyto: data.email || undefined,
+      Name: data.name,
+      Phone: data.phone,
+      Email: data.email || "Not provided",
+      "Service Needed": data.service || "Not specified",
+      "City / Location": data.city || "Not provided",
+      "Preferred Time": data.preferredTime || "Not specified",
+      Message: data.message || "No message provided",
+      "Page URL": pageUrl,
+      Timestamp: timestamp,
+    }),
+  });
+
+  const json = await res.json();
+  if (!json.success) throw new Error(json.message || "Submission failed");
 }
 
 interface LeadFormData {
