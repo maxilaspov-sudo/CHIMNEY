@@ -1,0 +1,991 @@
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.2:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.2s (807 modules)
+ ✓ Compiled in 1078ms (350 modules)
+ GET / 200 in 4291ms
+ GET / 200 in 88ms
+ ○ Compiling /areas/[slug] ...
+ ✓ Compiled /areas/[slug] in 793ms (824 modules)
+ GET /areas/los-angeles/ 200 in 1511ms
+ GET /areas/san-jose/ 200 in 66ms
+ GET /areas/los-angeles/ 200 in 69ms
+ GET /areas/san-francisco/ 200 in 66ms
+ ✓ Compiled /about in 407ms (815 modules)
+ GET /about/ 200 in 558ms
+ ✓ Compiled /services/[slug] in 456ms (821 modules)
+ GET /services/chimney-repair/ 200 in 964ms
+ ✓ Compiled /blog in 357ms (819 modules)
+ GET /blog/ 200 in 464ms
+ ✓ Compiled /faq in 349ms (824 modules)
+ GET /faq/ 200 in 483ms
+ ✓ Compiled /services in 403ms (819 modules)
+ GET /services/ 200 in 659ms
+ ✓ Compiled /areas in 490ms (824 modules)
+ GET /areas/ 200 in 742ms
+ ✓ Compiled /areas/[slug] in 181ms (484 modules)
+ GET /areas/oakland/ 200 in 384ms
+ GET /areas/fremont/ 200 in 62ms
+ ✓ Compiled /services/[slug] in 171ms (479 modules)
+ GET /services/dryer-vent-cleaning/ 200 in 388ms
+ ✓ Compiled /contact in 419ms (820 modules)
+ GET /contact/ 200 in 580ms
+ GET /areas/ 200 in 229ms
+ GET /areas/irvine/ 200 in 113ms
+ GET /areas/orange/ 200 in 326ms
+ GET /areas/westminster/ 200 in 261ms
+ GET /areas/tustin/ 200 in 366ms
+ ✓ Compiled / in 473ms (485 modules)
+ GET / 200 in 717ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 892ms (827 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1196ms
+ GET / 200 in 477ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 99ms
+ ✓ Compiled /robots.txt in 454ms (838 modules)
+ GET /robots.txt 200 in 662ms
+ GET / 200 in 624ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 111ms
+ GET / 200 in 592ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 121ms
+ GET / 200 in 82ms
+ GET /privacy-policy/ 404 in 24ms
+ GET /privacy-policy/ 404 in 105ms
+ GET /terms-of-service/ 404 in 23ms
+ GET /terms-of-service/ 404 in 108ms
+ ○ Compiling /sitemap.xml ...
+ ✓ Compiled /sitemap.xml in 641ms (840 modules)
+ GET /sitemap.xml 200 in 778ms
+ GET /sitemap.xml 200 in 12ms
+ GET /terms-of-service/ 404 in 219ms
+ GET / 200 in 522ms
+ ○ Compiling /reviews ...
+ ✓ Compiled /reviews in 531ms (844 modules)
+ GET /reviews/ 200 in 657ms
+ ✓ Compiled /blog in 268ms (506 modules)
+ GET /blog/ 200 in 386ms
+ GET / 200 in 191ms
+ GET / 200 in 844ms
+ GET /blog/ 200 in 50ms
+ GET /blog/ 200 in 343ms
+ GET / 200 in 139ms
+ ✓ Compiled in 1072ms (842 modules)
+ GET / 200 in 290ms
+ ⨯ ./components/HomepageCategoryCards.tsx
+Error:   [31mx[0m Unexpected token `section`. Expected jsx identifier
+     ,-[[36;1;4mC:\Users\maxim\Desktop\CHIMNEY\components\HomepageCategoryCards.tsx[0m:124:1]
+ [2m121[0m |   }
+ [2m122[0m | 
+ [2m123[0m |   return (
+ [2m124[0m |     <section id="categories" className="overflow-hidden">
+     : [35;1m     ^^^^^^^[0m
+ [2m125[0m | 
+ [2m126[0m |       {/* ── Main content — background image behind cards ───────────────────── */}
+ [2m127[0m |       <div className="relative pt-14 pb-10 lg:pt-20 lg:pb-12 overflow-hidden">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HomepageCategoryCards.tsx
+./app/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./components/HomepageCategoryCards.tsx
+Error:   [31mx[0m Unexpected token `section`. Expected jsx identifier
+     ,-[[36;1;4mC:\Users\maxim\Desktop\CHIMNEY\components\HomepageCategoryCards.tsx[0m:124:1]
+ [2m121[0m |   }
+ [2m122[0m | 
+ [2m123[0m |   return (
+ [2m124[0m |     <section id="categories" className="overflow-hidden">
+     : [35;1m     ^^^^^^^[0m
+ [2m125[0m | 
+ [2m126[0m |       {/* ── Main content — background image behind cards ───────────────────── */}
+ [2m127[0m |       <div className="relative pt-14 pb-10 lg:pt-20 lg:pb-12 overflow-hidden">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HomepageCategoryCards.tsx
+./app/page.tsx
+ GET / 500 in 8349ms
+ GET / 500 in 36ms
+ GET / 500 in 29ms
+ GET / 500 in 35ms
+ ✓ Compiled /_not-found in 1433ms (1179 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /_next/static/webpack/14e35a14f8eb5892.webpack.hot-update.json 404 in 2272ms
+ GET / 200 in 868ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 101ms
+ GET /_next/static/css/app/layout.css?v=1780516681208 404 in 222ms
+ GET / 200 in 498ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 164ms
+ GET /_next/static/css/app/layout.css?v=1780516826023 404 in 172ms
+ GET /_next/static/chunks/main-app.js?v=1780516826023 404 in 615ms
+ GET /_next/static/chunks/app/layout.js 404 in 613ms
+ GET /_next/static/chunks/webpack.js?v=1780516826023 404 in 617ms
+ GET /_next/static/chunks/app/page.js 404 in 613ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 617ms
+ GET /_next/static/css/app/layout.css?v=1780516826023 404 in 104ms
+ ✓ Compiled /robots.txt in 459ms (550 modules)
+ GET /robots.txt 200 in 594ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\robots.txt\route.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 806ms (1197 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 927ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70491)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70551) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:335)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:376) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET / 500 in 138ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 142ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 169ms
+ GET /_next/static/chunks/fallback/main.js 500 in 166ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 165ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 156ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 154ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 61ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70491)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70551) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:335)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:376) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET / 500 in 85ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 323ms
+ GET /_next/static/chunks/fallback/webpack.js 500 in 321ms
+ GET /_next/static/chunks/fallback/main.js 500 in 318ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 318ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 319ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 320ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70491)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70551) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:335)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:376) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET / 500 in 77ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 186ms
+ GET /_next/static/chunks/fallback/main.js 500 in 183ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 184ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 184ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 183ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70491)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70551) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:335)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:376) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET / 500 in 102ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1889)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\_not-found\page.js:1:1937) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 183ms
+ GET /_next/static/chunks/fallback/main.js 500 in 183ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 182ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 183ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 183ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70491)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js:1:70551) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:167:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:335)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js:1:376) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET / 500 in 66ms
+[?25h

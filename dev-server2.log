@@ -1,0 +1,183 @@
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.2:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 3s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.9s (801 modules)
+ GET / 200 in 3571ms
+ ✓ Compiled in 743ms (348 modules)
+ ○ Compiling /services/[slug] ...
+ ✓ Compiled /services/[slug] in 524ms (802 modules)
+ GET /services/chimney-cleaning/ 200 in 1288ms
+ ✓ Compiled /services/fireplace-installation in 375ms (804 modules)
+ GET /services/fireplace-installation/ 200 in 709ms
+ GET /services/dryer-vent-cleaning/ 200 in 165ms
+ GET /services/chimney-cap-installation/ 200 in 189ms
+ GET /services/chimney-liner-repair/ 200 in 187ms
+ ✓ Compiled /about in 420ms (809 modules)
+ GET /about/ 200 in 683ms
+ ✓ Compiled /contact in 372ms (814 modules)
+ GET /contact/ 200 in 634ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 534ms (823 modules)
+ GET /blog/ 200 in 915ms
+ ○ Compiling /sitemap.xml ...
+ ✓ Compiled /sitemap.xml in 631ms (846 modules)
+ GET /sitemap.xml 200 in 835ms
+ GET / 200 in 443ms
+ GET / 200 in 127ms
+ GET / 200 in 244ms
+ ✓ Compiled /services in 429ms (849 modules)
+ GET /services/ 200 in 779ms
+ GET /services/chimney-cleaning/ 200 in 70ms
+ GET /services/chimney-sweep/ 200 in 46ms
+ GET / 200 in 85ms
+ ○ Compiling /areas/[slug] ...
+ ✓ Compiled /areas/[slug] in 836ms (820 modules)
+ GET /areas/san-diego/ 200 in 1570ms
+ GET /areas/los-angeles/ 200 in 65ms
+ GET / 200 in 83ms
+ GET / 200 in 69ms
+   Reload env: .env
+ ✓ Compiled in 400ms (830 modules)
+ ✓ Compiled in 219ms (355 modules)
+ GET / 200 in 221ms
+ GET / 200 in 43ms
+   Reload env: .env.local
+ ✓ Compiled in 123ms (816 modules)
+ GET / 200 in 80ms
+ GET / 200 in 353ms
+ GET / 200 in 73ms
+ GET / 200 in 219ms
+ ✓ Compiled /blog in 212ms (482 modules)
+ GET /blog/ 200 in 326ms
+ GET /blog/ 200 in 272ms
+ GET / 200 in 84ms
+ GET / 200 in 246ms
+ ✓ Compiled in 795ms (837 modules)
+ GET / 200 in 226ms
+ GET / 200 in 618ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1097ms (840 modules)
+ GET /_next/static/css/app/layout.css?v=1780397434358 404 in 1674ms
+ GET /_next/static/chunks/webpack.js?v=1780397434358 404 in 2073ms
+ GET /_next/static/chunks/app/page.js 404 in 423ms
+ GET /_next/static/chunks/main-app.js?v=1780397434358 404 in 431ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 429ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\app-paths-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\app-paths-manifest.json'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.7s (1160 modules)
+ GET / 500 in 6900ms
+[Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\client-development\10.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\client-development\\10.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\client-development\10.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\client-development\\10.pack.gz'
+}
+ ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\client-development\10.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\client-development\\10.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\client-development\10.pack.gz'
+[Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\server-development\5.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\server-development\\5.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\server-development\5.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\server-development\\5.pack.gz'
+}
+ ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\server-development\5.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\server-development\\5.pack.gz'
+}
+[Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\server-development\9.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\server-development\\9.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\server-development\9.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\server-development\\9.pack.gz'
+}
+ ⨯ unhandledRejection:  [Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\server-development\9.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\cache\\webpack\\server-development\\9.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'C:\Users\maxim\Desktop\CHIMNEY\.next\cache\webpack\server-development\5.pack.gz'
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\next-font-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\next-font-manifest.json'
+}
+ GET / 500 in 128ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\next-font-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\next-font-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\next-font-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\next-font-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\maxim\Desktop\CHIMNEY\.next\server\next-font-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\maxim\\Desktop\\CHIMNEY\\.next\\server\\next-font-manifest.json'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 255ms
+ GET /_next/static/chunks/fallback/main.js 500 in 249ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 247ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 248ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 247ms

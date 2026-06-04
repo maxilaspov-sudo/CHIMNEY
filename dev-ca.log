@@ -1,0 +1,79 @@
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.2:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 1455ms (802 modules)
+ GET / 200 in 2040ms
+ ✓ Compiled in 158ms (347 modules)
+ ✓ Compiled in 495ms (802 modules)
+ GET / 200 in 176ms
+ ✓ Compiled /_not-found in 318ms (792 modules)
+ GET /areas/los-angeles/index.txt 404 in 391ms
+ GET /areas/san-diego/index.txt 404 in 392ms
+ GET /areas/san-jose/index.txt 404 in 392ms
+ GET /areas/san-francisco/index.txt 404 in 392ms
+ GET /areas/sacramento/index.txt 404 in 390ms
+ GET /areas/fresno/index.txt 404 in 24ms
+ GET /areas/oakland/index.txt 404 in 22ms
+ GET /areas/long-beach/index.txt 404 in 22ms
+ GET /areas/anaheim/index.txt 404 in 23ms
+ GET /areas/irvine/index.txt 404 in 23ms
+ GET /areas/bakersfield/index.txt 404 in 16ms
+ GET /areas/riverside/index.txt 404 in 16ms
+ GET /areas/stockton/index.txt 404 in 15ms
+ GET /areas/modesto/index.txt 404 in 15ms
+ GET /areas/santa-rosa/index.txt 404 in 14ms
+ GET /areas/pasadena/index.txt 404 in 18ms
+ GET /areas/glendale/index.txt 404 in 15ms
+ GET /areas/santa-barbara/index.txt 404 in 14ms
+ GET /areas/santa-monica/index.txt 404 in 13ms
+ GET /areas/santa-clarita/index.txt 404 in 13ms
+ GET /areas/oxnard/index.txt 404 in 21ms
+ GET /areas/moreno-valley/index.txt 404 in 20ms
+ GET /areas/huntington-beach/index.txt 404 in 19ms
+ GET /areas/elk-grove/index.txt 404 in 18ms
+ GET /areas/ontario/index.txt 404 in 16ms
+ GET /areas/rancho-cucamonga/index.txt 404 in 9ms
+ GET /areas/oceanside/index.txt 404 in 9ms
+ GET /areas/lancaster/index.txt 404 in 9ms
+ GET /areas/roseville/index.txt 404 in 9ms
+ GET /areas/concord/index.txt 404 in 8ms
+ GET /areas/thousand-oaks/index.txt 404 in 15ms
+ GET /areas/corona/index.txt 404 in 14ms
+ GET /areas/sunnyvale/index.txt 404 in 14ms
+ GET /areas/salinas/index.txt 404 in 13ms
+ GET /areas/torrance/index.txt 404 in 13ms
+ GET /areas/fremont/index.txt 404 in 9ms
+ GET /areas/hayward/index.txt 404 in 8ms
+ GET /areas/pomona/index.txt 404 in 9ms
+ GET /areas/escondido/index.txt 404 in 8ms
+ GET /areas/california/index.txt 404 in 8ms
+ GET /about/index.txt 404 in 5ms
+ GET /contact/index.txt 404 in 4ms
+ GET /contact/index.txt 404 in 11ms
+ GET /index.txt 404 in 7ms
+ GET /about/index.txt 404 in 13ms
+ GET /reviews/index.txt 404 in 12ms
+ GET /faq/index.txt 404 in 12ms
+ ✓ Compiled /blog/[slug] in 385ms (792 modules)
+ ⨯ [Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\blog\[slug]\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\dev\static-paths-worker.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/blog/index.txt'
+}
+ ✓ Compiled /_error in 501ms (1126 modules)
+ GET /blog/index.txt 500 in 1693ms
+ ✓ Compiled in 173ms (595 modules)

@@ -1,0 +1,55 @@
+   ▲ Next.js 15.3.3
+   - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 2000ms
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/184) ...
+   Generating static pages (46/184) 
+   Generating static pages (92/184) 
+   Generating static pages (138/184) 
+ ✓ Generating static pages (184/184)
+   Finalizing page optimization ...
+   Collecting build traces ...
+   Exporting (0/3) ...
+ ✓ Exporting (3/3)
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                     8.5 kB         121 kB
+├ ○ /_not-found                            142 B         101 kB
+├ ○ /about                                 187 B         110 kB
+├ ○ /areas                                 187 B         107 kB
+├ ● /areas/[slug]                        1.02 kB         114 kB
+├   ├ /areas/los-angeles
+├   ├ /areas/san-diego
+├   ├ /areas/san-jose
+├   └ [+135 more paths]
+├ ○ /areas/california                    1.02 kB         114 kB
+├ ○ /blog                                 1.8 kB         112 kB
+├ ● /blog/[slug]                         1.01 kB         111 kB
+├   ├ /blog/how-often-clean-chimney
+├   ├ /blog/chimney-sweep-vs-cleaning
+├   ├ /blog/signs-chimney-needs-repair
+├   └ [+20 more paths]
+├ ○ /contact                               187 B         107 kB
+├ ○ /faq                                   175 B         105 kB
+├ ○ /reviews                               175 B         105 kB
+├ ○ /robots.txt                            142 B         101 kB
+├ ○ /services                              187 B         110 kB
+├ ● /services/[slug]                     1.02 kB         114 kB
+├   ├ /services/chimney-cleaning
+├   ├ /services/chimney-sweep
+├   ├ /services/chimney-inspection
+├   └ [+5 more paths]
+├ ○ /services/fireplace-installation     1.02 kB         114 kB
+└ ○ /sitemap.xml                           142 B         101 kB
++ First Load JS shared by all             101 kB
+  ├ chunks/4bd1b696-97ea5c4851a36e95.js  53.2 kB
+  ├ chunks/684-79fa7cc04bf0e92d.js         46 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

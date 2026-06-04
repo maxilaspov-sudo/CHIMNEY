@@ -1,0 +1,217 @@
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.2:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 5s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.9s (797 modules)
+ GET / 200 in 861ms
+ ✓ Compiled in 807ms (346 modules)
+ GET / 200 in 4798ms
+ ✓ Compiled /services in 419ms (791 modules)
+ GET /services/ 200 in 1735ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 1121ms (804 modules)
+ GET /blog/ 200 in 2148ms
+ ○ Compiling /blog/[slug] ...
+ ✓ Compiled /blog/[slug] in 746ms (817 modules)
+ GET /blog/fireplace-installation-what-to-know/ 200 in 2291ms
+ GET /blog/gas-fireplace-not-turning-on/ 200 in 239ms
+ GET /blog/animals-in-chimney/ 200 in 392ms
+ ○ Compiling /faq ...
+ ✓ Compiled /faq in 877ms (822 modules)
+ GET /faq/ 200 in 1510ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 744ms (827 modules)
+ GET /contact/ 200 in 1251ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 548ms (829 modules)
+ GET /about/ 200 in 1149ms
+ ○ Compiling /areas/california ...
+ ✓ Compiled /areas/california in 852ms (836 modules)
+ GET /areas/california/ 200 in 2130ms
+ GET / 200 in 657ms
+ GET /faq/ 200 in 412ms
+ GET /contact/ 200 in 390ms
+ GET /faq/ 200 in 90ms
+ GET / 200 in 194ms
+ ✓ Compiled in 541ms (355 modules)
+ ✓ Compiled in 507ms (355 modules)
+ GET / 200 in 526ms
+ GET / 200 in 142ms
+ ✓ Compiled in 273ms (355 modules)
+ ✓ Compiled in 425ms (355 modules)
+ GET / 200 in 467ms
+ GET / 200 in 139ms
+ ✓ Compiled in 1175ms (806 modules)
+ GET / 200 in 211ms
+ ✓ Compiled in 537ms (802 modules)
+ GET / 200 in 148ms
+ ✓ Compiled in 1390ms (811 modules)
+ GET / 200 in 346ms
+ GET / 200 in 170ms
+ GET / 200 in 204ms
+ ○ Compiling /services/[slug] ...
+ ✓ Compiled /services/[slug] in 902ms (811 modules)
+ GET /services/chimney-cleaning/ 200 in 2032ms
+ GET /services/fireplace-cleaning/ 200 in 66ms
+ GET /services/chimney-repair/ 200 in 73ms
+ ○ Compiling /services ...
+ ✓ Compiled /services in 685ms (473 modules)
+ GET /services/ 200 in 1251ms
+ ✓ Compiled /contact in 299ms (477 modules)
+ GET /contact/ 200 in 522ms
+ GET / 200 in 161ms
+ ✓ Compiled /areas/california in 413ms (481 modules)
+ GET /areas/california/ 200 in 979ms
+ ○ Compiling /areas ...
+ ✓ Compiled /areas in 680ms (825 modules)
+ GET /areas/ 200 in 1109ms
+ GET / 200 in 173ms
+ GET / 200 in 160ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 861ms (819 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1351ms
+ GET / 200 in 229ms
+ ○ Compiling /services/fireplace-installation ...
+ ✓ Compiled /services/fireplace-installation in 805ms (821 modules)
+ GET /services/fireplace-installation/ 200 in 1055ms
+ GET / 200 in 154ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 728ms (482 modules)
+ GET /blog/ 200 in 1055ms
+ GET / 200 in 214ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\blog\page.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:198:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7926)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7977) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/contact'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.2s (1156 modules)
+ GET /contact/ 500 in 3689ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:198:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7926)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7977) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/contact'
+}
+ GET /contact/ 500 in 296ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:198:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7926)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7977) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/contact'
+}
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:198:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7926)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7977) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/contact'
+}
+ GET /contact/ 500 in 287ms
+ ⨯ Error: Cannot find module './51.js'
+Require stack:
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js
+- C:\Users\maxim\Desktop\CHIMNEY\.next\server\pages\_document.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\require.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\load-components.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\utils.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\options.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\swc\index.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\config.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\next.js
+- C:\Users\maxim\Desktop\CHIMNEY\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:198:28)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\maxim\Desktop\CHIMNEY\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7926)
+    at Object.<anonymous> (C:\Users\maxim\Desktop\CHIMNEY\.next\server\app\contact\page.js:1:7977) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/contact'
+}
+ GET /contact/ 500 in 300ms
+ GET /contact/ 500 in 75ms

@@ -1,0 +1,127 @@
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.2:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 3.7s
+ ○ Compiling /services/[slug] ...
+ ✓ Compiled /services/[slug] in 5.4s (805 modules)
+ GET /services/chimney-repair/ 200 in 5453ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /_next/static/webpack/4b4d606f1f8938a7.webpack.hot-update.json 404 in 6076ms
+ GET /services/chimney-repair/ 200 in 1273ms
+ ○ Compiling / ...
+ ✓ Compiled / in 958ms (802 modules)
+ GET / 200 in 1603ms
+ ○ Compiling /services ...
+ ✓ Compiled /services in 610ms (808 modules)
+ GET /services/ 200 in 1253ms
+ GET /services/chimney-cleaning/ 200 in 212ms
+ GET / 200 in 341ms
+ ✓ Compiled /services/fireplace-installation in 426ms (810 modules)
+ GET /services/fireplace-installation/ 200 in 805ms
+ GET /services/dryer-vent-cleaning/ 200 in 247ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 614ms (823 modules)
+ GET /blog/ 200 in 1051ms
+ ○ Compiling /areas/california ...
+ ✓ Compiled /areas/california in 774ms (827 modules)
+ GET /areas/california/ 200 in 1639ms
+ GET /services/fireplace-installation/ 200 in 1380ms
+ GET /services/fireplace-installation/ 200 in 63ms
+ GET / 200 in 362ms
+ GET /services/ 200 in 435ms
+ GET /blog/ 200 in 83ms
+ GET / 200 in 92ms
+ GET /services/chimney-inspection/ 200 in 101ms
+ GET /services/fireplace-cleaning/ 200 in 64ms
+ GET / 200 in 65ms
+ ○ Compiling /reviews ...
+ ✓ Compiled /reviews in 621ms (818 modules)
+ GET /reviews/ 200 in 808ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 702ms (823 modules)
+ GET /contact/ 200 in 827ms
+ GET /contact/ 200 in 45ms
+ GET /contact/ 200 in 43ms
+ GET / 200 in 131ms
+ ✓ Compiled in 314ms (478 modules)
+ GET / 200 in 234ms
+ ✓ Compiled in 188ms (478 modules)
+ GET / 200 in 207ms
+ ✓ Compiled in 163ms (478 modules)
+ GET / 200 in 147ms
+ ✓ Compiled in 191ms (478 modules)
+ GET / 200 in 174ms
+ ✓ Compiled in 154ms (478 modules)
+ GET / 200 in 144ms
+ ✓ Compiled in 152ms (478 modules)
+ GET / 200 in 150ms
+ ✓ Compiled in 177ms (478 modules)
+ GET / 200 in 171ms
+ ✓ Compiled in 169ms (478 modules)
+ GET / 200 in 157ms
+ ✓ Compiled in 216ms (478 modules)
+ GET / 200 in 178ms
+ ✓ Compiled in 163ms (478 modules)
+ GET / 200 in 175ms
+ ✓ Compiled in 1285ms (833 modules)
+ GET / 200 in 191ms
+ ✓ Compiled in 486ms (833 modules)
+ GET / 200 in 140ms
+ ✓ Compiled in 583ms (833 modules)
+ GET / 200 in 151ms
+ ✓ Compiled in 702ms (833 modules)
+ GET / 200 in 168ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ReferenceError: NAV_SERVICES is not defined
+    at LeadForm (components\LeadForm.tsx:269:13)
+  267 |           >
+  268 |             <option value="">Select a service…</option>
+> 269 |             {NAV_SERVICES.map((s) => (
+      |             ^
+  270 |               <option key={s.href} value={s.name}>{s.name}</option>
+  271 |             ))}
+  272 |             <option value="Not sure">Not sure — need advice</option> {
+  digest: '448345658'
+}
+ GET / 500 in 341ms
+ ✓ Compiled in 449ms (833 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 372ms
+ ✓ Compiled in 318ms (833 modules)
+ GET / 200 in 172ms
+ ✓ Compiled in 396ms (833 modules)
+ GET / 200 in 146ms
+ ✓ Compiled in 220ms (833 modules)
+ GET / 200 in 74ms
+ ✓ Compiled in 161ms (819 modules)
+ GET / 200 in 74ms
+ ✓ Compiled in 263ms (833 modules)
+ GET / 200 in 74ms
+ ○ Compiling /areas/[slug] ...
+ ✓ Compiled /areas/[slug] in 1081ms (841 modules)
+ GET /areas/san-diego/ 200 in 1689ms
+ GET /areas/san-diego/ 200 in 95ms
+ GET /areas/fresno/ 200 in 60ms
+ GET /areas/anaheim/ 200 in 57ms
+ ✓ Compiled /areas in 369ms (830 modules)
+ GET /areas/ 200 in 682ms
+ GET /areas/sunnyvale/ 200 in 100ms
+ GET / 200 in 81ms
+ ✓ Compiled /_not-found in 269ms (486 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 505ms
+ GET / 200 in 368ms
+ GET / 200 in 61ms
+ GET / 200 in 234ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 80ms
+ ○ Compiling /robots.txt ...
+ ✓ Compiled /robots.txt in 545ms (846 modules)
+ GET /robots.txt 200 in 698ms
+ GET / 200 in 366ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 89ms
+ GET / 200 in 277ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 92ms
+ GET /blog/ 200 in 56ms
+ GET / 200 in 67ms

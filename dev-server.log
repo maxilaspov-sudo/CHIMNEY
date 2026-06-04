@@ -1,0 +1,56 @@
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.2:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 3s
+ ○ Compiling /services/[slug] ...
+ ✓ Compiled /services/[slug] in 1611ms (801 modules)
+ ✓ Compiled in 186ms (344 modules)
+ GET /services/fireplace-cleaning/ 200 in 2313ms
+ ✓ Compiled /blog in 349ms (800 modules)
+ GET /blog/ 200 in 570ms
+ ✓ Compiled /blog/[slug] in 188ms (805 modules)
+ GET /blog/fireplace-installation-what-to-know/ 200 in 692ms
+ GET /blog/gas-fireplace-not-turning-on/ 200 in 70ms
+ GET /blog/dryer-vent-vs-chimney-cleaning/ 200 in 79ms
+ GET /blog/animals-in-chimney/ 200 in 85ms
+ GET /blog/dryer-vent-fire-prevention/ 200 in 95ms
+ GET /blog/chimney-cap-why-need-one/ 200 in 97ms
+ ✓ Compiled /sitemap.xml in 248ms (828 modules)
+ GET /sitemap.xml 200 in 353ms
+ GET /blog/electric-vs-gas-fireplace/ 200 in 152ms
+ GET /blog/chimney-crown-vs-cap/ 200 in 69ms
+ GET /blog/chimney-flashing-leaks/ 200 in 78ms
+ GET /blog/chimney-liner-what-it-does/ 200 in 74ms
+ GET /blog/fireplace-glass-black/ 200 in 72ms
+ GET /blog/fireplace-winter-checklist/ 200 in 71ms
+ GET /sitemap.xml 200 in 4ms
+ ○ Compiling / ...
+ ✓ Compiled / in 542ms (839 modules)
+ GET / 200 in 729ms
+ GET /blog/ 200 in 141ms
+ GET /sitemap.xml 200 in 38ms
+ GET /blog/ 200 in 28ms
+ ✓ Compiled in 804ms (827 modules)
+ GET /blog/ 200 in 197ms
+ ✓ Compiled in 367ms (827 modules)
+ GET /blog/ 200 in 144ms
+ ✓ Compiled in 452ms (827 modules)
+ GET /blog/ 200 in 104ms
+ GET / 200 in 91ms
+ ✓ Compiled /_not-found in 473ms (816 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 730ms
+ GET / 200 in 253ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 75ms
+ ✓ Compiled /robots.txt in 330ms (834 modules)
+ GET /robots.txt 200 in 474ms
+ GET / 200 in 376ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 107ms
+ GET / 200 in 375ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 113ms
+ ✓ Compiled in 848ms (848 modules)
+ GET / 200 in 208ms
+ ✓ Compiled in 511ms (848 modules)
+ GET / 200 in 166ms
