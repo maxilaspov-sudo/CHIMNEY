@@ -100,7 +100,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Los Angeles County, CA | Chimney Peak California",
     metaDescription:
-      "CSIA-certified chimney cleaning, repair, and inspection across Los Angeles County. Serving Los Angeles, Long Beach, Pasadena, Glendale, Santa Monica, and more. Call (888) 555-5577.",
+      "CSIA-certified chimney cleaning, repair, and inspection across Los Angeles County. Serving Los Angeles, Long Beach, Pasadena, Glendale, Santa Monica, and more. Request a free estimate online.",
   },
 
   {
@@ -155,7 +155,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Orange County, CA | Chimney Peak California",
     metaDescription:
-      "Professional chimney cleaning, inspection, and factory-built fireplace service across Orange County. Anaheim, Irvine, Huntington Beach, and more. Call (888) 555-5577.",
+      "Professional chimney cleaning, inspection, and factory-built fireplace service across Orange County. Anaheim, Irvine, Huntington Beach, and more. Request a free estimate online.",
   },
 
   {
@@ -206,7 +206,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in San Diego County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair across San Diego County. Coastal and inland specialists. Serving San Diego, El Cajon, Escondido, and more. Call (888) 555-5577.",
+      "Chimney cleaning, inspection, and repair across San Diego County. Coastal and inland specialists. Serving San Diego, El Cajon, Escondido, and more. Request a free estimate online.",
   },
 
   {
@@ -255,7 +255,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Riverside County, CA | Inland Empire | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair in Riverside County. Serving Riverside, Corona, Temecula, Palm Springs, and throughout the Inland Empire. Call (888) 555-5577.",
+      "Chimney cleaning, inspection, and repair in Riverside County. Serving Riverside, Corona, Temecula, Palm Springs, and throughout the Inland Empire. Request a free estimate online.",
   },
 
   {
@@ -305,7 +305,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in San Bernardino County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning and inspection in San Bernardino County. Big Bear, Lake Arrowhead, Fontana, Ontario, and Inland Empire communities. Call (888) 555-5577.",
+      "Chimney cleaning and inspection in San Bernardino County. Big Bear, Lake Arrowhead, Fontana, Ontario, and Inland Empire communities. Request a free estimate online.",
   },
 
   {
@@ -354,7 +354,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Santa Clara County, CA | Silicon Valley | Chimney Peak California",
     metaDescription:
-      "CSIA-certified chimney cleaning and inspection in Santa Clara County. Serving San Jose, Sunnyvale, Mountain View, Los Gatos, and all of Silicon Valley. Call (888) 555-5577.",
+      "CSIA-certified chimney cleaning and inspection in Santa Clara County. Serving San Jose, Sunnyvale, Mountain View, Los Gatos, and all of Silicon Valley. Request a free estimate online.",
   },
 
   {
@@ -405,7 +405,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Alameda County, CA | East Bay | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair in Alameda County. Oakland, Berkeley, Fremont, Hayward, and all East Bay communities. Call (888) 555-5577.",
+      "Chimney cleaning, inspection, and repair in Alameda County. Oakland, Berkeley, Fremont, Hayward, and all East Bay communities. Request a free estimate online.",
   },
 
   {
@@ -449,7 +449,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Sacramento County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair in Sacramento County. Sacramento, Elk Grove, Folsom, and the full metro area. Call (888) 555-5577.",
+      "Chimney cleaning, inspection, and repair in Sacramento County. Sacramento, Elk Grove, Folsom, and the full metro area. Request a free estimate online.",
   },
 
   {
@@ -494,7 +494,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Contra Costa County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning and inspection in Contra Costa County. Concord, Walnut Creek, Danville, Orinda, and throughout the East Bay. Call (888) 555-5577.",
+      "Chimney cleaning and inspection in Contra Costa County. Concord, Walnut Creek, Danville, Orinda, and throughout the East Bay. Request a free estimate online.",
   },
 
   {
@@ -537,7 +537,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in San Mateo County, CA | Peninsula | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning and inspection on the San Francisco Peninsula. San Mateo, Redwood City, Daly City, Palo Alto, and surrounding communities. Call (888) 555-5577.",
+      "Chimney cleaning and inspection on the San Francisco Peninsula. San Mateo, Redwood City, Daly City, Palo Alto, and surrounding communities. Request a free estimate online.",
   },
 
   {
@@ -580,7 +580,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Ventura County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning and inspection in Ventura County. Serving Ventura, Oxnard, Thousand Oaks, Simi Valley, and post-wildfire rebuild areas. Call (888) 555-5577.",
+      "Chimney cleaning and inspection in Ventura County. Serving Ventura, Oxnard, Thousand Oaks, Simi Valley, and post-wildfire rebuild areas. Request a free estimate online.",
   },
 
   {
@@ -621,7 +621,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Fresno County, CA | Central Valley | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair in Fresno County. Fresno, Clovis, and Central Valley communities. Call (888) 555-5577 for a free estimate.",
+      "Chimney cleaning, inspection, and repair in Fresno County. Fresno, Clovis, and Central Valley communities. Request a free estimate online.",
   },
 
   {
@@ -663,7 +663,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Kern County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair in Kern County. Bakersfield, Tehachapi, and surrounding communities. Free estimate. Call (888) 555-5577.",
+      "Chimney cleaning, inspection, and repair in Kern County. Bakersfield, Tehachapi, and surrounding communities. Free estimate. Request a free estimate online.",
   },
 
   {
@@ -704,7 +704,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in San Joaquin County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair in San Joaquin County. Stockton, Tracy, Manteca, Lodi, and the Delta region. Call (888) 555-5577.",
+      "Chimney cleaning, inspection, and repair in San Joaquin County. Stockton, Tracy, Manteca, Lodi, and the Delta region. Request a free estimate online.",
   },
 
   {
@@ -745,7 +745,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Sonoma County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, inspection, and repair in Sonoma County. Santa Rosa, Petaluma, Healdsburg, and wine country communities. Call (888) 555-5577.",
+      "Chimney cleaning, inspection, and repair in Sonoma County. Santa Rosa, Petaluma, Healdsburg, and wine country communities. Request a free estimate online.",
   },
 
   {
@@ -786,7 +786,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Santa Barbara County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, repair, and inspection in Santa Barbara County. Historic and Spanish Colonial specialists. Santa Barbara, Montecito, Santa Maria, and more. Call (888) 555-5577.",
+      "Chimney cleaning, repair, and inspection in Santa Barbara County. Historic and Spanish Colonial specialists. Santa Barbara, Montecito, Santa Maria, and more. Request a free estimate online.",
   },
 
   {
@@ -830,7 +830,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Monterey County, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning and inspection in Monterey County. Monterey, Carmel, Pacific Grove, Salinas, and the Central Coast. Call (888) 555-5577.",
+      "Chimney cleaning and inspection in Monterey County. Monterey, Carmel, Pacific Grove, Salinas, and the Central Coast. Request a free estimate online.",
   },
 
   {
@@ -871,7 +871,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Placer County, CA | Sierra Foothills | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning and inspection in Placer County. Roseville, Auburn, Tahoe City, and Sierra foothills communities. Call (888) 555-5577.",
+      "Chimney cleaning and inspection in Placer County. Roseville, Auburn, Tahoe City, and Sierra foothills communities. Request a free estimate online.",
   },
 ];
 

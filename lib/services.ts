@@ -88,7 +88,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Chimney Cleaning Service in California | Chimney Peak California",
     metaDescription:
-      "Professional chimney cleaning across California. CSIA-certified technicians remove creosote, soot, and debris. Call (888) 555-5577 for a free estimate.",
+      "Professional chimney cleaning across California. CSIA-certified technicians remove creosote, soot, and debris. Request a free estimate online for a free estimate.",
   },
   {
     slug: "chimney-sweep",
@@ -151,7 +151,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Chimney Sweep in California | CSIA-Certified | Chimney Peak California",
     metaDescription:
-      "CSIA-certified chimney sweep service across California. Level 1 inspection + full cleaning. Call (888) 555-5577 for a same-week appointment.",
+      "CSIA-certified chimney sweep service across California. Level 1 inspection + full cleaning. Request a free estimate online for a same-week appointment.",
   },
   {
     slug: "chimney-inspection",
@@ -214,7 +214,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Chimney Inspection in California | Level 1, 2 & 3 | Chimney Peak California",
     metaDescription:
-      "NFPA 211 Level 1, 2, and 3 chimney inspections across California. Video scan included in Level 2. Reports accepted by insurers and lenders. Call (888) 555-5577.",
+      "NFPA 211 Level 1, 2, and 3 chimney inspections across California. Video scan included in Level 2. Reports accepted by insurers and lenders. Request a free estimate online.",
   },
   {
     slug: "chimney-repair",
@@ -277,7 +277,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Chimney Repair in California | Masonry & Tuckpointing | Chimney Peak California",
     metaDescription:
-      "Licensed chimney repair across California. Brick, mortar, crown, and flashing repairs by certified masons. Free estimate. Call (888) 555-5577.",
+      "Licensed chimney repair across California. Brick, mortar, crown, and flashing repairs by certified masons. Free estimate. Request a free estimate online.",
     relatedServiceLinks: [
       { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/" },
       { name: "Chimney Flashing Repair", href: "/services/chimney-flashing-repair/" },
@@ -340,7 +340,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Fireplace Cleaning in California | Gas & Wood | Chimney Peak California",
     metaDescription:
-      "Professional fireplace cleaning in California — wood-burning and gas. Deep clean of firebox, glass doors, gas logs, and burner tray. Call (888) 555-5577.",
+      "Professional fireplace cleaning in California — wood-burning and gas. Deep clean of firebox, glass doors, gas logs, and burner tray. Request a free estimate online.",
     relatedServiceLinks: [
       { name: "Gas Fireplace Repair", href: "/services/gas-fireplace-repair/" },
     ],
@@ -406,7 +406,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Chimney Cap Installation in California | Stainless & Copper | Chimney Peak California",
     metaDescription:
-      "Professional chimney cap installation and replacement across California. Stainless steel, copper, and spark arrestor caps. Free estimate. Call (888) 555-5577.",
+      "Professional chimney cap installation and replacement across California. Stainless steel, copper, and spark arrestor caps. Free estimate. Request a free estimate online.",
   },
   {
     slug: "chimney-liner-repair",
@@ -469,7 +469,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Chimney Liner Repair in California | Stainless & HeatShield | Chimney Peak California",
     metaDescription:
-      "Chimney liner repair and replacement across California. HeatShield ceramic relining and stainless steel liner installation. Free estimate. Call (888) 555-5577.",
+      "Chimney liner repair and replacement across California. HeatShield ceramic relining and stainless steel liner installation. Free estimate. Request a free estimate online.",
   },
   {
     slug: "dryer-vent-cleaning",
@@ -532,7 +532,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Dryer Vent Cleaning in California | Fire Prevention | Chimney Peak California",
     metaDescription:
-      "Professional dryer vent cleaning across California. Removes lint buildup that causes 2,900 house fires per year. Call (888) 555-5577.",
+      "Professional dryer vent cleaning across California. Removes lint buildup that causes 2,900 house fires per year. Request a free estimate online.",
   },
 ];
 
