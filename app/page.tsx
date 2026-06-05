@@ -13,13 +13,13 @@ const FAQSection = dynamic(() => import("@/components/FAQSection"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
 
 export const metadata: Metadata = {
-  title: "Chimney Peak California | CSIA-Certified Chimney Services",
+  title: "California Chimney Cleaning, Repair & Inspection | Chimney Peak",
   description:
-    "CSIA-certified chimney cleaning, repair, and inspection across all of California. 4.9-star rated, 847 reviews, 12,400+ jobs since 2009. Same-week scheduling. Free estimates.",
+    "Chimney cleaning, chimney repair, fireplace inspection, and dryer vent cleaning across California. Request a free estimate today.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Chimney Peak California | CSIA-Certified Chimney Company",
-    description: "CSIA-certified chimney cleaning, repair, and inspection in California. 4.9 stars, 847 reviews, same-week scheduling.",
+    title: "California Chimney Cleaning, Repair & Inspection | Chimney Peak",
+    description: "Chimney cleaning, chimney repair, fireplace inspection, and dryer vent cleaning across California. Request a free estimate today.",
     url: "/",
     images: [{ url: "/og/home.jpg", width: 1200, height: 630 }],
   },
