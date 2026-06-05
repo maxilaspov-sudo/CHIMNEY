@@ -31,12 +31,9 @@ export const services: Service[] = [
       "Professional chimney cleaning removes dangerous creosote, soot, and debris from your flue — protecting your family from chimney fires and carbon monoxide.",
     longDesc:
       "Creosote is the byproduct of burning wood. Every fire deposits a thin layer inside your flue. After a season of regular use, that layer can reach dangerous levels. Stage 3 creosote — a tar-like glaze — won't brush off and requires chemical treatment. Our certified technicians inspect the full flue system, remove all deposits using industry-grade rotary brushes and HEPA-filtered vacuums, and leave no mess behind. The NFPA 211 standard recommends annual cleaning for wood-burning appliances. We follow that standard on every job.",
-    heroImage:
-      "https://images.pexels.com/photos/4394224/pexels-photo-4394224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/4394224/pexels-photo-4394224.jpeg?auto=compress&cs=tinysrgb&h=350",
-    heroAlt:
-      "Professional chimney cleaning on a residential rooftop in California — view looking up at chimney against a clear blue sky",
+    heroImage: "/images/service-chimney-cleaning.jpg",
+    heroImageMedium: "/images/service-chimney-cleaning.jpg",
+    heroAlt: "Technician cleaning a residential chimney with chimney sweep equipment",
     price: "Free estimate",
     duration: "1–2 hours",
     benefits: [
@@ -161,12 +158,9 @@ export const services: Service[] = [
       "Level 1, Level 2, and Level 3 chimney inspections by certified technicians. Required for home sales, insurance claims, and post-storm assessments.",
     longDesc:
       "The NFPA 211 standard defines three levels of chimney inspection. Level 1 is for chimneys in regular use with no changes in service. Level 2 is required when you buy or sell a home, change fuel types, or add a new appliance — it includes a video scan of the full flue. Level 3 is reserved for serious structural concerns and may require removing portions of the chimney to assess internal damage. We perform all three levels and provide a detailed written report accepted by insurers, home buyers, and real estate attorneys.",
-    heroImage:
-      "https://images.pexels.com/photos/8293635/pexels-photo-8293635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/8293635/pexels-photo-8293635.jpeg?auto=compress&cs=tinysrgb&h=350",
-    heroAlt:
-      "Home inspector reviewing a chimney inspection checklist during a residential property inspection in California",
+    heroImage: "/images/service-chimney-inspection.jpg",
+    heroImageMedium: "/images/service-chimney-inspection.jpg",
+    heroAlt: "Technician inspecting an indoor fireplace and chimney system in a California home",
     price: "Free estimate",
     duration: "1–3 hours depending on level",
     benefits: [
@@ -224,12 +218,9 @@ export const services: Service[] = [
       "Spalled brick, cracked crowns, failing mortar, and damaged flashing repaired by licensed masons. We match existing brick and mortar so repairs are invisible.",
     longDesc:
       "Water is the leading cause of chimney damage in California. Rain and freeze-thaw cycles erode mortar joints, crack crowns, and allow moisture to penetrate brick. Left unaddressed, a cracked crown allows water to enter the flue and saturate the masonry from the inside — leading to spalled brick, rusted dampers, and eventual structural failure. Our repairs address the root cause, not just the symptom. We use Type S mortar matched to your existing joint profile and color-matched brick when replacement is needed.",
-    heroImage:
-      "https://images.pexels.com/photos/13279005/pexels-photo-13279005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/13279005/pexels-photo-13279005.jpeg?auto=compress&cs=tinysrgb&h=350",
-    heroAlt:
-      "Brick chimney repair — close-up of masonry work and construction tools on a residential chimney",
+    heroImage: "/images/service-chimney-repair.jpg",
+    heroImageMedium: "/images/service-chimney-repair.jpg",
+    heroAlt: "Technician repairing brick masonry on a residential chimney",
     price: "Free estimate",
     duration: "Varies by scope",
     benefits: [
@@ -291,12 +282,9 @@ export const services: Service[] = [
       "Deep cleaning of fireplace fireboxes, glass doors, gas logs, and surrounding tile or stone. Removes ash, soot, and built-up residue for safe operation.",
     longDesc:
       "The firebox is the most visible part of your chimney system, but it's also the most overlooked for deep cleaning. Ash buildup on the firebox floor raises the flame bed, which reduces combustion efficiency and deposits more creosote higher in the flue. Soot-stained glass doors reduce the aesthetic appeal of the fire. We clean every surface of the firebox — floor, back wall, side walls, lintel, and glass — and inspect the damper plate for proper operation.",
-    heroImage:
-      "https://images.pexels.com/photos/7174392/pexels-photo-7174392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/7174392/pexels-photo-7174392.jpeg?auto=compress&cs=tinysrgb&h=350",
-    heroAlt:
-      "Clean brick fireplace in a warm living room — professional fireplace cleaning service result in a California home",
+    heroImage: "/images/service-fireplace-cleaning.jpg",
+    heroImageMedium: "/images/service-fireplace-cleaning.jpg",
+    heroAlt: "Technician cleaning a residential fireplace with basic fireplace cleaning tools",
     price: "Free estimate",
     duration: "1–2 hours",
     benefits: [
@@ -353,12 +341,9 @@ export const services: Service[] = [
       "Stainless steel and copper chimney cap installation. Keeps rain, wildlife, and debris out of your flue — and sparks off your roof.",
     longDesc:
       "A chimney without a cap is an open pipe to the sky. Rain falls straight down the flue, saturating the liner, rusting the damper, and soaking the firebox masonry. Birds and squirrels nest in uncapped chimneys — blocking the flue and creating fire hazards. Sparks from fires can exit the flue and land on the roof or surrounding vegetation. A properly sized, stainless-steel chimney cap addresses all three problems and typically lasts 20+ years. We measure the flue, select the correct fit, and install with stainless screws into the flue tile.",
-    heroImage:
-      "https://images.pexels.com/photos/11210095/pexels-photo-11210095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/11210095/pexels-photo-11210095.jpeg?auto=compress&cs=tinysrgb&h=350",
-    heroAlt:
-      "Traditional brick chimneys with protective caps on a slate roof — chimney cap installation example",
+    heroImage: "/images/service-chimney-caps.jpg",
+    heroImageMedium: "/images/service-chimney-caps.jpg",
+    heroAlt: "Brick chimney with black metal chimney cap installed on a tile roof",
     price: "Free estimate",
     duration: "1–2 hours",
     benefits: [
@@ -479,12 +464,9 @@ export const services: Service[] = [
       "Professional dryer vent cleaning removes lint buildup that restricts airflow, wastes energy, and creates a serious fire hazard in California homes.",
     longDesc:
       "The US Fire Administration reports that failure to clean is the leading cause of dryer fires — accounting for 34% of all dryer-related fires. Lint accumulates in the dryer duct over time, restricting airflow and forcing the dryer to run longer and hotter to dry the same load. Warning signs include clothes taking two cycles to dry, the exterior of the dryer being hot to the touch, and a burning smell during operation. We use flexible brush systems and high-velocity air to clear the full vent run — from the dryer connection to the exterior termination cap.",
-    heroImage:
-      "https://images.pexels.com/photos/36248286/pexels-photo-36248286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/36248286/pexels-photo-36248286.jpeg?auto=compress&cs=tinysrgb&h=350",
-    heroAlt:
-      "Residential dryer vent opening — professional dryer vent cleaning service prevents lint fires in California homes",
+    heroImage: "/images/service-dryer-vent-cleaning.jpg",
+    heroImageMedium: "/images/service-dryer-vent-cleaning.jpg",
+    heroAlt: "Technician cleaning an exterior dryer vent and aluminum vent hose",
     price: "Free estimate",
     duration: "45–90 minutes",
     benefits: [

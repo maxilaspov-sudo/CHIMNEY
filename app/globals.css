@@ -14,38 +14,54 @@
   h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.2;
-    color: #1e293b;
+    color: #1a1a1a;
   }
 }
 
 @layer components {
+  /* Primary CTA — brand red */
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200 text-base;
   }
+  /* Secondary — white with dark text, for use on dark backgrounds */
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 text-navy-500 font-semibold px-6 py-3 rounded-lg border-2 border-white hover:border-gray-200 transition-colors duration-200 text-base;
+    @apply inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-gray-900 font-semibold px-6 py-3 rounded-lg border border-white/20 transition-colors duration-200 text-base;
   }
+  /* Outline — red border + text */
   .btn-outline {
     @apply inline-flex items-center justify-center gap-2 border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200 text-base;
   }
-  .section-navy {
-    @apply bg-[#1E3A5F] text-white;
+  /* Dark hero/banner sections */
+  .section-dark {
+    @apply bg-[#111827] text-white;
   }
+  /* Legacy alias used in service pages etc. */
+  .section-navy {
+    @apply bg-[#111827] text-white;
+  }
+  /* Light section */
   .section-gray {
     @apply bg-[#F8FAFC];
   }
+  /* Card base */
   .card {
     @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6;
   }
+  /* Container */
   .container-base {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
+  /* Section padding */
   .section-pad {
     @apply py-16 md:py-20;
   }
+  /* Label chip above headings */
+  .section-label {
+    @apply text-xs font-bold uppercase tracking-widest text-orange-500 mb-3 block;
+  }
 }
 
-/* Sticky call button animation */
+/* Sticky mobile button pulse animation */
 @keyframes pulse-ring {
   0% { transform: scale(1); opacity: 0.8; }
   100% { transform: scale(1.4); opacity: 0; }
@@ -56,12 +72,28 @@
   position: absolute;
   inset: -4px;
   border-radius: 50%;
-  background: #F97316;
+  background: #CC2229;
   animation: pulse-ring 1.5s ease-out infinite;
 }
 
-/* Review stars */
+/* Star rating color */
 .stars {
   color: #F59E0B;
   letter-spacing: 2px;
 }
+
+/* Scroll-reveal: start hidden, animate via JS or CSS */
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.reveal {
+  opacity: 0;
+  animation: reveal 0.55s ease-out forwards;
+}
+
+.reveal-delay-1 { animation-delay: 0.1s; }
+.reveal-delay-2 { animation-delay: 0.2s; }
+.reveal-delay-3 { animation-delay: 0.3s; }
+.reveal-delay-4 { animation-delay: 0.4s; }
