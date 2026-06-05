@@ -20,7 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/services/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/areas/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/areas/california/`, lastModified: new Date(), changeFrequency: "monthly", priority: 1.0 },
-    { url: `${base}/gallery/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
   ];
 
   const servicePages: MetadataRoute.Sitemap = [

@@ -87,7 +87,6 @@ export default function Footer() {
             {[
               { name: "About Us", href: "/about/" },
               { name: "Customer Reviews", href: "/reviews/" },
-              { name: "Gallery", href: "/gallery/" },
               { name: "Blog & Tips", href: "/blog/" },
               { name: "FAQ", href: "/faq/" },
               { name: "Contact Us", href: "/contact/" },
