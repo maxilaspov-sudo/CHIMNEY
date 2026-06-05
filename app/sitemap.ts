@@ -61,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .map((a) => ({
       url: `${base}/areas/${a.slug}/`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "monthly" as const,
       priority: 0.8,
     }));
 
@@ -69,7 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const countyPages: MetadataRoute.Sitemap = counties.map((c) => ({
     url: `${base}/areas/${c.slug}/`,
     lastModified: new Date(),
-    changeFrequency: "monthly",
+    changeFrequency: "monthly" as const,
     priority: 0.85,
   }));
 
