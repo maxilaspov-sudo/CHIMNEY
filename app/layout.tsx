@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.baseUrl),
   title: {
     default: `${SITE.name} | CSIA-Certified Chimney Services`,
-    template: `%s | ${SITE.name}`,
+    template: "%s",
   },
   description:
     "California's trusted chimney cleaning, repair, and inspection specialists. CSIA-certified technicians. Serving Los Angeles, San Diego, San Francisco, Sacramento, and all of California.",

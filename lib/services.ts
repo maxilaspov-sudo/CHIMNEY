@@ -83,9 +83,9 @@ export const services: Service[] = [
         a: "A standard single-flue cleaning takes 60–90 minutes. Multi-flue systems or heavy deposits take longer.",
       },
     ],
-    metaTitle: "Chimney Cleaning Service in California | Chimney Peak California",
+    metaTitle: "Chimney Cleaning Service in California — Annual Maintenance | Chimney Peak California",
     metaDescription:
-      "Professional chimney cleaning across California. CSIA-certified technicians remove creosote, soot, and debris. Request a free estimate online for a free estimate.",
+      "Professional annual chimney cleaning across California. CSIA-certified technicians remove creosote and soot, improve draft, and provide a written condition report. Free estimate.",
   },
   {
     slug: "chimney-sweep",
@@ -146,9 +146,9 @@ export const services: Service[] = [
         a: "Yes. Every field technician carries a current CSIA (Chimney Safety Institute of America) certification.",
       },
     ],
-    metaTitle: "Chimney Sweep in California | CSIA-Certified | Chimney Peak California",
+    metaTitle: "CSIA-Certified Chimney Sweep in California | Chimney Peak California",
     metaDescription:
-      "CSIA-certified chimney sweep service across California. Level 1 inspection + full cleaning. Request a free estimate online for a same-week appointment.",
+      "Hire a CSIA-certified chimney sweep in California. Every service includes a Level 1 NFPA 211 inspection, written report, and full flue cleaning. Same-week appointments. Free estimate.",
   },
   {
     slug: "chimney-inspection",

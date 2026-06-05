@@ -8,9 +8,9 @@ import { serviceCategories } from "@/lib/serviceCatalog";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Chimney & Fireplace Services in California | Chimney Peak California",
+  title: "All Chimney & Fireplace Services in California — What We Offer | Chimney Peak California",
   description:
-    "Browse 100+ chimney and fireplace services across California — cleaning, inspection, repair, gas fireplace, liner, cap, pellet stove, and more. CSIA-certified technicians.",
+    "Compare chimney cleaning, inspection, repair, fireplace service, dryer vent cleaning, and related services across California. See what each service covers and request a free estimate.",
   alternates: { canonical: "/services/" },
 };
 

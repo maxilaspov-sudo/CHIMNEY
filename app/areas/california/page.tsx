@@ -11,14 +11,14 @@ import { californiaRegions } from "@/lib/regions";
 import { areas } from "@/lib/areas";
 
 export const metadata: Metadata = {
-  title: "Chimney Services in California | Statewide Coverage | Chimney Peak California",
+  title: "Find Chimney Cleaning Near You — California Cities & Counties | Chimney Peak California",
   description:
-    "Chimney cleaning, repair, and inspection across all of California. Serving Southern California, Bay Area, Central Valley, and 120+ cities statewide. CSIA-certified.",
+    "Find chimney cleaning, inspection, and repair service areas across California cities and counties including Los Angeles, San Diego, San Jose, Sacramento, Bay Area, and the Inland Empire.",
   alternates: { canonical: "/areas/california/" },
   openGraph: {
-    title: "Chimney Services in California | Chimney Peak California",
+    title: "Find Chimney Cleaning Near You — California Cities & Counties | Chimney Peak California",
     description:
-      "Chimney cleaning, repair, and inspection statewide. Southern California, Bay Area, Central Valley, and 120+ cities. CSIA-certified.",
+      "Find chimney cleaning, inspection, and repair service areas across California. Serving Los Angeles, San Diego, San Jose, Sacramento, Bay Area, Inland Empire, and 120+ cities.",
     url: "/areas/california/",
     images: [{ url: "/og/home.jpg", width: 1200, height: 630 }],
   },

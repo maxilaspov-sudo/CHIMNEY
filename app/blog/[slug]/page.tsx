@@ -223,6 +223,19 @@ export default async function BlogPostPage({ params }: Props) {
                         <p className="text-sm text-gray-700 leading-relaxed">{section.callout}</p>
                       </div>
                     )}
+                    {section.ctaLinks && section.ctaLinks.length > 0 && (
+                      <p className="text-gray-700 leading-relaxed text-[15px] mt-3">
+                        {section.ctaLinks.map((cta, idx) => (
+                          <span key={idx}>
+                            {cta.before}
+                            <Link href={cta.href} className="text-orange-500 hover:underline font-medium">
+                              {cta.linkText}
+                            </Link>
+                            {cta.after}
+                          </span>
+                        ))}
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>

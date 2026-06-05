@@ -6,6 +6,7 @@ export interface BlogSection {
   body: string;
   list?: string[];
   callout?: string;
+  ctaLinks?: Array<{ before?: string; linkText: string; href: string; after?: string }>;
 }
 
 export interface BlogPost {
@@ -958,6 +959,14 @@ export const blogPosts: BlogPost[] = [
         heading: "What a Professional Dryer Vent Cleaning Involves",
         anchor: "professional-cleaning",
         body: "A professional dryer vent cleaning covers the full duct run from the dryer connection to the exterior termination cap — not just the accessible section near the appliance.\n\nThe technician starts at the dryer end, disconnects the dryer, and runs a flexible brush through the full length of the duct. On longer or more complex runs, an air pressure system is used to push loosened lint toward the exterior. The exterior cap is also cleaned and checked — caps accumulate lint on the mesh screen, which can significantly restrict airflow even when the duct itself is reasonably clear.\n\nAt the end of the service, a competent technician verifies that airflow is restored by checking that the exterior flap opens freely and that the dryer is exhausting properly. If the duct has sections of flexible foil that should be replaced, they'll note it.\n\nFor most homes, this is a 30- to 60-minute service. Longer runs with more bends take a bit more time.",
+        ctaLinks: [
+          {
+            before: "Schedule our ",
+            linkText: "dryer vent cleaning service",
+            href: "/services/dryer-vent-cleaning/",
+            after: " to clear the full duct run — most California homes are done in under an hour.",
+          },
+        ],
       },
       {
         heading: "California-Specific Considerations",
@@ -1221,6 +1230,14 @@ export const blogPosts: BlogPost[] = [
         heading: "When to Call a Professional",
         anchor: "when-to-call",
         body: "Start with a consultation before any purchase. A fireplace professional can assess your space, identify what's practical given your home's layout and existing construction, and explain what each option would cost to install and maintain. Most will do this at no charge before any work is committed to.\n\nIf you're in California and adding a wood-burning fireplace, confirm your local air district's rules before finalizing the decision. In some regions, adding a new wood-burning unit requires approval.",
+        ctaLinks: [
+          {
+            before: "For a no-obligation assessment of your space and options, see what our ",
+            linkText: "fireplace installation in California",
+            href: "/services/fireplace-installation/",
+            after: " service includes across all fuel types.",
+          },
+        ],
       },
     ],
   },
@@ -1471,6 +1488,14 @@ export const blogPosts: BlogPost[] = [
         heading: "When to Call a Professional",
         anchor: "when-to-call",
         body: "If you see water in the firebox after rain, staining on ceilings or walls near the chimney, efflorescence on the exterior brick, or rust streaking from the top of the chimney, call for a rooftop inspection. The technician can assess the cap, crown, and flashing from above and identify the water entry point. Each component is a separate repair, and knowing which one is actually failing prevents you from paying for the wrong fix.",
+        ctaLinks: [
+          {
+            before: "If the inspection confirms crown damage, our ",
+            linkText: "chimney crown repair",
+            href: "/services/chimney-crown-repair/",
+            after: " service covers targeted crack sealing through full crown reconstruction.",
+          },
+        ],
       },
     ],
   },
@@ -1553,6 +1578,14 @@ export const blogPosts: BlogPost[] = [
         heading: "What Flashing Repair Looks Like",
         anchor: "repair-process",
         body: "Minor flashing repair — sealing deteriorated sealant joints where the flashing meets the masonry — is relatively straightforward and can sometimes be done in a short service visit. The technician cleans the joint, removes deteriorated sealant, and applies a new, properly formulated elastomeric sealant that handles movement better than standard roofing caulk.\n\nMore significant repair — replacing corroded step flashing, re-embedding counter flashing that has pulled from the mortar, or installing a missing saddle — involves carefully lifting shingles and working around the chimney on the roof. It's a more involved service, but still considerably less expensive than remediating water damage inside the home.\n\nIf the underlying masonry has been saturated and damaged from long-term water entry, the flashing repair is part of a larger scope that may include tuckpointing or crown repair.",
+        ctaLinks: [
+          {
+            before: "Our ",
+            linkText: "chimney flashing repair service",
+            href: "/services/chimney-flashing-repair/",
+            after: " covers everything from deteriorated sealant joints to full step flashing replacement — including a rooftop assessment before any work begins.",
+          },
+        ],
       },
       {
         heading: "Why Early Repair Matters",
@@ -1653,6 +1686,14 @@ export const blogPosts: BlogPost[] = [
         heading: "When to Call a Professional",
         anchor: "when-to-call",
         body: "Schedule a standard annual inspection for any chimney in use. If you haven't had a Level 2 video inspection in the past five years — or ever, on a chimney you've recently purchased with the home — schedule one. It costs less than most people expect, and finding a cracked liner early is significantly less expensive than finding it after the adjacent wall is saturated with combustion products.",
+        ctaLinks: [
+          {
+            before: "If a camera inspection reveals liner damage, our ",
+            linkText: "chimney liner repair in California",
+            href: "/services/chimney-liner-repair/",
+            after: " covers stainless steel liner installation, HeatShield applications, and cast-in-place systems.",
+          },
+        ],
       },
     ],
   },
@@ -1738,6 +1779,19 @@ export const blogPosts: BlogPost[] = [
         heading: "When to Call a Professional",
         anchor: "when-to-call",
         body: "For the chimney, call a CSIA-certified chimney sweep annually — inspection and cleaning together. For the dryer vent, annual professional cleaning by a qualified service company covers the full duct run in a way that consumer brush kits can't match on longer runs.\n\nBundling both services in a single appointment, when offered by your service provider, is typically the most efficient approach to getting both done without the inertia of scheduling two separate visits.",
+        ctaLinks: [
+          {
+            before: "Book our ",
+            linkText: "dryer vent cleaning service",
+            href: "/services/dryer-vent-cleaning/",
+            after: " or our ",
+          },
+          {
+            linkText: "chimney cleaning service",
+            href: "/services/chimney-cleaning/",
+            after: " — or request both in a single appointment.",
+          },
+        ],
       },
     ],
   },
