@@ -27,8 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const HERO_IMAGE =
-  "https://images.pexels.com/photos/12426087/pexels-photo-12426087.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+const HERO_IMAGE = "/images/chimney-flashing-repair.jpg";
 
 const FLASHING_TYPES = [
   {
@@ -377,6 +376,7 @@ export default function ChimneyFlashingRepairPage() {
                 <h3 className="font-semibold text-gray-900 mb-3">Related Services</h3>
                 <ul className="flex flex-col gap-1">
                   {[
+                    { name: "Chimney Leak Repair", href: "/services/chimney-leak-repair/" },
                     { name: "Chimney Repair", href: "/services/chimney-repair/" },
                     { name: "Chimney Inspection", href: "/services/chimney-inspection/" },
                     { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/" },

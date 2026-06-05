@@ -90,6 +90,7 @@ const RELATED_SERVICES = NAV_SERVICES.filter((s) =>
 );
 
 const SPECIALIZED_SERVICES = [
+  { name: "Gas Fireplace Installation", href: "/services/gas-fireplace-installation/" },
   { name: "Gas Fireplace Repair", href: "/services/gas-fireplace-repair/" },
 ];
 

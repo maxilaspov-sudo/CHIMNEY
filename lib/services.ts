@@ -95,10 +95,8 @@ export const services: Service[] = [
       "Our CSIA-certified chimney sweeps inspect and clean wood-burning fireplaces, gas inserts, and factory-built fireplaces to current NFPA 211 standards.",
     longDesc:
       "A chimney sweep covers more ground than a cleaning alone. We check for cracks in the flue liner, deteriorated mortar joints, a faulty damper, missing spark arrestors, and animal nesting material. The inspection portion follows NFPA 211 Level 1 protocol, which is the minimum standard for any chimney in regular use. We document every finding with notes and, when possible, camera images, then walk you through any repairs before we leave.",
-    heroImage:
-      "https://images.pexels.com/photos/20181619/pexels-photo-20181619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/20181619/pexels-photo-20181619.jpeg?auto=compress&cs=tinysrgb&h=350",
+    heroImage: "/images/chimney-sweep.jpg",
+    heroImageMedium: "/images/chimney-sweep.jpg",
     heroAlt:
       "Close-up of red brick chimneys on a residential rooftop — California chimney sweep inspection",
     price: "Free estimate",
@@ -209,6 +207,9 @@ export const services: Service[] = [
     metaTitle: "Chimney Inspection in California | Level 1, 2 & 3 | Chimney Peak California",
     metaDescription:
       "NFPA 211 Level 1, 2, and 3 chimney inspections across California. Video scan included in Level 2. Reports accepted by insurers and lenders. Request a free estimate online.",
+    relatedServiceLinks: [
+      { name: "Commercial Chimney Services", href: "/services/commercial-chimney-services/" },
+    ],
   },
   {
     slug: "chimney-repair",
@@ -272,6 +273,9 @@ export const services: Service[] = [
     relatedServiceLinks: [
       { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/" },
       { name: "Chimney Flashing Repair", href: "/services/chimney-flashing-repair/" },
+      { name: "Fireplace Repair", href: "/services/fireplace-repair/" },
+      { name: "Chimney Leak Repair", href: "/services/chimney-leak-repair/" },
+      { name: "Chimney Rebuild", href: "/services/chimney-rebuild/" },
     ],
   },
   {
@@ -401,10 +405,8 @@ export const services: Service[] = [
       "Stainless steel liner installation and HeatShield ceramic liner repair. Restores safe draft and prevents combustible gases from reaching your home structure.",
     longDesc:
       "The flue liner is the most critical safety component of your chimney. It contains combustion gases and heat, preventing them from contacting the wood framing around your chase. Clay tile liners develop cracks from thermal cycling, earthquake movement, or chimney fires. Once cracked, combustion gases — including carbon monoxide — can seep through the masonry and enter your home. We repair clay liners using HeatShield CeCure, a castable ceramic resurfacer, or install a new continuous stainless-steel liner when damage is severe. Both solutions are approved by the NFPA 211 standard.",
-    heroImage:
-      "https://images.pexels.com/photos/4394224/pexels-photo-4394224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    heroImageMedium:
-      "https://images.pexels.com/photos/4394224/pexels-photo-4394224.jpeg?auto=compress&cs=tinysrgb&h=350",
+    heroImage: "/images/chimney-liner-repair.jpg",
+    heroImageMedium: "/images/chimney-liner-repair.jpg",
     heroAlt:
       "Chimney flue opening on a residential roof — chimney liner repair and replacement service in California",
     price: "Free estimate — varies by liner type and flue length",

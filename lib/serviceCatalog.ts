@@ -174,16 +174,16 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Chimney Tuckpointing",
         shortDesc:
           "Deteriorated mortar joints ground to 3/4\" depth and replaced with Type S mortar matched to existing profiles.",
-        parentHref: "/services/chimney-repair/",
-        isMajor: false,
+        parentHref: "/services/chimney-tuckpointing/",
+        isMajor: true,
       },
       {
         slug: "chimney-restoration",
         name: "Chimney Restoration",
         shortDesc:
           "Full masonry restoration combining tuckpointing, spalled brick replacement, crown repair, and waterproofing.",
-        parentHref: "/services/chimney-repair/",
-        isMajor: false,
+        parentHref: "/services/chimney-rebuild/",
+        isMajor: true,
       },
       {
         slug: "chimney-installation",
@@ -246,8 +246,8 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Leaking Chimney Repair and Replacement",
         shortDesc:
           "Locates and repairs the source of chimney leaks вЂ” crown cracks, failed flashing, or deteriorated mortar вЂ” before water causes structural damage.",
-        parentHref: "/services/chimney-repair/",
-        isMajor: false,
+        parentHref: "/services/chimney-leak-repair/",
+        isMajor: true,
       },
       {
         slug: "chimney-bricks-rotten-repair",
@@ -304,8 +304,8 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Fireplace Repair",
         shortDesc:
           "Repairs firebox walls, dampers, firebacks, and gas components to restore safe, reliable fireplace operation.",
-        parentHref: "/services/chimney-repair/",
-        isMajor: false,
+        parentHref: "/services/fireplace-repair/",
+        isMajor: true,
       },
       {
         slug: "fireplace-restoration",
@@ -336,8 +336,8 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Fireplace Smoke Chamber Repair",
         shortDesc:
           "Parging and repair of the smoke chamber to improve draft efficiency and seal against gas infiltration.",
-        parentHref: "/services/chimney-repair/",
-        isMajor: false,
+        parentHref: "/services/smoke-chamber-repair/",
+        isMajor: true,
       },
       {
         slug: "fireplace-inspection",
@@ -702,8 +702,8 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Gas Fireplace Installation",
         shortDesc:
           "Installs direct-vent, B-vent, and ventless gas fireplaces with proper gas line and venting connections.",
-        parentHref: "/services/fireplace-installation/",
-        isMajor: false,
+        parentHref: "/services/gas-fireplace-installation/",
+        isMajor: true,
       },
       {
         slug: "electric-fireplace-installation",
@@ -832,8 +832,8 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Commercial Chimney Services",
         shortDesc:
           "Chimney inspection, cleaning, and repair for restaurants, apartment complexes, hotels, and commercial properties.",
-        parentHref: "/services/chimney-inspection/",
-        isMajor: false,
+        parentHref: "/services/commercial-chimney-services/",
+        isMajor: true,
       },
       {
         slug: "industrial-chimney-services",

@@ -3,6 +3,8 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import Image from "next/image";
 import { SITE, NAV_SERVICES, NAV_AREAS } from "@/lib/constants";
+import { areas } from "@/lib/areas";
+import { counties } from "@/lib/counties";
 import { getAllPosts } from "@/lib/blogPosts";
 
 const LeadForm = dynamic(() => import("@/components/LeadForm"));
@@ -70,13 +72,25 @@ const SERVICE_CARDS = [
   },
 ];
 
-const ADDITIONAL_SERVICES = [
-  { name: "Fireplace Cleaning", href: "/services/fireplace-cleaning/" },
-  { name: "Dryer Vent Cleaning", href: "/services/dryer-vent-cleaning/" },
-  { name: "Chimney Liner Repair", href: "/services/chimney-liner-repair/" },
-  { name: "Gas Fireplace Repair", href: "/services/gas-fireplace-repair/" },
-  { name: "Chimney Sweep", href: "/services/chimney-sweep/" },
-  { name: "Masonry Repair", href: "/services/chimney-repair/" },
+const MORE_SERVICES = [
+  { name: "Chimney Sweep", href: "/services/chimney-sweep/", desc: "Certified sweeps to remove creosote, soot, and debris from your flue system.", img: "/images/chimney-sweep.jpg", alt: "Chimney sweep cleaning a brick chimney from the rooftop", icon: <BrushIcon /> },
+  { name: "Fireplace Cleaning", href: "/services/fireplace-cleaning/", desc: "Thorough cleaning of the firebox, grate, and surrounding fireplace components.", img: "/images/service-fireplace-cleaning.jpg", alt: "Technician cleaning the inside of a residential fireplace", icon: <BrushIcon /> },
+  { name: "Dryer Vent Cleaning", href: "/services/dryer-vent-cleaning/", desc: "Remove lint buildup from dryer vents to improve efficiency and reduce fire risk.", img: "/images/service-dryer-vent-cleaning.jpg", alt: "Technician cleaning a residential dryer vent", icon: <BrushIcon /> },
+  { name: "Chimney Liner Repair", href: "/services/chimney-liner-repair/", desc: "Repair or replace damaged clay or steel chimney liners to restore safe venting.", img: "/images/chimney-liner-repair.jpg", alt: "Technician installing a stainless steel chimney liner into a brick chimney", icon: <WrenchIcon /> },
+  { name: "Fireplace Installation", href: "/services/fireplace-installation/", desc: "Professional fireplace installation planning for gas and wood-burning systems.", img: "/images/service-fireplace-cleaning.jpg", alt: "Professional fireplace installation in a California home", icon: <CapIcon /> },
+  { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/", desc: "Repair cracked or damaged chimney crowns to prevent water from entering the chimney.", img: "/images/chimney-crown-repair.jpg", alt: "Technician repairing a concrete chimney crown on a brick chimney", icon: <WrenchIcon /> },
+  { name: "Chimney Flashing Repair", href: "/services/chimney-flashing-repair/", desc: "Fix loose or damaged flashing where the chimney meets the roofline.", img: "/images/chimney-flashing-repair.jpg", alt: "Technician repairing chimney flashing on a residential roof", icon: <WrenchIcon /> },
+  { name: "Gas Fireplace Repair", href: "/services/gas-fireplace-repair/", desc: "Diagnose and repair gas fireplace ignition, pilot, burner, and performance issues.", img: "/images/gas-fireplace-installation.jpg", alt: "Gas fireplace repair and service in a California home", icon: <WrenchIcon /> },
+  { name: "Gas Fireplace Installation", href: "/services/gas-fireplace-installation/", desc: "Safe gas fireplace installation with proper venting and clearance planning.", img: "/images/gas-fireplace-installation.jpg", alt: "Gas fireplace installation setup in a California home", icon: <CapIcon /> },
+  { name: "Fireplace Repair", href: "/services/fireplace-repair/", desc: "Repair smoke issues, damaged fireboxes, and broken parts in gas or wood fireplaces.", img: "/images/fireplace-repair.jpg", alt: "Technician repairing a residential fireplace in California", icon: <WrenchIcon /> },
+  { name: "Chimney Leak Repair", href: "/services/chimney-leak-repair/", desc: "Identify and fix chimney leaks from flashing, crown, cap, or masonry issues.", img: "/images/chimney-leak-repair.jpg", alt: "Chimney leak repair on a residential roof in California", icon: <WrenchIcon /> },
+  { name: "Commercial Chimney Services", href: "/services/commercial-chimney-services/", desc: "Inspection, cleaning, and repair for restaurants, apartments, and managed properties.", img: "/images/commercial-chimney-services.jpg", alt: "Commercial chimney service technician inspecting rooftop chimney systems", icon: <SearchIcon /> },
+  { name: "Chimney Rebuild", href: "/services/chimney-rebuild/", desc: "Rebuild damaged, leaning, or deteriorated masonry chimney sections.", img: "/images/chimney-rebuild.jpg", alt: "Masonry chimney rebuild and reconstruction work on a California home", icon: <WrenchIcon /> },
+  { name: "Smoke Chamber Repair", href: "/services/smoke-chamber-repair/", desc: "Resurface and repair the smoke chamber to improve draft and fireplace safety.", img: "/images/smoke-chamber-repair.jpg", alt: "Technician repairing a smoke chamber inside a residential fireplace", icon: <WrenchIcon /> },
+  { name: "Chimney Waterproofing", href: "/services/chimney-waterproofing/", desc: "Protect brick and mortar from water absorption, staining, and freeze-thaw damage.", img: "/images/chimney-waterproofing.jpg", alt: "Waterproofing treatment applied to a brick chimney on a California home", icon: <WrenchIcon /> },
+  { name: "Wood Stove Cleaning", href: "/services/wood-stove-cleaning/", desc: "Cleaning and maintenance for wood stove pipes, flues, and appliance components.", img: "/images/wood-stove-cleaning.jpg", alt: "Technician cleaning a residential wood stove and venting system", icon: <BrushIcon /> },
+  { name: "Fireplace Insert Cleaning", href: "/services/fireplace-insert-cleaning/", desc: "Clean gas or wood fireplace inserts, glass, burners, and venting components.", img: "/images/fireplace-insert-cleaning.jpg", alt: "Technician cleaning a gas fireplace insert in a California home", icon: <BrushIcon /> },
+  { name: "Chimney Tuckpointing", href: "/services/chimney-tuckpointing/", desc: "Repair deteriorated mortar joints to restore chimney strength and reduce water entry.", img: "/images/chimney-tuckpointing.jpg", alt: "Chimney tuckpointing repair on brick mortar joints", icon: <WrenchIcon /> },
 ];
 
 const WHY_BULLETS = [
@@ -291,22 +305,53 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* Additional service chips */}
-          <div className="flex flex-wrap justify-center gap-2.5 mt-8">
-            {ADDITIONAL_SERVICES.map((s) => (
-              <Link
-                key={s.href}
-                href={s.href}
-                className="text-sm text-gray-600 bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 px-4 py-2 rounded-full transition-colors"
-              >
-                {s.name}
-              </Link>
-            ))}
+          {/* More service image cards */}
+          <div className="mt-14">
+            <div className="text-center mb-8">
+              <h3 className="text-xl md:text-2xl font-bold text-[#111827]">
+                More Chimney &amp; Fireplace Services
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {MORE_SERVICES.map((s) => (
+                <Link
+                  key={s.href}
+                  href={s.href}
+                  className="group bg-white rounded-2xl overflow-visible border border-gray-100 hover:shadow-xl hover:border-orange-100 transition-all duration-300"
+                >
+                  <div className="relative h-44 rounded-t-2xl overflow-hidden">
+                    <Image
+                      src={s.img}
+                      alt={s.alt}
+                      fill
+                      loading="lazy"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                  </div>
+                  <div className="flex justify-center -mt-5 relative z-10">
+                    <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white shadow-md ring-4 ring-white">
+                      {s.icon}
+                    </div>
+                  </div>
+                  <div className="px-5 pb-5 pt-3 text-center rounded-b-2xl">
+                    <h3 className="font-bold text-[#111827] text-base mb-2 group-hover:text-orange-500 transition-colors leading-snug">
+                      {s.name}
+                    </h3>
+                    <p className="text-xs text-gray-500 leading-relaxed mb-4">{s.desc}</p>
+                    <span className="inline-flex items-center gap-1 text-orange-500 text-xs font-bold uppercase tracking-wide">
+                      Learn More <ArrowRight />
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
 
           <div className="mt-8 text-center">
             <Link href="/services/" className="btn-outline">
-              View All Services →
+              View All Chimney Services →
             </Link>
           </div>
         </div>
@@ -458,7 +503,7 @@ export default function HomePage() {
       {/* ══ SERVICE AREAS ══════════════════════════════════════════ */}
       <section className="section-pad bg-[#F8FAFC]">
         <div className="container-base">
-          <div className="grid md:grid-cols-2 gap-10 items-start">
+          <div className="grid lg:grid-cols-2 gap-10 items-start">
 
             {/* Left — heading + area list */}
             <div>
@@ -466,23 +511,46 @@ export default function HomePage() {
               <h2 className="text-3xl md:text-4xl font-bold text-[#111827] mb-4">
                 Proudly Serving All<br className="hidden sm:block" /> of California
               </h2>
-              <p className="text-gray-500 mb-7 leading-relaxed">
+              <p className="text-gray-500 mb-5 leading-relaxed">
                 We dispatch CSIA-certified technicians to every major California city.
                 If your city isn&apos;t listed, reach out — we likely cover your area.
               </p>
 
-              {/* Area list in 2 columns with red pins */}
-              <div className="grid grid-cols-2 gap-2 mb-7">
-                {NAV_AREAS.slice(0, 14).map((area) => (
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">
+                California Service Areas
+              </p>
+
+              {/* Cities + statewide — all routes from lib/areas.ts */}
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1.5 mb-4">
+                {areas.map((area) => (
                   <Link
-                    key={area.href}
-                    href={area.href}
-                    className="flex items-center gap-2 text-sm text-gray-700 hover:text-orange-600 bg-white hover:bg-orange-50 border border-gray-100 hover:border-orange-200 rounded-lg px-3 py-1.5 transition-all group shadow-sm"
+                    key={area.slug}
+                    href={`/areas/${area.slug}/`}
+                    className="flex items-center gap-2 text-sm text-gray-700 hover:text-orange-600 bg-white hover:bg-orange-50 border border-gray-100 hover:border-orange-200 rounded-lg px-3 py-1 transition-all group shadow-sm"
                   >
                     <span className="shrink-0 text-orange-500">
                       <PinIcon />
                     </span>
-                    <span className="font-medium">{area.name}</span>
+                    <span className="font-medium truncate">{area.name}</span>
+                  </Link>
+                ))}
+              </div>
+
+              {/* County pages — all routes from lib/counties.ts */}
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">
+                California Counties
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1.5 mb-6">
+                {counties.map((county) => (
+                  <Link
+                    key={county.slug}
+                    href={`/areas/${county.slug}/`}
+                    className="flex items-center gap-2 text-sm text-gray-700 hover:text-orange-600 bg-white hover:bg-orange-50 border border-gray-100 hover:border-orange-200 rounded-lg px-3 py-1 transition-all group shadow-sm"
+                  >
+                    <span className="shrink-0 text-orange-500">
+                      <PinIcon />
+                    </span>
+                    <span className="font-medium truncate">{county.name}</span>
                   </Link>
                 ))}
               </div>
@@ -492,8 +560,8 @@ export default function HomePage() {
               </Link>
             </div>
 
-            {/* Right — map embed */}
-            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 aspect-[4/3]">
+            {/* Right — map embed, sticky so it stays visible while scrolling area list */}
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 aspect-[4/3] lg:sticky lg:top-6">
               <iframe
                 title="Chimney Peak California service areas — California map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303693.7252048994!2d-120.26076!3d36.7783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
