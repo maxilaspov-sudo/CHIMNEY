@@ -130,89 +130,85 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a]/95 via-[#0a0a0a]/88 to-[#0a0a0a]/55" />
 
         <div className="relative z-10 container-base py-14 w-full">
-          <div className="flex flex-col lg:flex-row items-start lg:items-center gap-10">
+          {/* ── Headline + CTAs ─────────────────────────────────── */}
+          <div className="max-w-2xl">
+            {/* Rating pill */}
+            <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white text-xs font-semibold px-4 py-2 rounded-full mb-6">
+              <span className="text-yellow-400">★★★★★</span>
+              <span>{SITE.googleRating} Google Rating · CSIA Certified · Free Estimates</span>
+            </div>
 
-            {/* ── Left: Headline + CTAs ───────────────────────────── */}
-            <div className="flex-1 max-w-2xl">
-              {/* Rating pill */}
-              <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white text-xs font-semibold px-4 py-2 rounded-full mb-6">
-                <span className="text-yellow-400">★★★★★</span>
-                <span>{SITE.googleRating} Google Rating · CSIA Certified · Free Estimates</span>
-              </div>
+            <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-white leading-[1.1] mb-5">
+              Professional Chimney<br />
+              Services You Can Trust
+            </h1>
+            <p className="text-lg md:text-xl text-gray-200 mb-7 leading-relaxed max-w-xl">
+              Keeping your home safe, warm, and efficient with expert chimney cleaning,
+              inspection, and repair across all of California.
+            </p>
 
-              <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-white leading-[1.1] mb-5">
-                Professional Chimney<br />
-                Services You Can Trust
-              </h1>
-              <p className="text-lg md:text-xl text-gray-200 mb-7 leading-relaxed max-w-xl">
-                Keeping your home safe, warm, and efficient with expert chimney cleaning,
-                inspection, and repair across all of California.
-              </p>
+            {/* Trust bullets */}
+            <div className="flex flex-col sm:flex-row flex-wrap gap-x-6 gap-y-2 mb-8">
+              {[
+                "Certified & Insured Technicians",
+                "Same-Week Scheduling",
+                "Written Reports Included",
+              ].map((item, i) => (
+                <span key={i} className="flex items-center gap-2 text-sm text-gray-200">
+                  <CheckBadge /> {item}
+                </span>
+              ))}
+            </div>
 
-              {/* Trust bullets */}
-              <div className="flex flex-col sm:flex-row flex-wrap gap-x-6 gap-y-2 mb-8">
-                {[
-                  "Certified & Insured Technicians",
-                  "Same-Week Scheduling",
-                  "Written Reports Included",
-                ].map((item, i) => (
-                  <span key={i} className="flex items-center gap-2 text-sm text-gray-200">
-                    <CheckBadge /> {item}
-                  </span>
+            {/* CTA buttons */}
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link
+                href="/contact/"
+                className="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3.5 rounded-lg transition-colors shadow-lg text-base"
+              >
+                Book an Inspection
+              </Link>
+              <a
+                href="#estimate"
+                className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-base"
+              >
+                Request Free Estimate
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* ── Google rating card — bottom-right corner, desktop only ── */}
+        <div className="hidden lg:block absolute bottom-8 right-8 z-10">
+          <div className="bg-white rounded-2xl shadow-2xl p-6 w-[260px]">
+            {/* Google logo */}
+            <div className="flex items-center gap-2 mb-4">
+              <GoogleLogoSmall />
+              <span className="font-semibold text-gray-900 text-sm">Google Reviews</span>
+            </div>
+            {/* Rating */}
+            <div className="flex items-baseline gap-2 mb-1">
+              <span className="text-5xl font-extrabold text-gray-900 leading-none">{SITE.googleRating}</span>
+              <div className="flex gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400 text-xl">★</span>
                 ))}
               </div>
-
-              {/* CTA buttons */}
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Link
-                  href="/contact/"
-                  className="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3.5 rounded-lg transition-colors shadow-lg text-base"
-                >
-                  Book an Inspection
-                </Link>
-                <a
-                  href="#estimate"
-                  className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-base"
-                >
-                  Request Free Estimate
-                </a>
-              </div>
             </div>
-
-            {/* ── Right: Google rating card ───────────────────────── */}
-            <div className="hidden sm:block w-full lg:w-auto lg:shrink-0">
-              <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-[280px] mx-auto lg:mx-0">
-                {/* Google logo */}
-                <div className="flex items-center gap-2 mb-4">
-                  <GoogleLogoSmall />
-                  <span className="font-semibold text-gray-900 text-sm">Google Reviews</span>
-                </div>
-                {/* Rating */}
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-5xl font-extrabold text-gray-900 leading-none">{SITE.googleRating}</span>
-                  <div className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-yellow-400 text-xl">★</span>
-                    ))}
-                  </div>
-                </div>
-                <p className="text-sm text-gray-500 mb-4">
-                  Verified Google Reviews
-                </p>
-                <div className="border-t border-gray-100 pt-4 space-y-1.5">
-                  <p className="text-xs text-gray-600 flex items-center gap-1.5">
-                    <GreenCheck /> CSIA Certified Technicians
-                  </p>
-                  <p className="text-xs text-gray-600 flex items-center gap-1.5">
-                    <GreenCheck /> Licensed &amp; Insured
-                  </p>
-                  <p className="text-xs text-gray-600 flex items-center gap-1.5">
-                    <GreenCheck /> California Service Area
-                  </p>
-                </div>
-              </div>
+            <p className="text-sm text-gray-500 mb-4">
+              Verified Google Reviews
+            </p>
+            <div className="border-t border-gray-100 pt-4 space-y-1.5">
+              <p className="text-xs text-gray-600 flex items-center gap-1.5">
+                <GreenCheck /> CSIA Certified Technicians
+              </p>
+              <p className="text-xs text-gray-600 flex items-center gap-1.5">
+                <GreenCheck /> Licensed &amp; Insured
+              </p>
+              <p className="text-xs text-gray-600 flex items-center gap-1.5">
+                <GreenCheck /> California Service Area
+              </p>
             </div>
-
           </div>
         </div>
       </section>
