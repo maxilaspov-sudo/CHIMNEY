@@ -16,8 +16,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.baseUrl),
   title: {
-    default: `${SITE.name} | Chimney Cleaning, Repair & Inspection`,
-    template: `%s | ${SITE.shortName}`,
+    default: `${SITE.name} | CSIA-Certified Chimney Services`,
+    template: `%s | ${SITE.name}`,
   },
   description:
     "California's trusted chimney cleaning, repair, and inspection specialists. CSIA-certified technicians. Serving Los Angeles, San Diego, San Francisco, Sacramento, and all of California.",
@@ -54,6 +54,14 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -61,7 +69,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <LocalBusinessSchema />

@@ -11,7 +11,7 @@ const FAQSection = dynamic(() => import("@/components/FAQSection"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
 
 export const metadata: Metadata = {
-  title: "Chimney Peak California | CSIA-Certified Chimney Cleaning & Repair",
+  title: "Chimney Peak California | CSIA-Certified Chimney Services",
   description:
     "CSIA-certified chimney cleaning, repair, and inspection across all of California. 4.9-star rated, 847 reviews, 12,400+ jobs since 2009. Same-week scheduling. Free estimates.",
   alternates: { canonical: "/" },
