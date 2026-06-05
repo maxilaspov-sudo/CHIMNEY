@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import StickyCallButton from "@/components/StickyCallButton";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import { SITE } from "@/lib/constants";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -76,6 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <StickyCallButton />
+        <Analytics />
       </body>
     </html>
   );
