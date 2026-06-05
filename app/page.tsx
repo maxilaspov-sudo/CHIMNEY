@@ -25,32 +25,22 @@ export const metadata: Metadata = {
   },
 };
 
-// ── Verified Pexels image IDs ──────────────────────────────────────
-// 4394224  = house roof with chimney + attic windows against blue sky
-// 13543563 = tall brick chimneys on a rooftop, clear sky
-// 28396807 = close-up red chimney on a roof against blue sky
-// 5242049  = masonry/brickwork detail
-// 17095699 = classic urban rooftops with prominent red brick chimneys
-// 37726072 = industrial ventilation/ductwork pipes on a building wall
-
 const SERVICE_CARDS = [
   {
     name: "Chimney Cleaning",
-    desc: "Remove soot, creosote & debris to prevent fires and improve the efficiency of your fireplace.",
+    desc: "Remove soot, creosote, and debris to prevent chimney fires and improve fireplace efficiency.",
     href: "/services/chimney-cleaning/",
     img: "/images/service-chimney-cleaning.jpg",
     alt: "Technician cleaning a residential chimney with chimney sweep equipment",
     icon: <BrushIcon />,
-    cta: "Keep Your Home Safe",
   },
   {
     name: "Chimney Inspection",
-    desc: "Thorough inspections to identify issues early and ensure your chimney is safe to use.",
+    desc: "Thorough inspection to identify issues early and confirm your chimney is safe to use.",
     href: "/services/chimney-inspection/",
     img: "/images/service-chimney-inspection.jpg",
     alt: "Technician inspecting an indoor fireplace and chimney system in a California home",
     icon: <SearchIcon />,
-    cta: "Learn More",
   },
   {
     name: "Chimney Repair",
@@ -59,38 +49,93 @@ const SERVICE_CARDS = [
     img: "/images/service-chimney-repair.jpg",
     alt: "Technician repairing brick masonry on a residential chimney",
     icon: <WrenchIcon />,
-    cta: "Learn More",
   },
   {
-    name: "Chimney Caps",
-    desc: "High quality chimney caps to keep out animals, rain, and debris while improving draft.",
-    href: "/services/chimney-cap-installation/",
+    name: "Chimney Sweep",
+    desc: "Certified sweeps to remove creosote, soot, and debris from your flue and firebox.",
+    href: "/services/chimney-sweep/",
+    img: "/images/chimney-sweep.jpg",
+    alt: "Chimney sweep cleaning a brick chimney from the rooftop",
+    icon: <BrushIcon />,
+  },
+  {
+    name: "Chimney Cap Replacement",
+    desc: "Replace missing, damaged, or rusted caps to keep out rain, animals, and debris.",
+    href: "/services/chimney-cap-replacement/",
     img: "/images/service-chimney-caps.jpg",
-    alt: "Brick chimney with black metal chimney cap installed on a tile roof",
+    alt: "Chimney cap installed on a brick chimney on a tile roof",
     icon: <CapIcon />,
-    cta: "Learn More",
+  },
+  {
+    name: "Chimney Leak Repair",
+    desc: "Identify and fix leaks from flashing, crown, cap, or masonry before water damage spreads.",
+    href: "/services/chimney-leak-repair/",
+    img: "/images/chimney-leak-repair.jpg",
+    alt: "Chimney leak repair on a residential roof in California",
+    icon: <WrenchIcon />,
+  },
+  {
+    name: "Chimney Liner Repair",
+    desc: "Repair or replace damaged clay or steel chimney liners to restore safe venting.",
+    href: "/services/chimney-liner-repair/",
+    img: "/images/chimney-liner-repair.jpg",
+    alt: "Technician installing a stainless steel chimney liner into a brick chimney",
+    icon: <WrenchIcon />,
+  },
+  {
+    name: "Fireplace Repair",
+    desc: "Repair smoke issues, damaged fireboxes, and broken parts in gas or wood fireplaces.",
+    href: "/services/fireplace-repair/",
+    img: "/images/fireplace-repair.jpg",
+    alt: "Technician repairing a residential fireplace in California",
+    icon: <WrenchIcon />,
+  },
+  {
+    name: "Gas Fireplace Repair",
+    desc: "Diagnose and repair gas fireplace ignition, pilot, burner, and performance issues.",
+    href: "/services/gas-fireplace-repair/",
+    img: "/images/gas-fireplace-installation.jpg",
+    alt: "Gas fireplace repair and service in a California home",
+    icon: <WrenchIcon />,
+  },
+  {
+    name: "Dryer Vent Cleaning",
+    desc: "Remove lint buildup from dryer vents to improve efficiency and reduce fire risk.",
+    href: "/services/dryer-vent-cleaning/",
+    img: "/images/service-dryer-vent-cleaning.jpg",
+    alt: "Technician cleaning a residential dryer vent",
+    icon: <BrushIcon />,
   },
 ];
 
-const MORE_SERVICES = [
-  { name: "Chimney Sweep", href: "/services/chimney-sweep/", desc: "Certified sweeps to remove creosote, soot, and debris from your flue system.", img: "/images/chimney-sweep.jpg", alt: "Chimney sweep cleaning a brick chimney from the rooftop", icon: <BrushIcon /> },
-  { name: "Fireplace Cleaning", href: "/services/fireplace-cleaning/", desc: "Thorough cleaning of the firebox, grate, and surrounding fireplace components.", img: "/images/service-fireplace-cleaning.jpg", alt: "Technician cleaning the inside of a residential fireplace", icon: <BrushIcon /> },
-  { name: "Dryer Vent Cleaning", href: "/services/dryer-vent-cleaning/", desc: "Remove lint buildup from dryer vents to improve efficiency and reduce fire risk.", img: "/images/service-dryer-vent-cleaning.jpg", alt: "Technician cleaning a residential dryer vent", icon: <BrushIcon /> },
-  { name: "Chimney Liner Repair", href: "/services/chimney-liner-repair/", desc: "Repair or replace damaged clay or steel chimney liners to restore safe venting.", img: "/images/chimney-liner-repair.jpg", alt: "Technician installing a stainless steel chimney liner into a brick chimney", icon: <WrenchIcon /> },
-  { name: "Fireplace Installation", href: "/services/fireplace-installation/", desc: "Professional fireplace installation planning for gas and wood-burning systems.", img: "/images/service-fireplace-cleaning.jpg", alt: "Professional fireplace installation in a California home", icon: <CapIcon /> },
-  { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/", desc: "Repair cracked or damaged chimney crowns to prevent water from entering the chimney.", img: "/images/chimney-crown-repair.jpg", alt: "Technician repairing a concrete chimney crown on a brick chimney", icon: <WrenchIcon /> },
-  { name: "Chimney Flashing Repair", href: "/services/chimney-flashing-repair/", desc: "Fix loose or damaged flashing where the chimney meets the roofline.", img: "/images/chimney-flashing-repair.jpg", alt: "Technician repairing chimney flashing on a residential roof", icon: <WrenchIcon /> },
-  { name: "Gas Fireplace Repair", href: "/services/gas-fireplace-repair/", desc: "Diagnose and repair gas fireplace ignition, pilot, burner, and performance issues.", img: "/images/gas-fireplace-installation.jpg", alt: "Gas fireplace repair and service in a California home", icon: <WrenchIcon /> },
-  { name: "Gas Fireplace Installation", href: "/services/gas-fireplace-installation/", desc: "Safe gas fireplace installation with proper venting and clearance planning.", img: "/images/gas-fireplace-installation.jpg", alt: "Gas fireplace installation setup in a California home", icon: <CapIcon /> },
-  { name: "Fireplace Repair", href: "/services/fireplace-repair/", desc: "Repair smoke issues, damaged fireboxes, and broken parts in gas or wood fireplaces.", img: "/images/fireplace-repair.jpg", alt: "Technician repairing a residential fireplace in California", icon: <WrenchIcon /> },
-  { name: "Chimney Leak Repair", href: "/services/chimney-leak-repair/", desc: "Identify and fix chimney leaks from flashing, crown, cap, or masonry issues.", img: "/images/chimney-leak-repair.jpg", alt: "Chimney leak repair on a residential roof in California", icon: <WrenchIcon /> },
-  { name: "Commercial Chimney Services", href: "/services/commercial-chimney-services/", desc: "Inspection, cleaning, and repair for restaurants, apartments, and managed properties.", img: "/images/commercial-chimney-services.jpg", alt: "Commercial chimney service technician inspecting rooftop chimney systems", icon: <SearchIcon /> },
-  { name: "Chimney Rebuild", href: "/services/chimney-rebuild/", desc: "Rebuild damaged, leaning, or deteriorated masonry chimney sections.", img: "/images/chimney-rebuild.jpg", alt: "Masonry chimney rebuild and reconstruction work on a California home", icon: <WrenchIcon /> },
-  { name: "Smoke Chamber Repair", href: "/services/smoke-chamber-repair/", desc: "Resurface and repair the smoke chamber to improve draft and fireplace safety.", img: "/images/smoke-chamber-repair.jpg", alt: "Technician repairing a smoke chamber inside a residential fireplace", icon: <WrenchIcon /> },
-  { name: "Chimney Waterproofing", href: "/services/chimney-waterproofing/", desc: "Protect brick and mortar from water absorption, staining, and freeze-thaw damage.", img: "/images/chimney-waterproofing.jpg", alt: "Waterproofing treatment applied to a brick chimney on a California home", icon: <WrenchIcon /> },
-  { name: "Wood Stove Cleaning", href: "/services/wood-stove-cleaning/", desc: "Cleaning and maintenance for wood stove pipes, flues, and appliance components.", img: "/images/wood-stove-cleaning.jpg", alt: "Technician cleaning a residential wood stove and venting system", icon: <BrushIcon /> },
-  { name: "Fireplace Insert Cleaning", href: "/services/fireplace-insert-cleaning/", desc: "Clean gas or wood fireplace inserts, glass, burners, and venting components.", img: "/images/fireplace-insert-cleaning.jpg", alt: "Technician cleaning a gas fireplace insert in a California home", icon: <BrushIcon /> },
-  { name: "Chimney Tuckpointing", href: "/services/chimney-tuckpointing/", desc: "Repair deteriorated mortar joints to restore chimney strength and reduce water entry.", img: "/images/chimney-tuckpointing.jpg", alt: "Chimney tuckpointing repair on brick mortar joints", icon: <WrenchIcon /> },
+const CHIP_LINKS = [
+  { name: "Fireplace Cleaning", href: "/services/fireplace-cleaning/" },
+  { name: "Chimney Cap Installation", href: "/services/chimney-cap-installation/" },
+  { name: "Fireplace Installation", href: "/services/fireplace-installation/" },
+  { name: "Gas Fireplace Installation", href: "/services/gas-fireplace-installation/" },
+  { name: "Commercial Chimney Services", href: "/services/commercial-chimney-services/" },
+  { name: "Chimney Rebuild", href: "/services/chimney-rebuild/" },
+  { name: "Smoke Chamber Repair", href: "/services/smoke-chamber-repair/" },
+  { name: "Chimney Waterproofing", href: "/services/chimney-waterproofing/" },
+  { name: "Wood Stove Cleaning", href: "/services/wood-stove-cleaning/" },
+  { name: "Fireplace Insert Cleaning", href: "/services/fireplace-insert-cleaning/" },
+  { name: "Chimney Tuckpointing", href: "/services/chimney-tuckpointing/" },
+  { name: "Chimney Flashing Repair", href: "/services/chimney-flashing-repair/" },
+  { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/" },
+  { name: "Chimney Masonry Repair", href: "/services/chimney-masonry-repair/" },
+  { name: "Fireplace Restoration", href: "/services/fireplace-restoration/" },
+  { name: "Chimney Blockage Removal", href: "/services/chimney-blockage-removal/" },
+  { name: "Creosote Removal", href: "/services/creosote-removal/" },
+  { name: "Chimney Animal Screen Installation", href: "/services/chimney-animal-screen-installation/" },
+  { name: "Chimney Spark Arrestor Installation", href: "/services/chimney-spark-arrestor-installation/" },
+  { name: "Fireplace Inspection", href: "/services/fireplace-inspection/" },
+  { name: "Chimney Damper Repair", href: "/services/chimney-damper-repair/" },
+  { name: "Fireplace Door Installation", href: "/services/fireplace-door-installation/" },
+  { name: "Fireplace Glass Replacement", href: "/services/fireplace-glass-replacement/" },
+  { name: "Dryer Vent Blockage Removal", href: "/services/dryer-vent-blockage-removal/" },
+  { name: "Electric Fireplace Repair", href: "/services/electric-fireplace-repair/" },
+  { name: "Dryer Vent Lint Removal", href: "/services/dryer-vent-lint-removal/" },
+  { name: "Wood Fireplace Repair", href: "/services/wood-fireplace-repair/" },
 ];
 
 const WHY_BULLETS = [
@@ -102,24 +147,95 @@ const WHY_BULLETS = [
 
 const HOME_FAQS = [
   {
-    q: "How much does chimney cleaning cost in California?",
-    a: "Pricing depends on your chimney's condition, the number of flues, deposit level, and whether a written inspection report is included. We provide a flat-price quote in writing before starting any work.",
+    q: "How often should a chimney be cleaned?",
+    a: "Many homeowners schedule chimney cleaning once a year, especially before heavy fireplace use. The right timing depends on how often you use the fireplace, the type of fuel, and the amount of soot or creosote buildup.",
   },
   {
-    q: "How often should I have my chimney cleaned?",
-    a: "The NFPA 211 standard recommends annual inspection and cleaning for any chimney in regular use. If you burn more than two cords of wood per season, twice a year is safer.",
+    q: "What is the difference between chimney cleaning and chimney sweep?",
+    a: "Chimney cleaning refers to removing soot, creosote, and debris from the chimney system. A chimney sweep is the trained professional who performs the service and checks for visible safety or performance concerns.",
   },
   {
-    q: "Do you serve my city in California?",
-    a: "We serve all major California cities including Los Angeles, San Diego, San Francisco, Sacramento, Fresno, Oakland, Pasadena, and 40+ additional markets statewide.",
+    q: "Why is smoke coming back into my house?",
+    a: "Smoke backup can come from poor draft, a blocked chimney, damper problems, smoke chamber issues, or flue buildup. A chimney inspection can help identify the cause.",
   },
   {
-    q: "Are your technicians CSIA certified?",
-    a: "Yes. Every field technician carries a current CSIA (Chimney Safety Institute of America) certification. We hold all required California contractor licenses.",
+    q: "What causes chimney leaks?",
+    a: "Chimney leaks may come from damaged flashing, cracked crowns, missing chimney caps, porous masonry, or worn mortar joints.",
   },
   {
-    q: "What is included in a chimney inspection?",
-    a: "Our Level 1 inspection covers all accessible parts of the chimney — firebox, damper, smoke shelf, flue, and exterior cap. Level 2 adds a full video camera scan and a written report.",
+    q: "Do gas fireplaces need cleaning or repair?",
+    a: "Yes. Gas fireplaces can collect dust, residue, and debris, and may develop pilot, ignition, burner, glass, or venting issues over time.",
+  },
+  {
+    q: "When should I schedule dryer vent cleaning?",
+    a: "Schedule dryer vent cleaning if clothes take too long to dry, the dryer feels hot, airflow is weak, or lint collects near the vent opening.",
+  },
+  {
+    q: "Do you service multiple California cities?",
+    a: "Yes. The site includes dedicated service area pages for California cities and counties. Use the service area section below to find your city.",
+  },
+];
+
+const PROBLEM_ITEMS = [
+  {
+    title: "Smoke Backing Into the Room",
+    desc: "Smoke coming back into the house may be caused by poor draft, blockage, damper issues, or smoke chamber problems.",
+    href: "/services/chimney-inspection/",
+    linkText: "Chimney Inspection",
+  },
+  {
+    title: "Water Leaking Around the Chimney",
+    desc: "Water stains, damp brick, or roof leaks near the chimney may point to flashing, crown, cap, or masonry problems.",
+    href: "/services/chimney-leak-repair/",
+    linkText: "Chimney Leak Repair",
+  },
+  {
+    title: "Strong Fireplace Odors",
+    desc: "Fireplace odors can come from soot, creosote, moisture, animals, or a dirty chimney system.",
+    href: "/services/chimney-cleaning/",
+    linkText: "Chimney Cleaning",
+  },
+  {
+    title: "Cracked Chimney Bricks or Mortar",
+    desc: "Cracked brick, missing mortar, and loose masonry should be checked before water damage spreads.",
+    href: "/services/chimney-masonry-repair/",
+    linkText: "Chimney Masonry Repair",
+  },
+  {
+    title: "Missing or Rusted Chimney Cap",
+    desc: "A damaged or missing cap can allow rain, animals, leaves, and debris into the chimney.",
+    href: "/services/chimney-cap-replacement/",
+    linkText: "Chimney Cap Replacement",
+  },
+  {
+    title: "Creosote Buildup",
+    desc: "Creosote buildup inside the flue can affect draft, cause odors, and increase chimney fire risk.",
+    href: "/services/creosote-removal/",
+    linkText: "Creosote Removal",
+  },
+  {
+    title: "Poor Fireplace Draft",
+    desc: "Poor draft may be caused by blockage, flue problems, damper issues, or chimney design.",
+    href: "/services/chimney-inspection/",
+    linkText: "Chimney Inspection",
+  },
+  {
+    title: "Damaged Chimney Crown",
+    desc: "Cracks at the top of the chimney can let water enter and damage the masonry below.",
+    href: "/services/chimney-crown-repair/",
+    linkText: "Chimney Crown Repair",
+  },
+  {
+    title: "Dryer Takes Too Long to Dry",
+    desc: "Long drying times can point to lint buildup, poor airflow, or a blocked dryer vent.",
+    href: "/services/dryer-vent-cleaning/",
+    linkText: "Dryer Vent Cleaning",
+  },
+  {
+    title: "Gas Fireplace Not Working",
+    desc: "Pilot issues, ignition problems, burner trouble, or venting concerns may require gas fireplace repair.",
+    href: "/services/gas-fireplace-repair/",
+    linkText: "Gas Fireplace Repair",
   },
 ];
 
@@ -157,8 +273,7 @@ export default function HomePage() {
               Services You Can Trust
             </h1>
             <p className="text-lg md:text-xl text-gray-200 mb-7 leading-relaxed max-w-xl">
-              Keeping your home safe, warm, and efficient with expert chimney cleaning,
-              inspection, and repair across all of California.
+              Professional chimney cleaning, chimney inspection, chimney repair, fireplace repair, and dryer vent cleaning across California.
             </p>
 
             {/* Trust bullets */}
@@ -263,8 +378,18 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* 4 main service cards */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Heading above 10 large cards */}
+          <div className="text-center mb-8">
+            <h3 className="text-xl md:text-2xl font-bold text-[#111827] mb-3">
+              Popular Chimney &amp; Fireplace Services
+            </h3>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">
+              From annual chimney cleaning to leak repair, fireplace repair, chimney inspections, and dryer vent cleaning, our service pages help California homeowners find the right solution quickly.
+            </p>
+          </div>
+
+          {/* 10 large image cards — 2 rows of 5 on desktop */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {SERVICE_CARDS.map((s, i) => (
               <Link
                 key={i}
@@ -277,9 +402,9 @@ export default function HomePage() {
                     src={s.img}
                     alt={s.alt}
                     fill
-                    loading={i < 2 ? "eager" : "lazy"}
+                    loading={i < 5 ? "eager" : "lazy"}
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                 </div>
@@ -298,58 +423,37 @@ export default function HomePage() {
                   </h3>
                   <p className="text-xs text-gray-500 leading-relaxed mb-4">{s.desc}</p>
                   <span className="inline-flex items-center gap-1 text-orange-500 text-xs font-bold uppercase tracking-wide">
-                    {s.cta} <ArrowRight />
+                    LEARN MORE <ArrowRight />
                   </span>
                 </div>
               </Link>
             ))}
           </div>
 
-          {/* More service image cards */}
+          {/* Chip links for all remaining service pages */}
           <div className="mt-14">
-            <div className="text-center mb-8">
-              <h3 className="text-xl md:text-2xl font-bold text-[#111827]">
-                More Chimney &amp; Fireplace Services
+            <div className="text-center mb-6">
+              <h3 className="text-xl md:text-2xl font-bold text-[#111827] mb-3">
+                More Chimney, Fireplace &amp; Dryer Vent Services
               </h3>
+              <p className="text-gray-500 max-w-xl mx-auto text-sm leading-relaxed">
+                Looking for a specific repair, part, or maintenance service? Explore our additional chimney, fireplace, and dryer vent services below.
+              </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {MORE_SERVICES.map((s) => (
+            <div className="flex flex-wrap gap-3 justify-center">
+              {CHIP_LINKS.map((s) => (
                 <Link
                   key={s.href}
                   href={s.href}
-                  className="group bg-white rounded-2xl overflow-visible border border-gray-100 hover:shadow-xl hover:border-orange-100 transition-all duration-300"
+                  className="inline-flex items-center bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 text-sm font-medium px-4 py-2 rounded-full transition-colors shadow-sm hover:shadow-md"
                 >
-                  <div className="relative h-44 rounded-t-2xl overflow-hidden">
-                    <Image
-                      src={s.img}
-                      alt={s.alt}
-                      fill
-                      loading="lazy"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-                  </div>
-                  <div className="flex justify-center -mt-5 relative z-10">
-                    <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white shadow-md ring-4 ring-white">
-                      {s.icon}
-                    </div>
-                  </div>
-                  <div className="px-5 pb-5 pt-3 text-center rounded-b-2xl">
-                    <h3 className="font-bold text-[#111827] text-base mb-2 group-hover:text-orange-500 transition-colors leading-snug">
-                      {s.name}
-                    </h3>
-                    <p className="text-xs text-gray-500 leading-relaxed mb-4">{s.desc}</p>
-                    <span className="inline-flex items-center gap-1 text-orange-500 text-xs font-bold uppercase tracking-wide">
-                      Learn More <ArrowRight />
-                    </span>
-                  </div>
+                  {s.name}
                 </Link>
               ))}
             </div>
           </div>
 
-          <div className="mt-8 text-center">
+          <div className="mt-10 text-center">
             <Link href="/services/" className="btn-outline">
               View All Chimney Services →
             </Link>
@@ -357,8 +461,43 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ══ COMMON PROBLEMS ═════════════════════════════════════════ */}
+      <section className="section-pad bg-[#F8FAFC]">
+        <div className="container-base">
+          <div className="text-center mb-10">
+            <span className="section-label">NEED HELP?</span>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#111827] mb-3">
+              Common Chimney &amp; Fireplace Problems We Help With
+            </h2>
+            <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
+              Many customers do not know the exact service they need. They just notice smoke, odors, leaks, poor draft, damaged brick, or a fireplace that does not work correctly. These common problems can point to cleaning, inspection, repair, or venting issues.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            {PROBLEM_ITEMS.map((p, i) => (
+              <Link
+                key={i}
+                href={p.href}
+                className="group bg-white rounded-xl border border-gray-100 hover:border-orange-200 hover:shadow-md transition-all p-5"
+              >
+                <div className="w-8 h-8 bg-orange-50 rounded-full flex items-center justify-center mb-3 group-hover:bg-orange-100 transition-colors shrink-0">
+                  <span className="text-orange-500 text-xs font-extrabold">{i + 1}</span>
+                </div>
+                <h3 className="font-bold text-[#111827] text-sm mb-2 leading-snug group-hover:text-orange-500 transition-colors">
+                  {p.title}
+                </h3>
+                <p className="text-xs text-gray-500 leading-relaxed mb-3">{p.desc}</p>
+                <span className="inline-flex items-center gap-1 text-orange-500 text-xs font-semibold">
+                  {p.linkText} <ArrowRight />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ══ WHY CHOOSE US + LEAD FORM ══════════════════════════════ */}
-      <section className="section-pad bg-[#F8FAFC]" id="estimate">
+      <section className="section-pad bg-white" id="estimate">
         <div className="container-base">
           <div className="grid lg:grid-cols-3 gap-8 items-start">
 
