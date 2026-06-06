@@ -218,8 +218,8 @@ export const services: Service[] = [
       "Spalled brick, cracked crowns, failing mortar, and damaged flashing repaired by licensed masons. We match existing brick and mortar so repairs are invisible.",
     longDesc:
       "Water is the leading cause of chimney damage in California. Rain and freeze-thaw cycles erode mortar joints, crack crowns, and allow moisture to penetrate brick. Left unaddressed, a cracked crown allows water to enter the flue and saturate the masonry from the inside — leading to spalled brick, rusted dampers, and eventual structural failure. Our repairs address the root cause, not just the symptom. We use Type S mortar matched to your existing joint profile and color-matched brick when replacement is needed.",
-    heroImage: "/images/services/Chimney-repair.jpg",
-    heroImageMedium: "/images/services/Chimney-repair.jpg",
+    heroImage: "/images/services/chimney-repair.jpg",
+    heroImageMedium: "/images/services/chimney-repair.jpg",
     heroAlt: "Technicians repairing brick chimney masonry and chimney cap area",
     price: "Free estimate",
     duration: "Varies by scope",

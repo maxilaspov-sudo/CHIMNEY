@@ -47,7 +47,7 @@ const SERVICE_CARDS = [
     name: "Chimney Repair",
     desc: "Expert repairs for cracks, leaks, and damaged bricks or mortar to restore safety and function.",
     href: "/services/chimney-repair/",
-    img: "/images/services/Chimney-repair.jpg",
+    img: "/images/services/chimney-repair.jpg",
     alt: "Technicians repairing brick chimney masonry and chimney cap area",
     icon: <WrenchIcon />,
   },

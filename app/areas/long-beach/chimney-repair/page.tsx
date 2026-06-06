@@ -8,7 +8,7 @@ import FAQSection from "@/components/FAQSection";
 import CTABanner from "@/components/CTABanner";
 import { SITE } from "@/lib/constants";
 
-const HERO_IMAGE = "/images/services/Chimney-leak-repair.jpg";
+const HERO_IMAGE = "/images/services/chimney-repair.jpg";
 
 export const metadata: Metadata = {
   title: "Chimney Repair Long Beach | Brick, Leak & Masonry Repair",
