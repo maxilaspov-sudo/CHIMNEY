@@ -22,7 +22,7 @@ const REVIEWS = [
     city: "San Diego, CA",
     rating: 5,
     date: "December 2024",
-    text: "Best price I found after calling four companies, and the quality was better too. The technician was a true professional — CSIA certified, explained everything, no upsell pressure. The fireplace drafts perfectly now.",
+    text: "Best price I found after calling four companies, and the quality was better too. The technician was a true professional — explained everything thoroughly, no upsell pressure. The fireplace drafts perfectly now.",
   },
   {
     name: "Patricia L.",

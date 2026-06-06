@@ -179,7 +179,7 @@ export default async function AreaOrCountyPage({ params }: Props) {
               Chimney Services in {area.name}, CA
             </h1>
             <p className="text-gray-200 text-lg mb-6 leading-relaxed">
-              CSIA-certified chimney cleaning, repair, and inspection for {area.name} homeowners. Same-week appointments.
+              Professional chimney cleaning, chimney repair, chimney inspection, chimney sweep, fireplace repair, and dryer vent cleaning for {area.name} homeowners. Same-week appointments available.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/contact/" className="btn-primary">
@@ -313,7 +313,7 @@ export default async function AreaOrCountyPage({ params }: Props) {
                 <h3 className="font-semibold text-gray-900 mb-3">Why Choose Us</h3>
                 <ul className="space-y-2 text-sm text-gray-600">
                   {[
-                    "CSIA-certified technicians",
+                    "Licensed & insured technicians",
                     "Same-week scheduling",
                     "Flat pricing, no upsells",
                     "Written report included",

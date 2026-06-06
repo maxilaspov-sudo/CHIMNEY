@@ -1,4 +1,4 @@
-﻿export interface CityFAQ {
+export interface CityFAQ {
   q: string;
   a: string;
 }
@@ -57,7 +57,7 @@ export const areas: Area[] = [
       "Los Angeles County has the largest concentration of pre-1960 brick chimneys in the western United States — most have never had a professional video-camera inspection.",
     metaTitle: "Chimney Services in Los Angeles, CA | Chimney Peak California",
     metaDescription:
-      "Professional chimney cleaning, sweep, and repair in Los Angeles. CSIA-certified technicians. Same-week appointments available. Request a free estimate online.",
+      "Professional chimney cleaning, sweep, and repair in Los Angeles. Trained chimney technicians. Same-week appointments available. Request a free estimate online.",
   },
   {
     slug: "san-diego",
@@ -95,7 +95,7 @@ export const areas: Area[] = [
       "Approximately 60% of San Jose homes with fireplaces have never had a professional flue camera inspection — a figure consistent with industry surveys of Bay Area markets.",
     metaTitle: "Chimney Services in San Jose, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, sweep, and repair in San Jose. South Bay's CSIA-certified chimney company. Same-week scheduling. Request a free estimate online.",
+      "Chimney cleaning, sweep, and repair in San Jose. South Bay's professional chimney company. Same-week scheduling. Request a free estimate online.",
   },
   {
     slug: "san-francisco",
@@ -113,7 +113,7 @@ export const areas: Area[] = [
       "San Francisco has more than 30,000 ornamental Victorian fireplaces — most of which were sealed or converted to gas during the 1950s energy boom and are now being restored by homeowners.",
     metaTitle: "Chimney Services in San Francisco, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning and inspection in San Francisco. Victorian and Edwardian fireplace specialists. CSIA-certified. Request a free estimate online.",
+      "Chimney cleaning and inspection in San Francisco. Victorian and Edwardian fireplace specialists. Request a free estimate online.",
   },
   {
     slug: "sacramento",
@@ -151,7 +151,7 @@ export const areas: Area[] = [
       "Fresno County records more SJVAPCD wood-burning violations per capita than any other valley county — meaning more residents are burning without proper inspections or on restricted days.",
     metaTitle: "Chimney Services in Fresno, CA | Chimney Peak California",
     metaDescription:
-      "Chimney cleaning, sweep, and repair in Fresno. Central Valley specialists. CSIA-certified technicians. Request a free estimate online.",
+      "Chimney cleaning, sweep, and repair in Fresno. Central Valley specialists. Trained chimney technicians. Request a free estimate online.",
   },
   {
     slug: "oakland",
@@ -813,7 +813,7 @@ export const areas: Area[] = [
       { q: "My Sunnyvale ranch home was built in 1963. What's the most likely chimney issue to find?", a: "The most common findings in 1960s Sunnyvale homes are: hairline cracks in clay tile liner joints from Loma Prieta and subsequent seismic events; deteriorated damper plates (often the original cast-iron units, now rusted or warped); and stage 2 creosote if the fireplace has been used regularly. A Level 2 camera inspection documents all three and guides any needed repair decisions." },
     ],
     metaTitle: "Chimney Services in Sunnyvale, CA | Silicon Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Sunnyvale. Silicon Valley postwar ranch home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Sunnyvale. Silicon Valley postwar ranch home specialists. Request a free estimate online.",
   },
   {
     slug: "santa-clara",
@@ -853,7 +853,7 @@ export const areas: Area[] = [
       { q: "My Fremont home is in the Mission San Jose hills. Was it affected by the 1989 earthquake?", a: "Possibly. The Mission San Jose hills sit close to the Hayward Fault and the Loma Prieta epicenter zone. Clay tile chimney liners in hill areas frequently show hairline cracks from seismic events that are invisible without a camera. If your home has not had a Level 2 inspection since 1989, we recommend scheduling one — particularly if the property has changed hands since the earthquake." },
     ],
     metaTitle: "Chimney Services in Fremont, CA | Alameda County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Fremont. Niles, Mission San Jose, and Warm Springs specialists. East Bay CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Fremont. Niles, Mission San Jose, and Warm Springs specialists. Request a free estimate online.",
   },
   {
     slug: "hayward",
@@ -955,7 +955,7 @@ export const areas: Area[] = [
       { q: "Does the Camarillo Gap wind affect chimneys in Thousand Oaks?", a: "Yes. The Camarillo Gap is a known wind acceleration corridor between the Santa Rosa Hills and the Santa Monica Mountains. During Santa Ana events, winds through this gap reach speeds that can dislodge poorly secured caps and significantly increase ember transport risk from uncapped or inadequately screened flues. We recommend spark-arrestor caps with proper set-screw attachment for all Thousand Oaks properties." },
     ],
     metaTitle: "Chimney Services in Thousand Oaks, CA | Conejo Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Thousand Oaks. Post-Woolsey Fire rebuild specialists. Conejo Valley CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Thousand Oaks. Post-Woolsey Fire rebuild specialists. Request a free estimate online.",
   },
   {
     slug: "simi-valley",
@@ -1083,7 +1083,7 @@ export const areas: Area[] = [
       { q: "Does living in the Berkeley Hills mean I need more frequent chimney service?", a: "Annual inspection is the minimum for all properties, but Berkeley Hills homes in the high fire-hazard zone benefit from a brief spring check of the spark-arrestor cap mesh — to verify the screen is intact and the cap is secured. Diablo wind events that affect the hills in autumn create the conditions most dangerous for chimney spark emission, so entering fire season with a confirmed, intact cap matters here more than in flatland neighborhoods." },
     ],
     metaTitle: "Chimney Services in Berkeley, CA | East Bay | Chimney Peak California",
-    metaDescription: "Chimney cleaning, inspection, and repair in Berkeley. Victorian flatland and Berkeley Hills wildfire-zone specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning, inspection, and repair in Berkeley. Victorian flatland and Berkeley Hills wildfire-zone specialists. Request a free estimate online.",
   },
   {
     slug: "fairfield",
@@ -1197,7 +1197,7 @@ export const areas: Area[] = [
       { q: "My 1940s El Monte home has never had a chimney camera inspection. What should I expect?", a: "In El Monte's older bungalow stock, a Level 2 camera inspection typically finds one or more of: deteriorated mortar joints in the clay tile liner, a corroded or failed original cast-iron damper, animal nesting material in an unused flue, and — in roughly a third of pre-1940 properties — sections of unlined masonry that don't meet any post-1950 standard. The inspection takes about 90 minutes and includes a written report with photos." },
     ],
     metaTitle: "Chimney Services in El Monte, CA | San Gabriel Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning, inspection, and repair in El Monte. Older San Gabriel Valley bungalow specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning, inspection, and repair in El Monte. Older San Gabriel Valley bungalow specialists. Request a free estimate online.",
   },
   {
     slug: "downey",
@@ -1219,7 +1219,7 @@ export const areas: Area[] = [
       { q: "My 1957 Downey home has had the same fireplace since it was built. What's the inspection process?", a: "For a 70-year-old system, we begin with a visual assessment of the firebox, damper, and crown from ground level, then perform a full camera scan of the flue from the top down. In Downey's 1950s stock, we commonly find: clay tile joints with deteriorated mortar, a corroded original damper plate, and hairline cracks from the 1994 Northridge earthquake. The written report documents all findings with photos and prioritizes any safety-critical repairs." },
     ],
     metaTitle: "Chimney Services in Downey, CA | Southeast LA County | Chimney Peak California",
-    metaDescription: "Chimney cleaning, inspection, and repair in Downey. Southeast LA postwar home specialists. CSIA-certified technicians. Request a free estimate online.",
+    metaDescription: "Chimney cleaning, inspection, and repair in Downey. Southeast LA postwar home specialists. Trained chimney technicians. Request a free estimate online.",
   },
   {
     slug: "inglewood",
@@ -1241,7 +1241,7 @@ export const areas: Area[] = [
       { q: "Does LAX flight path vibration damage chimneys in Inglewood?", a: "Decades of cumulative low-frequency vibration from aircraft can accelerate micro-cracking in clay tile liner joints and masonry mortar — the same mechanism as distant seismic events, but slower and more chronic. Properties directly under the flight path, particularly north of Manchester, should treat this as an additional reason for regular camera inspection. We have found liner joint separation in Inglewood homes that is consistent with vibration stress rather than earthquake damage." },
     ],
     metaTitle: "Chimney Services in Inglewood, CA | South LA County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Inglewood. Morningside Park and South Bay postwar home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Inglewood. Morningside Park and South Bay postwar home specialists. Request a free estimate online.",
   },
   {
     slug: "burbank",
@@ -1263,7 +1263,7 @@ export const areas: Area[] = [
       { q: "My Burbank home backs up to the Verdugo foothills. Is there wildfire risk for my chimney?", a: "Yes. The Verdugo Mountains bordering Burbank's northern residential edge are a designated high fire-hazard zone. During autumn wind events, the foothills directly above La Tuna Canyon and Olive Hills can generate ember transport toward residential properties. A spark-arrestor cap with intact 5/8-inch mesh is the primary protection, and we verify cap condition and secure attachment during every annual inspection for hillside-adjacent Burbank properties." },
     ],
     metaTitle: "Chimney Services in Burbank, CA | San Fernando Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Burbank. Magnolia Park, Rancho District, and hillside home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Burbank. Magnolia Park, Rancho District, and hillside home specialists. Request a free estimate online.",
   },
   {
     slug: "west-covina",
@@ -1285,7 +1285,7 @@ export const areas: Area[] = [
       { q: "How do I know if my 1960 West Covina ranch home chimney needs inspection?", a: "The honest answer is: it almost certainly does, if it hasn't had a camera inspection in the last 5 years. A 60+ year-old clay tile liner in the San Gabriel Valley has been through the 1987 Whittier Narrows earthquake, the 1994 Northridge earthquake, and decades of thermal cycling in a hot inland climate. We frequently find stage 2 or 3 creosote, cracked liner sections, and failed damper plates in West Covina homes that appear functional from the firebox opening." },
     ],
     metaTitle: "Chimney Services in West Covina, CA | San Gabriel Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in West Covina. San Gabriel Valley postwar ranch home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in West Covina. San Gabriel Valley postwar ranch home specialists. Request a free estimate online.",
   },
   {
     slug: "norwalk",
@@ -1307,7 +1307,7 @@ export const areas: Area[] = [
       { q: "Should I be concerned about earthquake damage to my Norwalk chimney?", a: "Yes. Norwalk was one of the more heavily affected communities in the 1987 Whittier Narrows earthquake — the closest major LA Basin quake to this part of Southeast LA County. Clay tile liner cracks from that event, combined with cumulative Northridge damage, mean a significant number of Norwalk chimneys have hidden liner damage. A Level 2 camera inspection is the only way to assess flue condition accurately." },
     ],
     metaTitle: "Chimney Services in Norwalk, CA | Southeast LA | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Norwalk. Southeast LA County postwar home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Norwalk. Southeast LA County postwar home specialists. Request a free estimate online.",
   },
   {
     slug: "compton",
@@ -1329,7 +1329,7 @@ export const areas: Area[] = [
       { q: "My Compton home was built in 1938. Is the original fireplace safe to use?", a: "Not without a Level 2 inspection first. Pre-1940 Compton homes frequently have fireplaces built without clay tile liner requirements — the actual flue may be unlined masonry, which allows combustion gases to penetrate surrounding brick. We perform a camera inspection of the full flue and provide a written assessment. If the system needs liner installation to meet current safety standards, we provide a detailed repair estimate." },
     ],
     metaTitle: "Chimney Services in Compton, CA | Los Angeles County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Compton. Southeast LA older home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Compton. Southeast LA older home specialists. Request a free estimate online.",
   },
 
   // ── Riverside County ───────────────────────────────────────────────────────
@@ -1398,7 +1398,7 @@ export const areas: Area[] = [
       { q: "My home is in the Rubidoux area of Jurupa Valley. How old is the typical chimney here?", a: "Rubidoux's core residential neighborhoods were developed between 1935 and 1955 — which puts most original masonry chimneys in the 70–90-year age range. At this age, clay tile liner sections commonly show significant mortar joint deterioration and partial section collapse in the worst cases. We recommend a Level 2 camera inspection for any Rubidoux property that hasn't been inspected in the last 5 years, regardless of whether the fireplace appears to be drafting normally." },
     ],
     metaTitle: "Chimney Services in Jurupa Valley, CA | Riverside County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Jurupa Valley. Rubidoux, Mira Loma, and Pedley specialists. Inland Empire CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Jurupa Valley. Rubidoux, Mira Loma, and Pedley specialists. Request a free estimate online.",
   },
 
   // ── Orange County ──────────────────────────────────────────────────────────
@@ -1422,7 +1422,7 @@ export const areas: Area[] = [
       { q: "My 1968 Costa Mesa home has had the original fireplace since it was built. What should I check?", a: "A 1968 system is now 57 years old — at or past the optimal service life for original clay tile liner joints in Orange County's coastal climate. We perform a Level 2 camera inspection of the full flue, assess the firebox, damper condition, and crown integrity, and provide a written report. The marine air proximity in Costa Mesa's western neighborhoods also means we pay particular attention to the chimney cap and chase cover for early corrosion signs." },
     ],
     metaTitle: "Chimney Services in Costa Mesa, CA | Orange County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Costa Mesa. Mesa Verde and Eastside coastal-influenced specialists. Orange County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Costa Mesa. Mesa Verde and Eastside coastal-influenced specialists. Request a free estimate online.",
   },
   {
     slug: "mission-viejo",
@@ -1444,7 +1444,7 @@ export const areas: Area[] = [
       { q: "My Mission Viejo home was built in 1974 and still has the original factory fireplace. Is that safe?", a: "A 1974 factory-built system is 51 years old — significantly past the 30-year design life most manufacturers specify. Before using it, we'd recommend a full assessment: refractory panel condition, heat shield integrity, damper operation, and liner inspection. At this age, it's not uncommon to find panels that are crumbling rather than cracked, or a heat shield that's completely detached. In some cases, the system is beyond economical repair and replacement is the safer option." },
     ],
     metaTitle: "Chimney Services in Mission Viejo, CA | South Orange County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Mission Viejo. 1970s factory-built fireplace specialists. South Orange County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Mission Viejo. 1970s factory-built fireplace specialists. South Request a free estimate online.",
   },
 
   // ── Alameda County ─────────────────────────────────────────────────────────
@@ -1468,7 +1468,7 @@ export const areas: Area[] = [
       { q: "My Point Richmond Victorian from 1904 has an original fireplace. Is it usable?", a: "Not without inspection first. Pre-1915 masonry in Point Richmond frequently has unlined fireplace openings — the flue may be raw brick without any clay tile liner. We perform a full Level 2 camera inspection and provide a written assessment of liner condition, mortar integrity, and any structural concerns from the 100+ years of marine air exposure. Restoration of a Victorian fireplace to operational status is feasible but requires the right material choices for the era." },
     ],
     metaTitle: "Chimney Services in Richmond, CA | Alameda County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Richmond. Point Richmond Victorian and WWII-era home specialists. East Bay CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Richmond. Point Richmond Victorian and WWII-era home specialists. Request a free estimate online.",
   },
 
   // ── Contra Costa County ────────────────────────────────────────────────────
@@ -1516,7 +1516,7 @@ export const areas: Area[] = [
       { q: "My Daly City Doelger home was built in 1954. Does the original chimney need replacing?", a: "Not necessarily replacing, but absolutely inspecting. A 1954 Doelger chimney is 71 years old and has been through the full range of Bay Area weather, the 1989 Loma Prieta earthquake, and decades of marine fog. We perform a Level 2 camera inspection to assess the clay tile liner condition and mortar integrity. Many Doelger chimneys are repairable with liner restoration — full replacement is only warranted when the liner is structurally compromised or when the owner wants to upgrade the heating capacity." },
     ],
     metaTitle: "Chimney Services in Daly City, CA | San Mateo County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Daly City. Westlake Doelger home specialists. San Mateo County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Daly City. Westlake Doelger home specialists. Request a free estimate online.",
   },
   {
     slug: "san-mateo",
@@ -1634,7 +1634,7 @@ export const areas: Area[] = [
       { q: "My 1955 Rialto ranch home has the original brick fireplace. What's the risk of using it without inspection?", a: "The primary risks in a 70-year-old Inland Empire masonry system are: a deteriorated clay tile liner that allows combustion gases to seep into the surrounding masonry (carbon monoxide risk), a corroded or seized damper plate that restricts draft, and stage 2–3 creosote if the chimney has been regularly used. Any of these conditions makes operation unsafe. A Level 2 camera inspection identifies all of them and gives you a clear maintenance roadmap." },
     ],
     metaTitle: "Chimney Services in Rialto, CA | San Bernardino County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Rialto. Inland Empire postwar home specialists. San Bernardino County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Rialto. Inland Empire postwar home specialists. Request a free estimate online.",
   },
 
   // ─── Step 4 Part B: cities 26–70 ─────────────────────────────────────────
@@ -1660,7 +1660,7 @@ export const areas: Area[] = [
       { q: "My 1938 South Gate bungalow still has the original fireplace. Is it safe?", a: "Not without inspection. Pre-1940 SE LA bungalows commonly have either unlined masonry or early clay tile liners that predate modern standards. We perform a Level 2 camera inspection and provide a written report on liner condition, damper function, and any structural concerns. Carbon monoxide from a degraded liner is the primary safety risk in systems this age." },
     ],
     metaTitle: "Chimney Services in South Gate, CA | Southeast LA | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in South Gate. Southeast LA older bungalow and ranch home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in South Gate. Southeast LA older bungalow and ranch home specialists. Request a free estimate online.",
   },
   {
     slug: "carson",
@@ -1682,7 +1682,7 @@ export const areas: Area[] = [
       { q: "My 1972 Carson tract home has a factory-built fireplace. Does it need inspection?", a: "At 53 years old, yes — well past the 30-year design life. Factory-built systems from the early 1970s used refractory materials that are now past their reliable service window. We inspect the full system and assess whether repair or replacement is the appropriate path." },
     ],
     metaTitle: "Chimney Services in Carson, CA | South Bay LA | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Carson. South Bay LA factory-built fireplace specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Carson. South Bay LA factory-built fireplace specialists. Request a free estimate online.",
   },
   {
     slug: "whittier",
@@ -1704,7 +1704,7 @@ export const areas: Area[] = [
       { q: "My Whittier home was built in 1952 and has never had a chimney inspection. What should I expect?", a: "In a 1952 Whittier home, we typically find the combined effects of both major local earthquakes — the 1987 Whittier Narrows and 1994 Northridge events — in the form of hairline cracks and joint separations in the clay tile liner. The Level 2 camera inspection documents all of this with photos and a written report. Catching these cracks before they widen further is far less expensive than waiting for them to require full liner replacement." },
     ],
     metaTitle: "Chimney Services in Whittier, CA | San Gabriel Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Whittier. Post-earthquake liner specialists. Uptown and Whittier Hills homes. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Whittier. Post-earthquake liner specialists. Uptown and Whittier Hills homes. Request a free estimate online.",
   },
   {
     slug: "hawthorne",
@@ -1748,7 +1748,7 @@ export const areas: Area[] = [
       { q: "My 1928 Alhambra Spanish Colonial has the original fireplace with decorative tile. Can it be cleaned without damaging the tile?", a: "Yes, with the right technique. Original 1920s decorative tile surrounds in Alhambra homes require pH-appropriate cleaning chemicals and hand-brushing — not high-pressure washing or alkaline cleaners, which can permanently damage glazed tile and original grout. We use the same approach as in Pasadena's historic districts and San Francisco's Victorian neighborhoods." },
     ],
     metaTitle: "Chimney Services in Alhambra, CA | San Gabriel Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Alhambra. Period Revival and Spanish Colonial specialists. San Gabriel Valley CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Alhambra. Period Revival and Spanish Colonial specialists. Request a free estimate online.",
   },
   {
     slug: "lakewood",
@@ -1770,7 +1770,7 @@ export const areas: Area[] = [
       { q: "My Lakewood home was built in 1952. Is the original chimney still serviceable?", a: "Possibly — but a Level 2 inspection is essential before continuing use. At 73 years old, the clay tile liner in a Lakewood original will typically show mortar joint separation in at least some sections. Many are still repairable with liner restoration rather than full replacement. The inspection gives you a definitive answer and a repair cost estimate if needed." },
     ],
     metaTitle: "Chimney Services in Lakewood, CA | Los Angeles County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Lakewood. Postwar planned community specialists. Los Angeles County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Lakewood. Postwar planned community specialists. Request a free estimate online.",
   },
   {
     slug: "bellflower",
@@ -1792,7 +1792,7 @@ export const areas: Area[] = [
       { q: "How often should I have my Bellflower chimney inspected?", a: "Annually, per NFPA 211 — and for Bellflower homes built before 1965, a Level 2 camera inspection is overdue if it hasn't been done in the last 5 years. Post-1987 earthquake liner damage in this part of SE LA County remains the most common finding we document in uninspected homes." },
     ],
     metaTitle: "Chimney Services in Bellflower, CA | Southeast LA | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Bellflower. Southeast LA County postwar specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Bellflower. Southeast LA County postwar specialists. Request a free estimate online.",
   },
   {
     slug: "baldwin-park",
@@ -1814,7 +1814,7 @@ export const areas: Area[] = [
       { q: "My Baldwin Park home is from 1948. What chimney services does it need?", a: "A Level 2 camera inspection is the right starting point. A 77-year-old system has been through both major San Gabriel Valley earthquakes and decades of thermal cycling in the inland heat. We inspect the full flue, firebox, damper, crown, and cap, and provide a written report with photos. This age category consistently shows mortar joint separation and damper deterioration." },
     ],
     metaTitle: "Chimney Services in Baldwin Park, CA | San Gabriel Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Baldwin Park. San Gabriel Valley postwar home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Baldwin Park. San Gabriel Valley postwar home specialists. Request a free estimate online.",
   },
 
   // ── Orange County (5 new) ─────────────────────────────────────────────────
@@ -1882,7 +1882,7 @@ export const areas: Area[] = [
       { q: "My 1963 Buena Park home has the original masonry fireplace. How urgent is inspection?", a: "At 62 years old, inspection is overdue if it hasn't been done in the last 5 years. Orange County's 1960s-era masonry chimneys consistently show clay tile liner mortar separation and cracking from thermal cycling and the 1994 Northridge seismic effects. Annual inspection is the NFPA 211 standard; a Level 2 camera scan is specifically recommended for any pre-1975 system." },
     ],
     metaTitle: "Chimney Services in Buena Park, CA | North Orange County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Buena Park. North OC postwar home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Buena Park. North OC postwar home specialists. Request a free estimate online.",
   },
   {
     slug: "lake-forest",
@@ -1950,7 +1950,7 @@ export const areas: Area[] = [
       { q: "Does the Hayward Fault affect chimney safety in San Leandro?", a: "Yes. San Leandro sits between the Hayward Fault and the Oakland Hills, in an area where microseismic activity from the fault contributes to cumulative clay tile liner damage over years. We treat any San Leandro hill-area property that hasn't been camera-inspected in the last 5 years as a priority for Level 2 inspection." },
     ],
     metaTitle: "Chimney Services in San Leandro, CA | Alameda County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in San Leandro. East Bay postwar home and hillside specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in San Leandro. East Bay postwar home and hillside specialists. Request a free estimate online.",
   },
   {
     slug: "livermore",
@@ -1972,7 +1972,7 @@ export const areas: Area[] = [
       { q: "My Livermore home gets very hot in summer and cold in winter. Does that affect my chimney faster?", a: "Yes — significantly. Livermore's temperature range between summer peaks (105°F+) and winter lows (below freezing) is among the widest in the Bay Area, creating thermal cycling in masonry mortar and metal components that we observe accelerating mortar joint failure at rates 30–40% faster than in coastal communities at the same age. Annual inspection and a crown coat sealer every 3–4 years are specifically recommended for Livermore properties." },
     ],
     metaTitle: "Chimney Services in Livermore, CA | Tri-Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Livermore. Tri-Valley and wine country specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Livermore. Tri-Valley and wine country specialists. Request a free estimate online.",
   },
   {
     slug: "alameda",
@@ -2016,7 +2016,7 @@ export const areas: Area[] = [
       { q: "My Pleasanton home from 1984 has a masonry fireplace. Is that unusual for this era?", a: "Not unusual in Pleasanton's custom home tracts from the early 1980s — the Tri-Valley's higher-income market continued to install traditional masonry chimneys through the 1980s, even as factory-built became standard in more affordable markets. A 1984 masonry system is now 41 years old, well within the window for a first comprehensive Level 2 camera inspection." },
     ],
     metaTitle: "Chimney Services in Pleasanton, CA | Tri-Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Pleasanton. Tri-Valley specialists for custom and tract homes. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Pleasanton. Tri-Valley specialists for custom and tract homes. Request a free estimate online.",
   },
   {
     slug: "union-city",
@@ -2038,7 +2038,7 @@ export const areas: Area[] = [
       { q: "How do I know if the Hayward Fault has affected my Union City chimney?", a: "Hayward Fault microseismic activity causes cumulative clay tile liner cracking that is invisible from the firebox opening. The only reliable assessment method is a video camera inspection of the full flue. For Union City properties within a mile of the fault trace — particularly in the foothills east of Dyer Street — we recommend Level 2 inspection every 3–5 years as the minimum standard." },
     ],
     metaTitle: "Chimney Services in Union City, CA | Alameda County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Union City. East Bay specialists for postwar and hillside homes. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Union City. East Bay specialists for postwar and hillside homes. Request a free estimate online.",
   },
 
   // ── San Diego County (1 new) ───────────────────────────────────────────────
@@ -2086,7 +2086,7 @@ export const areas: Area[] = [
       { q: "How does Hesperia's freezing winter affect my chimney differently from valley communities?", a: "At 3,200 feet, Hesperia regularly sees overnight lows below 25°F — temperatures that produce genuine freeze-thaw mortar expansion cycles that are rare in the Inland Empire valley. Water that enters through a cracked crown or gap in the cap freezes overnight and expands, progressively widening micro-cracks. We recommend annual crown inspection and a crown coat sealer every 3 years for Hesperia masonry systems." },
     ],
     metaTitle: "Chimney Services in Hesperia, CA | High Desert | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Hesperia. High desert freeze-thaw specialists. San Bernardino County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Hesperia. High desert freeze-thaw specialists. Request a free estimate online.",
   },
   {
     slug: "chino",
@@ -2108,7 +2108,7 @@ export const areas: Area[] = [
       { q: "My 2008 Chino home in College Park has a gas fireplace. Does it need inspection?", a: "Yes — gas fireplaces need annual inspection for carbon monoxide safety and vent integrity, regardless of whether visible smoke is produced. At 17 years old, the vent connections, burner assembly, and pilot system should be checked. Gas appliances that haven't been inspected in 5+ years commonly show debris accumulation in the burner tray and early corrosion in the vent connection joints." },
     ],
     metaTitle: "Chimney Services in Chino, CA | San Bernardino County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Chino. Inland Empire specialists for all fireplace types. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Chino. Inland Empire specialists for all fireplace types. Request a free estimate online.",
   },
   {
     slug: "chino-hills",
@@ -2174,7 +2174,7 @@ export const areas: Area[] = [
       { q: "My Apple Valley home from 1972 has never been inspected. What's likely wrong with the chimney?", a: "In a 53-year-old High Desert masonry system, the most common findings are: significant mortar joint separation in clay tile liner sections from 50+ years of thermal cycling, a corroded or seized cast-iron damper plate, crown cracking from freeze-thaw cycles, and accumulated debris in the flue from seasonal non-use. We document all of these with a camera and provide a prioritized repair assessment." },
     ],
     metaTitle: "Chimney Services in Apple Valley, CA | High Desert | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Apple Valley. High desert thermal-cycling specialists. San Bernardino County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Apple Valley. High desert thermal-cycling specialists. Request a free estimate online.",
   },
   {
     slug: "redlands",
@@ -2196,7 +2196,7 @@ export const areas: Area[] = [
       { q: "My 1905 Redlands Victorian is in the historic district. Does chimney repair require special approval?", a: "Redlands's historic districts have architectural review guidelines for exterior changes, and chimney repair or cap replacement on historically contributing properties should use period-appropriate materials — lime-based mortars for masonry repair, profile-neutral cap styles, and historically compatible finishes. We carry appropriate materials and can provide documentation for the architectural review process." },
     ],
     metaTitle: "Chimney Services in Redlands, CA | Victorian Inland Empire | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Redlands. Victorian historic district and citrus-era home specialists. Inland Empire CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Redlands. Victorian historic district and citrus-era home specialists. Request a free estimate online.",
   },
 
   // ── Riverside County (3 new) ──────────────────────────────────────────────
@@ -2220,7 +2220,7 @@ export const areas: Area[] = [
       { q: "My Menifee home was built in 2003. Has the fireplace ever needed service?", a: "At 22 years old, yes — this is the right time for a first comprehensive inspection. Factory-built systems at this age commonly show early refractory panel surface cracking, minor damper oxidation, and the first signs of heat shield joint separation. Catching these in the early stage keeps repair costs low. We inspect the full system and provide a written baseline report." },
     ],
     metaTitle: "Chimney Services in Menifee, CA | Southwest Riverside County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Menifee. Sun City and new-build fireplace specialists. Riverside County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Menifee. Sun City and new-build fireplace specialists. Request a free estimate online.",
   },
   {
     slug: "hemet",
@@ -2288,7 +2288,7 @@ export const areas: Area[] = [
       { q: "My Redwood City home is on the Farm Hill slope. Does the hillside location affect my chimney?", a: "Hillside properties in Farm Hill and Edgewood face two concerns beyond those of flat Redwood City homes: elevated wind exposure that can loosen poorly secured caps, and proximity to the open grassland of Edgewood Park (a designated fire-hazard zone) where spark-arrestor cap integrity is directly relevant to wildfire risk. We verify cap attachment security and mesh condition at every annual inspection for hillside-adjacent properties." },
     ],
     metaTitle: "Chimney Services in Redwood City, CA | San Mateo County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Redwood City. Peninsula and hillside specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Redwood City. Peninsula and hillside specialists. Request a free estimate online.",
   },
 
   // ── Santa Clara County (3 new) ────────────────────────────────────────────
@@ -2312,7 +2312,7 @@ export const areas: Area[] = [
       { q: "My 1961 Mountain View home was inspected after the Loma Prieta earthquake but not since. Is another inspection needed?", a: "Yes. A 1989 post-earthquake inspection cleared the immediate damage concerns, but a 36-year gap since then represents significant additional thermal cycling and potential ongoing seismic microcracking from subsequent Bay Area events. The clay tile liner in your 64-year-old system has aged considerably since that inspection. We recommend a current Level 2 camera scan to document today's actual condition." },
     ],
     metaTitle: "Chimney Services in Mountain View, CA | Silicon Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Mountain View. Silicon Valley ranch home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Mountain View. Silicon Valley ranch home specialists. Request a free estimate online.",
   },
   {
     slug: "milpitas",
@@ -2334,7 +2334,7 @@ export const areas: Area[] = [
       { q: "My 1974 Milpitas home is between two fault lines. How often should I inspect the chimney?", a: "Annual inspection is the NFPA 211 minimum, and for Milpitas properties between the Hayward and Calaveras faults we specifically recommend a Level 2 camera scan at least every 3 years rather than relying on visual inspection alone. Microseismic events on both faults contribute to cumulative liner cracking that standard visual assessment cannot detect." },
     ],
     metaTitle: "Chimney Services in Milpitas, CA | Santa Clara County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Milpitas. Fault-zone specialists. Santa Clara County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Milpitas. Fault-zone specialists. Request a free estimate online.",
   },
   {
     slug: "palo-alto",
@@ -2356,7 +2356,7 @@ export const areas: Area[] = [
       { q: "My Professorville Craftsman from 1908 has an original brick fireplace. What's the inspection process?", a: "We start with a visual assessment of the firebox, damper, smoke shelf, and exterior crown, then run a full video camera scan from the flue top. Pre-1920 Palo Alto masonry is typically soft brick with lime mortar — some properties have the original unlined masonry opening without clay tile, built before liner standards existed. The written report includes photos and recommends whether the system needs liner installation to meet current safety standards." },
     ],
     metaTitle: "Chimney Services in Palo Alto, CA | Silicon Valley | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Palo Alto. Stanford-area historic and postwar ranch home specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Palo Alto. Stanford-area historic and postwar ranch home specialists. Request a free estimate online.",
   },
 
   // ── Contra Costa County (1 new) ───────────────────────────────────────────
@@ -2380,7 +2380,7 @@ export const areas: Area[] = [
       { q: "My San Ramon home in Dougherty Valley was built in 2005. When should the fireplace be professionally inspected?", a: "At 20 years old, now is the right time. Dougherty Valley factory-built systems at this age commonly show early refractory panel surface cracking, the first signs of damper plate oxidation, and cap mesh beginning to accumulate debris. A Level 1 inspection establishes the system's current condition and baseline for future maintenance scheduling." },
     ],
     metaTitle: "Chimney Services in San Ramon, CA | Contra Costa County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in San Ramon. Tri-Valley and Dougherty Valley specialists. Contra Costa County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in San Ramon. Tri-Valley and Dougherty Valley specialists. Request a free estimate online.",
   },
 
   // ── Sacramento County (2 new) ─────────────────────────────────────────────
@@ -2404,7 +2404,7 @@ export const areas: Area[] = [
       { q: "My 1962 Citrus Heights home has had the same fireplace since it was built. What should I expect at inspection?", a: "A 63-year-old Sacramento-area masonry system typically shows: clay tile liner mortar joint separation in 2–4 sections (very common in Tule fog climates), a corroded original cast-iron damper plate, crown hairline cracking, and in many cases stage 2 creosote if the fireplace has been used regularly. The Level 2 camera inspection documents all of this with photos and a prioritized maintenance plan." },
     ],
     metaTitle: "Chimney Services in Citrus Heights, CA | Sacramento County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Citrus Heights. Sacramento suburb specialists. SMAQMD-aware CSIA-certified service. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Citrus Heights. Sacramento suburb specialists. Request a free estimate online.",
   },
   {
     slug: "folsom",
@@ -2426,7 +2426,7 @@ export const areas: Area[] = [
       { q: "My Folsom home in American River Canyon backs up to the American River Parkway open space. Does that affect my chimney?", a: "Yes. Properties backing the American River Parkway corridor — particularly on the canyon rim above the river — are adjacent to riparian woodland designated as a high fire-hazard zone during dry months. A spark-arrestor cap with intact 5/8-inch mesh is strongly recommended, and annual inspection to verify cap integrity and flue cleanliness is the appropriate maintenance standard." },
     ],
     metaTitle: "Chimney Services in Folsom, CA | Sacramento County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Folsom. Historic district and new-build specialists. Sacramento County CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Folsom. Historic district and new-build specialists. Request a free estimate online.",
   },
 
   // ── San Joaquin County (2 new) ────────────────────────────────────────────
@@ -2516,7 +2516,7 @@ export const areas: Area[] = [
       { q: "My Redding home is near the Carr Fire perimeter but wasn't directly burned. Should I still inspect the chimney?", a: "Yes. Structures within a half-mile of the Carr Fire perimeter — and in some cases up to a mile — experienced radiant heat exposure that warps metal chimney components and can crack clay tile liner sections without visible exterior flame damage. We have documented damper and liner damage in homes a full block outside direct fire perimeters from the 2018 event. Post-fire inspection is warranted for any Redding property in the Carr perimeter zone." },
     ],
     metaTitle: "Chimney Services in Redding, CA | Shasta County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Redding. Post-Carr Fire specialists and Northern California CSIA-certified service. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Redding. Post-Carr Fire area specialists. Request a free estimate online.",
   },
   {
     slug: "chico",
@@ -2537,7 +2537,7 @@ export const areas: Area[] = [
       { q: "My Chico home was covered in ash during the Camp Fire. Do I need to clean the chimney?", a: "Yes, if you haven't done so since 2018. Camp Fire ash is a fine particulate that settles into chimney flues and, when mixed with moisture, can form a hardened deposit that restricts draft. Any Chico home that was occupied in November 2018 and hasn't had a post-fire chimney cleaning should schedule one before the next fireplace season. We also inspect the liner and cap for any heat damage from the event's extreme radiant exposure." },
     ],
     metaTitle: "Chimney Services in Chico, CA | Butte County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Chico. Northern California and post-Camp Fire specialists. CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Chico. Northern California and post-Camp Fire specialists. Request a free estimate online.",
   },
   {
     slug: "merced",
@@ -2558,7 +2558,7 @@ export const areas: Area[] = [
       { q: "My Merced Victorian from 1915 has the original fireplace. Is it usable?", a: "Possibly, but only after a Level 2 inspection. Pre-1920 Central Valley masonry often has either no clay tile liner or early-installed tile that has deteriorated significantly over 100+ years of thermal cycling in the valley's extreme climate. We camera-inspect the full flue and provide a written assessment of whether the system can be safely operated and what liner work, if any, is needed." },
     ],
     metaTitle: "Chimney Services in Merced, CA | Merced County | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Merced. Central Valley and historic home specialists. SJVAPCD-aware CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Merced. Central Valley and historic home specialists. Request a free estimate online.",
   },
   {
     slug: "napa",
@@ -2579,7 +2579,7 @@ export const areas: Area[] = [
       { q: "My Napa Victorian wasn't obviously damaged in the 2014 earthquake. Do I still need a chimney inspection?", a: "Yes — this is exactly the scenario where camera inspection is most important. External chimney appearance is a very poor predictor of internal liner condition after a seismic event. The 2014 South Napa earthquake cracked clay tile liner sections in homes throughout Old Town and Fuller Park that showed no visible exterior damage. If your system hasn't been camera-inspected since August 2014, we recommend scheduling one before next heating season." },
     ],
     metaTitle: "Chimney Services in Napa, CA | Wine Country | Chimney Peak California",
-    metaDescription: "Chimney cleaning and inspection in Napa. Post-2014 earthquake and Victorian specialists. North Bay CSIA-certified. Request a free estimate online.",
+    metaDescription: "Chimney cleaning and inspection in Napa. Post-2014 earthquake and Victorian specialists. Request a free estimate online.",
   },
   {
     slug: "turlock",

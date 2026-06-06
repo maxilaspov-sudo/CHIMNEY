@@ -26,7 +26,7 @@ export const serviceCategories: ServiceCategory[] = [
         slug: "chimney-sweep",
         name: "Chimney Sweep",
         shortDesc:
-          "CSIA-certified chimney sweep including NFPA 211 Level 1 inspection and full flue cleaning.",
+          "Professional chimney sweep including NFPA 211 Level 1 inspection and full flue cleaning.",
         parentHref: "/services/chimney-sweep/",
         isMajor: true,
       },

@@ -11,7 +11,7 @@ import TrustBadges from "@/components/TrustBadges";
 export const metadata: Metadata = {
   title: "Fireplace Installation in California | Wood, Gas & Electric | Chimney Peak California",
   description:
-    "Professional fireplace installation across California — wood-burning, gas, electric, and prefabricated. Permits handled. CSIA-certified technicians. Free estimate.",
+    "Professional fireplace installation across California — wood-burning, gas, electric, and prefabricated. Permits handled. Licensed technicians. Free estimate.",
   alternates: { canonical: "/services/fireplace-installation/" },
   openGraph: {
     title: "Fireplace Installation in California | Wood, Gas & Electric | Chimney Peak California",
@@ -99,7 +99,7 @@ const serviceSchema = {
   "@type": "Service",
   name: "Fireplace Installation",
   description:
-    "Professional fireplace installation across California — wood-burning, gas, electric, and prefabricated. Permits handled. CSIA-certified technicians.",
+    "Professional fireplace installation across California — wood-burning, gas, electric, and prefabricated. Permits handled. Licensed technicians.",
   provider: {
     "@type": "LocalBusiness",
     name: SITE.name,

@@ -11,7 +11,7 @@ import TrustBadges from "@/components/TrustBadges";
 export const metadata: Metadata = {
   title: "Chimney Crown Repair in California | Stop Water Damage | Chimney Peak California",
   description:
-    "Chimney crown repair across California. Cracked or failed crowns rebuilt to stop water infiltration. CSIA-certified masons. Free estimate.",
+    "Chimney crown repair across California. Cracked or failed crowns rebuilt to stop water infiltration. Licensed masonry professionals. Free estimate.",
   alternates: { canonical: "/services/chimney-crown-repair/" },
   openGraph: {
     title: "Chimney Crown Repair in California | Chimney Peak California",
@@ -107,7 +107,7 @@ const serviceSchema = {
   "@type": "Service",
   name: "Chimney Crown Repair",
   description:
-    "Chimney crown repair and rebuilding across California — cracked or deteriorated crowns repaired or rebuilt to NFPA 211 spec by CSIA-certified masons.",
+    "Chimney crown repair and rebuilding across California — cracked or deteriorated crowns repaired or rebuilt to NFPA 211 spec by licensed masonry professionals.",
   provider: {
     "@type": "LocalBusiness",
     name: SITE.name,

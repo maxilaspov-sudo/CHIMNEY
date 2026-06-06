@@ -10,7 +10,7 @@ import { SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Chimney & Fireplace Advice for California Homeowners | Chimney Peak California",
   description:
-    "Practical chimney cleaning, repair, safety, and fireplace advice from CSIA-certified technicians. Written for California homeowners — no fluff, no upsell.",
+    "Practical chimney cleaning, repair, safety, and fireplace advice from professional chimney technicians. Written for California homeowners — no fluff, no upsell.",
   alternates: { canonical: "/blog/" },
   openGraph: {
     title: "Chimney & Fireplace Blog | Chimney Peak California",
@@ -51,7 +51,7 @@ export default function BlogPage() {
             Chimney Tips &amp; Home Safety
           </h1>
           <p className="text-gray-300 text-xl max-w-2xl">
-            Practical advice from CSIA-certified technicians — no fluff, no upsell.
+            Practical advice from professional chimney technicians — no fluff, no upsell.
           </p>
         </div>
       </section>
@@ -145,7 +145,7 @@ export default function BlogPage() {
 
       <CTABanner
         heading="Have a chimney question not covered here?"
-        subtext="Ask our CSIA-certified team directly — we answer questions before you book."
+        subtext="Ask our team directly — we answer questions before you book."
       />
     </>
   );

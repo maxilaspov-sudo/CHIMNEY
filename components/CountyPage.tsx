@@ -88,7 +88,7 @@ export default function CountyPage({ county }: CountyPageProps) {
               Chimney Services in<br />{county.name}, CA
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 max-w-2xl">
-              CSIA-certified chimney cleaning, repair, and inspection throughout {county.name}.
+              Professional chimney cleaning, chimney repair, chimney inspection, chimney sweep, fireplace repair, and dryer vent cleaning across {county.name} County. Serving homeowners with chimney and fireplace services.
               Same-week appointments. Written reports. Flat pricing.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
@@ -269,7 +269,7 @@ export default function CountyPage({ county }: CountyPageProps) {
                 <h3 className="font-semibold text-gray-900 mb-3 text-sm">Why Choose Us in {county.shortName} County</h3>
                 <ul className="space-y-2 text-xs text-gray-600">
                   {[
-                    "CSIA-certified technicians dispatched locally",
+                    "Trained, licensed technicians dispatched locally",
                     `${SITE.yearsInBusiness}+ years serving California`,
                     "Flat pricing — no surprise add-ons",
                     "Written NFPA 211 report included",

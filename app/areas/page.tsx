@@ -11,12 +11,12 @@ import { areas } from "@/lib/areas";
 export const metadata: Metadata = {
   title: "Chimney Service Areas in California | Chimney Peak California",
   description:
-    "CSIA-certified chimney cleaning, repair, and inspection across all of California. Serving Los Angeles, San Diego, San Francisco, Sacramento, and 120+ cities statewide.",
+    "Professional chimney cleaning, chimney repair, chimney inspection, chimney sweep, fireplace repair, and dryer vent cleaning across California. Serving Los Angeles, San Diego, San Francisco, Sacramento, and 120+ cities statewide.",
   alternates: { canonical: "/areas/" },
   openGraph: {
     title: "Chimney Service Areas in California | Chimney Peak California",
     description:
-      "Find your California city. CSIA-certified chimney services in Southern California, Bay Area, Central Valley, Central Coast, and Wine Country.",
+      "Find your California city. Professional chimney services in Southern California, Bay Area, Central Valley, Central Coast, and Wine Country.",
     url: "/areas/",
     images: [{ url: "/og/home.jpg", width: 1200, height: 630 }],
   },
@@ -73,7 +73,7 @@ export default function AreasIndexPage() {
             </h1>
             <p className="text-gray-300 text-xl leading-relaxed mb-6 max-w-2xl">
               Proudly serving homeowners throughout California.
-              CSIA-certified chimney cleaning, repair, and inspection in every major city.
+              Professional chimney cleaning, repair, and inspection in every major city.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/contact/" className="btn-primary">Request Free Estimate</Link>
@@ -244,7 +244,7 @@ export default function AreasIndexPage() {
               Services Available in Every California City
             </h2>
             <p className="text-gray-500 max-w-xl mx-auto">
-              Every CSIA-certified service we offer is available across our full California dispatch area.
+              Every service we offer is available across our full California dispatch area.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -274,7 +274,7 @@ export default function AreasIndexPage() {
                 Get a Free Estimate in Your City
               </h2>
               <p className="text-gray-500 leading-relaxed mb-6">
-                Tell us your city and the service you need. We&apos;ll match you with an available CSIA-certified technician and respond within 2 business hours.
+                Tell us your city and the service you need. We&apos;ll match you with an available trained chimney technician and respond within 2 business hours.
               </p>
               <div className="bg-[#F8FAFC] rounded-xl border border-gray-100 p-5">
                 <p className="text-sm font-semibold text-gray-900 mb-3">Why choose us statewide:</p>
@@ -298,7 +298,7 @@ export default function AreasIndexPage() {
         </div>
       </section>
 
-      <CTABanner heading="Serving all of California since 2009" subtext="CSIA-certified. Licensed. Same-week scheduling." />
+      <CTABanner heading="Serving all of California since 2009" subtext="Licensed &amp; Insured. Same-week scheduling." />
     </>
   );
 }

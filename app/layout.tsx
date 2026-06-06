@@ -18,11 +18,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.baseUrl),
   title: {
-    default: `${SITE.name} | CSIA-Certified Chimney Services`,
+    default: `${SITE.name} | Professional Chimney Services`,
     template: "%s",
   },
   description:
-    "California's trusted chimney cleaning, repair, and inspection specialists. CSIA-certified technicians. Serving Los Angeles, San Diego, San Francisco, Sacramento, and all of California.",
+    "California's trusted chimney cleaning, repair, and inspection specialists. Licensed and insured technicians. Serving Los Angeles, San Diego, San Francisco, Sacramento, and all of California.",
   keywords: [
     "chimney cleaning California",
     "chimney sweep",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "dryer vent cleaning",
     "chimney cap installation",
     "chimney liner repair",
-    "CSIA certified",
+    "licensed chimney technicians",
   ],
   authors: [{ name: SITE.name }],
   robots: {
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
           url: "/og/home.jpg",
           width: 1200,
           height: 630,
-          alt: "Chimney Peak California — CSIA-Certified Chimney Cleaning, Repair & Inspection",
+          alt: "Chimney Peak California — Professional Chimney Cleaning, Repair & Inspection",
         },
       ],
   },

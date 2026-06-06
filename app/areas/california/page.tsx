@@ -47,7 +47,7 @@ const CALIFORNIA_FAQS = [
   },
   {
     q: "Do you provide Level 2 inspections for California home sales?",
-    a: "Yes. We provide NFPA 211 Level 2 chimney inspections for real estate transactions throughout California. Our written reports include the technician's CSIA certification number and are accepted by all major California lenders, escrow companies, and insurers. Same-day report delivery is available for time-sensitive closings.",
+    a: "Yes. We provide NFPA 211 Level 2 chimney inspections for real estate transactions throughout California. Our written reports are accepted by all major California lenders, escrow companies, and insurers. Same-day report delivery is available for time-sensitive closings.",
   },
 ];
 
@@ -165,7 +165,7 @@ export default function CaliforniaPage() {
               Chimney Services<br />Across California
             </h1>
             <p className="text-gray-200 text-lg mb-6 leading-relaxed">
-              CSIA-certified chimney cleaning, repair, and inspection from San Diego to Santa Rosa.
+              Professional chimney cleaning, repair, and inspection from San Diego to Santa Rosa.
               Same-week appointments. Written reports. Flat pricing statewide.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mb-6">
@@ -177,7 +177,7 @@ export default function CaliforniaPage() {
               </a>
             </div>
             <div className="flex flex-wrap gap-3 text-sm text-gray-300">
-              <span className="flex items-center gap-1"><CheckIcon /> CSIA Certified</span>
+              <span className="flex items-center gap-1"><CheckIcon /> Licensed &amp; Insured</span>
               <span className="flex items-center gap-1"><CheckIcon /> 120+ Cities</span>
               <span className="flex items-center gap-1"><CheckIcon /> {SITE.googleRating}★ Rated</span>
             </div>
@@ -373,7 +373,7 @@ export default function CaliforniaPage() {
               {/* Quick trust points */}
               <div className="space-y-3 mb-6">
                 {[
-                  { label: "CSIA-certified technician dispatched to your address" },
+                  { label: "Trained chimney technician dispatched to your address" },
                   { label: "Flat pricing — quoted before we arrive" },
                   { label: "Written NFPA 211 inspection report included" },
                   { label: `Same-week availability in most California cities` },
@@ -410,7 +410,7 @@ export default function CaliforniaPage() {
         addSchema={true}
       />
 
-      <CTABanner heading="Serving California homeowners since 2009" subtext="CSIA-certified. Licensed. Same-week scheduling statewide." />
+      <CTABanner heading="Serving California homeowners since 2009" subtext="Licensed &amp; Insured. Same-week scheduling statewide." />
 
       {/* Bottom internal links */}
       <section className="py-8 bg-white border-t border-gray-100">

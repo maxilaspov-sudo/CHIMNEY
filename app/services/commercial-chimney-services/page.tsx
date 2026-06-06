@@ -124,7 +124,7 @@ export default function CommercialChimneyServicesPage() {
         <div className="relative z-10 container-base py-16 md:py-20">
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 text-orange-400 text-xs font-bold px-4 py-2 rounded-full mb-5 uppercase tracking-wide">
-              Licensed &amp; Insured · CSIA Certified
+              Licensed &amp; Insured · Professional Service
             </div>
             <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
               Commercial Chimney Services in California

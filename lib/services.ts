@@ -1,4 +1,4 @@
-﻿export interface FAQ {
+export interface FAQ {
   q: string;
   a: string;
 }
@@ -85,14 +85,14 @@ export const services: Service[] = [
     ],
     metaTitle: "Chimney Cleaning Service in California — Annual Maintenance | Chimney Peak California",
     metaDescription:
-      "Professional annual chimney cleaning across California. CSIA-certified technicians remove creosote and soot, improve draft, and provide a written condition report. Free estimate.",
+      "Professional annual chimney cleaning across California. Trained chimney technicians remove creosote and soot, improve draft, and provide a written condition report. Free estimate.",
   },
   {
     slug: "chimney-sweep",
     name: "Chimney Sweep",
     tagline: "Certified chimney sweeps serving California homes since 2009",
     shortDesc:
-      "Our CSIA-certified chimney sweeps inspect and clean wood-burning fireplaces, gas inserts, and factory-built fireplaces to current NFPA 211 standards.",
+      "Our professional chimney sweeps inspect and clean wood-burning fireplaces, gas inserts, and factory-built fireplaces to current NFPA 211 standards.",
     longDesc:
       "A chimney sweep covers more ground than a cleaning alone. We check for cracks in the flue liner, deteriorated mortar joints, a faulty damper, missing spark arrestors, and animal nesting material. The inspection portion follows NFPA 211 Level 1 protocol, which is the minimum standard for any chimney in regular use. We document every finding with notes and, when possible, camera images, then walk you through any repairs before we leave.",
     heroImage: "/images/chimney-sweep.jpg",
@@ -102,7 +102,7 @@ export const services: Service[] = [
     price: "Free estimate",
     duration: "1.5–2.5 hours",
     benefits: [
-      "CSIA-certified technicians on every job",
+      "Trained chimney technicians on every job",
       "Written Level 1 inspection report included",
       "Catches damage early before it becomes expensive",
       "Verifies damper, cap, and spark arrestor function",
@@ -140,13 +140,13 @@ export const services: Service[] = [
         a: "Yes. Gas appliances produce moisture and can allow wildlife to nest. An annual inspection catches carbon monoxide risks and verifies the liner is intact.",
       },
       {
-        q: "Are your technicians CSIA certified?",
-        a: "Yes. Every field technician carries a current CSIA (Chimney Safety Institute of America) certification.",
+        q: "Are your technicians trained and licensed?",
+        a: "Yes. Every field technician is trained to NFPA 211 standards and carries current professional credentials.",
       },
     ],
-    metaTitle: "CSIA-Certified Chimney Sweep in California | Chimney Peak California",
+    metaTitle: "Professional Chimney Sweep in California | Chimney Peak California",
     metaDescription:
-      "Hire a CSIA-certified chimney sweep in California. Every service includes a Level 1 NFPA 211 inspection, written report, and full flue cleaning. Same-week appointments. Free estimate.",
+      "Hire a professional chimney sweep in California. Every service includes a Level 1 NFPA 211 inspection, written report, and full flue cleaning. Same-week appointments. Free estimate.",
   },
   {
     slug: "chimney-inspection",
@@ -201,7 +201,7 @@ export const services: Service[] = [
       },
       {
         q: "Will my insurance company accept your report?",
-        a: "Yes. Our reports include the technician's CSIA certification number, which all major California insurers accept.",
+        a: "Yes. Our written reports are accepted by all major California insurers and include full technician credentials.",
       },
     ],
     metaTitle: "Chimney Inspection in California | Level 1, 2 & 3 | Chimney Peak California",

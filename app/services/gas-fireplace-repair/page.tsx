@@ -9,14 +9,14 @@ import CTABanner from "@/components/CTABanner";
 import TrustBadges from "@/components/TrustBadges";
 
 export const metadata: Metadata = {
-  title: "Gas Fireplace Repair in California | CSIA-Certified | Chimney Peak California",
+  title: "Gas Fireplace Repair in California | Professional Service | Chimney Peak California",
   description:
-    "Gas fireplace repair across California. Pilot lights, thermocouples, burners, and igniters serviced. CSIA-certified. Free estimate.",
+    "Gas fireplace repair across California. Pilot lights, thermocouples, burners, and igniters serviced. Licensed technicians. Free estimate.",
   alternates: { canonical: "/services/gas-fireplace-repair/" },
   openGraph: {
-    title: "Gas Fireplace Repair in California | CSIA-Certified | Chimney Peak California",
+    title: "Gas Fireplace Repair in California | Professional Service | Chimney Peak California",
     description:
-      "Gas fireplace repair across California — pilot lights, thermocouples, burners, and ignition systems. CSIA-certified. Free estimate.",
+      "Gas fireplace repair across California — pilot lights, thermocouples, burners, and ignition systems. Licensed technicians. Free estimate.",
     url: "/services/gas-fireplace-repair/",
     images: [
       {
@@ -116,7 +116,7 @@ const serviceSchema = {
   "@type": "Service",
   name: "Gas Fireplace Repair",
   description:
-    "Gas fireplace repair across California — pilot lights, thermocouples, burners, igniters, and gas valve service by CSIA-certified technicians.",
+    "Gas fireplace repair across California — pilot lights, thermocouples, burners, igniters, and gas valve service by trained chimney technicians.",
   provider: {
     "@type": "LocalBusiness",
     name: SITE.name,
@@ -195,7 +195,7 @@ export default function GasFireplaceRepairPage() {
               Gas Fireplace Repair in California
             </h1>
             <p className="text-gray-200 text-lg mb-6 leading-relaxed">
-              CSIA-certified technicians diagnose and repair gas fireplace ignition, pilot, burner, and control problems across California.
+              Professional chimney technicians diagnose and repair gas fireplace ignition, pilot, burner, and control problems across California.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/contact/" className="btn-primary">
@@ -272,7 +272,7 @@ export default function GasFireplaceRepairPage() {
                 </h2>
                 <ul className="grid sm:grid-cols-2 gap-3">
                   {[
-                    "Gas valve work involves pressurized fuel lines — CSIA certification covers the diagnostic protocol",
+                    "Gas valve work involves pressurized fuel lines — professional gas appliance training covers the diagnostic protocol",
                     "Manufacturer warranties on gas fireplace units typically require professional service for repair",
                     "Correct thermocouple millivolt range varies by model and requires a meter to verify",
                     "Vent connection integrity must be confirmed after any gas component repair",

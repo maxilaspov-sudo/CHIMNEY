@@ -61,14 +61,14 @@ export default function ServicesIndexPage() {
         <div className="relative z-10 container-base">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 text-orange-400 text-xs font-bold px-4 py-2 rounded-full mb-5 uppercase tracking-wide">
-              CSIA Certified · Licensed &amp; Insured
+              Licensed &amp; Insured · Professional Service
             </div>
             <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
               Our Chimney Services
             </h1>
             <p className="text-gray-300 text-xl leading-relaxed mb-6 max-w-2xl">
               Complete chimney care to keep your home safe, warm, and efficient.
-              {" "}{totalServices} services by CSIA-certified technicians.
+              {" "}{totalServices} services by trained, licensed technicians.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/contact/" className="btn-primary">Request Free Estimate</Link>

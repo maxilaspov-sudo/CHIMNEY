@@ -46,12 +46,12 @@ export default function Header() {
               <span className="ml-1">{SITE.googleRating} Google Rating</span>
             </span>
             <span className="text-gray-600">|</span>
-            <span>Licensed &amp; CSIA Certified</span>
+            <span>Licensed &amp; Insured</span>
           </span>
           {/* Mobile: condensed single line */}
           <span className="flex sm:hidden items-center gap-1 text-gray-400">
             <StarRow />
-            <span className="ml-1">{SITE.googleRating} · Licensed &amp; CSIA Certified</span>
+            <span className="ml-1">{SITE.googleRating} · Licensed &amp; Insured</span>
           </span>
           <Link
             href="/contact/"

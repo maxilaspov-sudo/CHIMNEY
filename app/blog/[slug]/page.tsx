@@ -313,7 +313,7 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="bg-[#1E3A5F] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-2">Have a question?</h3>
                 <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-                  Our CSIA-certified technicians answer questions before you book — no obligation.
+                  Our professional chimney technicians answer questions before you book — no obligation.
                 </p>
                 <Link href="/contact/" className="btn-primary w-full justify-center mb-3 block">
                   Request Free Estimate
@@ -351,7 +351,7 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="bg-white border border-gray-100 rounded-xl p-5">
                 <h3 className="font-semibold text-gray-900 mb-2 text-sm">Serving All of California</h3>
                 <p className="text-xs text-gray-500 mb-3 leading-relaxed">
-                  We dispatch CSIA-certified technicians to all major California cities.
+                  We dispatch trained chimney technicians to all major California cities.
                 </p>
                 <Link href="/areas/california/" className="text-sm text-orange-500 hover:underline font-medium">
                   View all service areas →

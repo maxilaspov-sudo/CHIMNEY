@@ -139,7 +139,7 @@ const CHIP_LINKS = [
 ];
 
 const WHY_BULLETS = [
-  "Experienced & CSIA Certified Technicians",
+  "Experienced & Licensed Chimney Technicians",
   "Upfront Pricing — No Hidden Fees",
   "Top Rated by Your Neighbors",
   "Proudly Serving All of California",
@@ -265,7 +265,7 @@ export default function HomePage() {
             {/* Rating pill */}
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white text-xs font-semibold px-4 py-2 rounded-full mb-6">
               <span className="text-yellow-400">★★★★★</span>
-              <span>{SITE.googleRating} Google Rating · CSIA Certified · Free Estimates</span>
+              <span>{SITE.googleRating} Google Rating · Licensed &amp; Insured · Free Estimates</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-white leading-[1.1] mb-5">
@@ -329,7 +329,7 @@ export default function HomePage() {
             </p>
             <div className="border-t border-gray-100 pt-4 space-y-1.5">
               <p className="text-xs text-gray-600 flex items-center gap-1.5">
-                <GreenCheck /> CSIA Certified Technicians
+                <GreenCheck /> Licensed &amp; Insured Technicians
               </p>
               <p className="text-xs text-gray-600 flex items-center gap-1.5">
                 <GreenCheck /> Licensed &amp; Insured
@@ -553,7 +553,7 @@ export default function HomePage() {
               {/* Stats row */}
               <div className="grid grid-cols-3 gap-4 mt-8 pt-6 border-t border-gray-200">
                 {[
-                  { n: "CSIA", l: "Certified\nTechnicians" },
+                  { n: "100%", l: "Licensed\n& Insured" },
                   { n: "Free", l: "Estimate\nAvailable" },
                   { n: SITE.googleRating + "★", l: "Google\nRating" },
                 ].map((s, i) => (
@@ -651,7 +651,7 @@ export default function HomePage() {
                 Proudly Serving All<br className="hidden sm:block" /> of California
               </h2>
               <p className="text-gray-500 mb-5 leading-relaxed">
-                We dispatch CSIA-certified technicians to every major California city.
+                We dispatch trained chimney technicians to every major California city.
                 If your city isn&apos;t listed, reach out — we likely cover your area.
               </p>
 

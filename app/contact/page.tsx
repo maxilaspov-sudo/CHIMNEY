@@ -97,7 +97,7 @@ export default function ContactPage() {
                   {[
                     "We respond within 2 hours during business hours",
                     "Flat pricing quoted before any work begins",
-                    "CSIA-certified technician dispatched",
+                    "Trained, licensed technician dispatched",
                     "Written inspection report included",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2">

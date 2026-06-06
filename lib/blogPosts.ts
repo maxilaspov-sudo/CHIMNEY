@@ -56,7 +56,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Standard for Chimneys, Fireplaces, Vents, and Solid Fuel-Burning Appliances", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "Chimney Safety Institute of America (CSIA)", url: "https://www.csia.org" },
+      { name: "National Fire Protection Association (NFPA)", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -120,7 +120,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "When to Call a Professional",
         anchor: "when-to-call",
-        body: "Call a CSIA-certified chimney sweep for your annual cleaning and inspection. Between those appointments, call immediately if you hear roaring or rumbling from the chimney during a fire, notice cracks in the firebox walls, or see daylight through the mortar joints when looking up from the fireplace.\n\nDIY chimney cleaning kits exist, but they address only stage 1 creosote. They don't remove glazed deposits, don't include a written inspection report, and don't tell you whether the liner is cracked. They're better than nothing, but they're not a substitute for a certified inspection.",
+        body: "Call a professional chimney sweep for your annual cleaning and inspection. Between those appointments, call immediately if you hear roaring or rumbling from the chimney during a fire, notice cracks in the firebox walls, or see daylight through the mortar joints when looking up from the fireplace.\n\nDIY chimney cleaning kits exist, but they address only stage 1 creosote. They don't remove glazed deposits, don't include a written inspection report, and don't tell you whether the liner is cracked. They're better than nothing, but they're not a substitute for a certified inspection.",
         callout: "Not sure how long it's been since your last cleaning? If you can't remember, it's been too long. Schedule an inspection — the technician can assess the buildup and tell you where things stand.",
       },
     ],
@@ -151,7 +151,7 @@ export const blogPosts: BlogPost[] = [
       { name: "Chimney Inspection", href: "/services/chimney-inspection/" },
     ],
     sources: [
-      { name: "CSIA: What Is a Chimney Sweep?", url: "https://www.csia.org" },
+      { name: "NFPA: Chimney Sweeping Standards", url: "https://www.nfpa.org" },
       { name: "NFPA 211: Chimney Inspection Standards", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
     ],
     faqs: [
@@ -181,7 +181,7 @@ export const blogPosts: BlogPost[] = [
         heading: "A Chimney Sweep: Cleaning Plus Inspection",
         anchor: "chimney-sweep",
         body: "A chimney sweep is a more complete service. It combines the physical cleaning with a formal NFPA 211 Level 1 inspection — a structured assessment of all accessible parts of the chimney system.\n\nThe Level 1 inspection covers the firebox walls and floor, the damper plate and frame, the smoke shelf, the flue interior (with a flashlight and mirror at minimum, upgraded to a camera if needed), the chimney crown, the cap, and the visible exterior masonry. The technician documents the condition of each component and provides a written report at the end of the visit.\n\nThat written report is what your homeowner's insurance carrier wants to see. It's also what a real estate attorney will ask for if you're buying or selling a home.",
-        callout: "CSIA-certified sweeps are trained to the specific NFPA 211 standard. The certification matters — not every technician offering a 'sweep' service has earned it.",
+        callout: "professional chimney sweeps are trained to the specific NFPA 211 standard. The certification matters — not every technician offering a 'sweep' service has earned it.",
       },
       {
         heading: "Which One Do You Actually Need?",
@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "The Terminology Problem",
         anchor: "terminology",
-        body: "The chimney industry uses these terms inconsistently. Some companies call their full inspection-plus-cleaning service a 'cleaning.' Others call a bare-bones visual once-over a 'sweep.' Before you book, ask two questions:\n\n'Does this include a written inspection report?' — If yes, you're getting a sweep-level service regardless of what they call it.\n\n'Is your technician CSIA certified?' — If yes, the inspection follows NFPA 211 protocol. If no, you're paying for someone to brush a flue without the training to assess what they find.",
+        body: "The chimney industry uses these terms inconsistently. Some companies call their full inspection-plus-cleaning service a 'cleaning.' Others call a bare-bones visual once-over a 'sweep.' Before you book, ask two questions:\n\n'Does this include a written inspection report?' — If yes, you're getting a sweep-level service regardless of what they call it.\n\n'Does your technician follow NFPA 211 protocol?' — If yes, the inspection is performed to the proper standard. If no, you're paying for someone to brush a flue without the training to assess what they find.",
       },
       {
         heading: "When to Call a Professional",
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Chimney and Fireplace Standard", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "Chimney Safety Institute of America", url: "https://www.csia.org" },
+      { name: "Chimney Safety Institute of America", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -316,7 +316,7 @@ export const blogPosts: BlogPost[] = [
       { name: "Chimney Repair", href: "/services/chimney-repair/" },
     ],
     sources: [
-      { name: "CSIA: Draft and Venting Resources", url: "https://www.csia.org" },
+      { name: "NFPA: Venting and Draft Resources", url: "https://www.nfpa.org" },
       { name: "NFPA 211 — Fireplace and Chimney Standards", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
     ],
     faqs: [
@@ -366,7 +366,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "When to Call a Professional",
         anchor: "when-to-call",
-        body: "Stop using the fireplace if smoke is entering the living space and you don't know why. Call a CSIA-certified technician for an inspection. The most dangerous cause — a cracked or collapsed flue tile that allows combustion gases to enter the home through the wall — is invisible without a video camera inspection.\n\nA cleaning alone won't fix a draft problem caused by negative air pressure or improper firebox dimensions. The inspection identifies which fix applies to your situation.",
+        body: "Stop using the fireplace if smoke is entering the living space and you don't know why. Call a trained chimney technician for an inspection. The most dangerous cause — a cracked or collapsed flue tile that allows combustion gases to enter the home through the wall — is invisible without a video camera inspection.\n\nA cleaning alone won't fix a draft problem caused by negative air pressure or improper firebox dimensions. The inspection identifies which fix applies to your situation.",
       },
     ],
   },
@@ -379,7 +379,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Creosote is a byproduct of burning wood that coats your chimney flue — and at stage 3, it can catch fire and burn at 2,000°F. Here's what you need to know.",
     excerpt:
-      "Stage 1 creosote sweeps out easily. Stage 3 can ignite inside your flue and burn for hours. A CSIA-certified technician explains the difference and what to do about each.",
+      "Stage 1 creosote sweeps out easily. Stage 3 can ignite inside your flue and burn for hours. A trained chimney technician explains the difference and what to do about each.",
     category: "Safety",
     author: "Chimney Peak California Team",
     publishDate: "2025-04-10",
@@ -397,7 +397,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Standard for Chimneys, Fireplaces, and Vents", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "Chimney Safety Institute of America — Creosote Resources", url: "https://www.csia.org" },
+      { name: "Chimney Safety Institute of America — Creosote Resources", url: "https://www.nfpa.org" },
       { name: "U.S. Fire Administration: Residential Building Fires", url: "https://www.usfa.fema.gov" },
     ],
     faqs: [
@@ -447,7 +447,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "When to Call a Professional",
         anchor: "when-to-call",
-        body: "If you're burning wood, book an annual chimney cleaning with a CSIA-certified sweep. That's the minimum. If you burn heavily or use unseasoned wood, consider twice-yearly cleanings.\n\nIf you hear a loud roaring sound coming from your chimney during a fire — louder than normal, like a freight train — stop the fire if it's safe to do so, close the damper, and call immediately. That sound is a chimney fire. It is not always visible from outside, and it can burn for hours inside the flue before anyone notices.",
+        body: "If you're burning wood, book an annual chimney cleaning with a professional chimney sweep. That's the minimum. If you burn heavily or use unseasoned wood, consider twice-yearly cleanings.\n\nIf you hear a loud roaring sound coming from your chimney during a fire — louder than normal, like a freight train — stop the fire if it's safe to do so, close the damper, and call immediately. That sound is a chimney fire. It is not always visible from outside, and it can burn for hours inside the flue before anyone notices.",
       },
     ],
   },
@@ -477,7 +477,7 @@ export const blogPosts: BlogPost[] = [
       { name: "Chimney Inspection", href: "/services/chimney-inspection/" },
     ],
     sources: [
-      { name: "CSIA: Consumer Guide to Chimney Safety", url: "https://www.csia.org" },
+      { name: "NFPA: Consumer Guide to Chimney Safety", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -529,7 +529,7 @@ export const blogPosts: BlogPost[] = [
           "Prices quoted without seeing the chimney — specific flat prices over the phone before the technician has assessed the condition",
           "High-pressure urgency — 'this is a fire hazard and needs to be fixed today' with a large repair quote invented on the spot",
           "No written quote before starting additional work",
-          "Technicians who can't show a CSIA certification card on request",
+          "Technicians who can't provide proof of professional credentials on request",
           "No company address or license number when you ask",
         ],
       },
@@ -649,7 +649,7 @@ export const blogPosts: BlogPost[] = [
       { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/" },
     ],
     sources: [
-      { name: "CSIA: Water Damage and Chimneys", url: "https://www.csia.org" },
+      { name: "NFPA: Water Damage and Chimneys", url: "https://www.nfpa.org" },
       { name: "NFPA 211 — Water Infiltration and Masonry", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
     ],
     faqs: [
@@ -734,7 +734,7 @@ export const blogPosts: BlogPost[] = [
       { name: "Chimney Inspection", href: "/services/chimney-inspection/" },
     ],
     sources: [
-      { name: "Chimney Safety Institute of America — Common Chimney Issues", url: "https://www.csia.org" },
+      { name: "Chimney Safety Institute of America — Common Chimney Issues", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -813,7 +813,7 @@ export const blogPosts: BlogPost[] = [
       { name: "Chimney Sweep", href: "/services/chimney-sweep/" },
     ],
     sources: [
-      { name: "CSIA: Chimney Safety and Scheduling Guidance", url: "https://www.csia.org" },
+      { name: "NFPA: Chimney Safety and Scheduling Guidance", url: "https://www.nfpa.org" },
       { name: "NFPA 211: Annual Inspection Requirements", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
     ],
     faqs: [
@@ -902,7 +902,7 @@ export const blogPosts: BlogPost[] = [
     sources: [
       { name: "US Fire Administration: Clothes Dryer Fires in Residential Buildings", url: "https://www.usfa.fema.gov" },
       { name: "NFPA: Home Dryer Safety", url: "https://www.nfpa.org" },
-      { name: "CSIA: Dryer Exhaust Safety", url: "https://www.csia.org" },
+      { name: "NFPA: Dryer Exhaust Safety", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -1007,7 +1007,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Chimney Cap and Spark Arrestor Requirements", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Chimney Caps and Wildlife", url: "https://www.csia.org" },
+      { name: "NFPA: Chimney Caps and Wildlife", url: "https://www.nfpa.org" },
       { name: "Cal Fire: Very High Fire Hazard Severity Zones", url: "https://www.fire.ca.gov" },
     ],
     faqs: [
@@ -1091,7 +1091,7 @@ export const blogPosts: BlogPost[] = [
     title: "Why a Level 2 Chimney Inspection Is Non-Negotiable When Buying a Home",
     metaTitle: "Level 2 Chimney Inspection for Home Buyers in California | Chimney Peak California",
     metaDescription:
-      "Your general home inspector doesn't have a camera. A CSIA-certified Level 2 chimney inspection reveals what they miss — and what it could cost you to fix it later.",
+      "Your general home inspector doesn't have a camera. A professional Level 2 chimney inspection reveals what they miss — and what it could cost you to fix it later.",
     excerpt:
       "Your general home inspector doesn't have a camera. Here's what they miss on pre-purchase inspections — and what it cost buyers who skipped this step.",
     category: "Inspection",
@@ -1110,12 +1110,12 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Level 2 Inspection Requirements", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Home Buyers and Chimney Inspections", url: "https://www.csia.org" },
+      { name: "NFPA: Home Buyers and Chimney Inspections", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
         q: "Can my regular home inspector check the chimney?",
-        a: "A general home inspector can assess visible exterior masonry and note obvious problems from the firebox opening. They cannot perform a Level 2 inspection — they don't have the training, equipment, or CSIA certification required. NFPA 211 requires a Level 2 when ownership changes.",
+        a: "A general home inspector can assess visible exterior masonry and note obvious problems from the firebox opening. They cannot perform a Level 2 inspection — they don't have the training, equipment, or professional chimney certification required. NFPA 211 requires a Level 2 when ownership changes.",
       },
       {
         q: "What does a Level 2 inspection typically reveal?",
@@ -1171,7 +1171,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Standard for Chimneys, Fireplaces, and Vents", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Fireplace and Venting Resources", url: "https://www.csia.org" },
+      { name: "NFPA: Fireplace and Venting Resources", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -1316,7 +1316,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "When to Stop and Call a Professional",
         anchor: "when-to-call",
-        body: "There are situations where troubleshooting should stop immediately and a professional should handle the rest.\n\nIf you smell gas at any point — before, during, or after attempting to light the fireplace — stop everything and treat it as a gas leak. Get out of the house and call your gas utility's emergency number. This is not a 'try once more and see what happens' situation.\n\nIf the pilot lights but the main burner doesn't activate, the gas valve may be failing — not a DIY repair.\n\nIf you've replaced batteries, checked the pilot, verified gas supply, and the fireplace still won't operate normally, call a CSIA-certified technician. Gas appliance problems that resist basic troubleshooting steps typically require diagnostic equipment and experience with gas systems to resolve safely. Annual service prevents most of these situations from developing in the first place.",
+        body: "There are situations where troubleshooting should stop immediately and a professional should handle the rest.\n\nIf you smell gas at any point — before, during, or after attempting to light the fireplace — stop everything and treat it as a gas leak. Get out of the house and call your gas utility's emergency number. This is not a 'try once more and see what happens' situation.\n\nIf the pilot lights but the main burner doesn't activate, the gas valve may be failing — not a DIY repair.\n\nIf you've replaced batteries, checked the pilot, verified gas supply, and the fireplace still won't operate normally, call a trained chimney technician. Gas appliance problems that resist basic troubleshooting steps typically require diagnostic equipment and experience with gas systems to resolve safely. Annual service prevents most of these situations from developing in the first place.",
       },
     ],
   },
@@ -1439,7 +1439,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Chimney Crown and Cap Standards", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Chimney Components Explained", url: "https://www.csia.org" },
+      { name: "NFPA: Chimney Components Explained", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -1526,7 +1526,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Flashing and Water Infiltration Standards", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Water Damage and Chimney Flashing", url: "https://www.csia.org" },
+      { name: "NFPA: Water Damage and Chimney Flashing", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -1626,7 +1626,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Flue Liner Requirements and Standards", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Flue Liner Resources", url: "https://www.csia.org" },
+      { name: "NFPA: Flue Liner Resources", url: "https://www.nfpa.org" },
       { name: "U.S. Fire Administration: Chimney Fire Statistics", url: "https://www.usfa.fema.gov" },
     ],
     faqs: [
@@ -1725,7 +1725,7 @@ export const blogPosts: BlogPost[] = [
     sources: [
       { name: "US Fire Administration: Clothes Dryer Fires", url: "https://www.usfa.fema.gov" },
       { name: "NFPA 211: Chimney and Vent Cleaning Standards", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Dryer Exhaust Safety", url: "https://www.csia.org" },
+      { name: "NFPA: Dryer Exhaust Safety", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -1757,7 +1757,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "The Differences: Lint vs Creosote",
         anchor: "differences",
-        body: "Lint is lighter, cleaner, and accumulates faster than creosote. A chimney used once a week builds creosote gradually. A dryer running three to five loads per day accumulates lint significantly faster in the duct.\n\nCreosote goes through three stages — flaky (stage 1), hard and granular (stage 2), and glazed tar (stage 3) — each requiring different removal techniques. Stage 3 requires chemical treatment before mechanical removal.\n\nLint is always the same material and always requires the same removal approach: a flexible brush system or air pressure equipment that pushes it through the duct to the exterior termination.\n\nCreosote in a chimney requires a CSIA-certified technician who can assess the stage and apply the appropriate method. Dryer vent cleaning has a lower technical bar but still benefits from professional equipment that reaches the full duct length.",
+        body: "Lint is lighter, cleaner, and accumulates faster than creosote. A chimney used once a week builds creosote gradually. A dryer running three to five loads per day accumulates lint significantly faster in the duct.\n\nCreosote goes through three stages — flaky (stage 1), hard and granular (stage 2), and glazed tar (stage 3) — each requiring different removal techniques. Stage 3 requires chemical treatment before mechanical removal.\n\nLint is always the same material and always requires the same removal approach: a flexible brush system or air pressure equipment that pushes it through the duct to the exterior termination.\n\nCreosote in a chimney requires a trained chimney technician who can assess the stage and apply the appropriate method. Dryer vent cleaning has a lower technical bar but still benefits from professional equipment that reaches the full duct length.",
       },
       {
         heading: "How Each Cleaning Works",
@@ -1767,7 +1767,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "How Often Each Needs Service",
         anchor: "frequency",
-        body: "For most households in California, both systems need professional attention annually — ideally during the same maintenance cycle.\n\nChimneys: annual inspection and cleaning for any wood-burning fireplace in regular use. Gas fireplaces need annual inspection even if cleaning is minimal. The NFPA and CSIA are both explicit about this baseline.\n\nDryer vents: annual professional cleaning for most households. Households running five or more loads per week should consider every six months. Longer duct runs with multiple bends clog faster than short, straight runs and may need more frequent service.",
+        body: "For most households in California, both systems need professional attention annually — ideally during the same maintenance cycle.\n\nChimneys: annual inspection and cleaning for any wood-burning fireplace in regular use. Gas fireplaces need annual inspection even if cleaning is minimal. The NFPA is explicit about this baseline.\n\nDryer vents: annual professional cleaning for most households. Households running five or more loads per week should consider every six months. Longer duct runs with multiple bends clog faster than short, straight runs and may need more frequent service.",
         callout: "Spring is an efficient time to handle both. Chimney companies have better availability after the burning season ends, and catching any duct issues with the dryer before summer peak usage makes practical sense.",
       },
       {
@@ -1778,7 +1778,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "When to Call a Professional",
         anchor: "when-to-call",
-        body: "For the chimney, call a CSIA-certified chimney sweep annually — inspection and cleaning together. For the dryer vent, annual professional cleaning by a qualified service company covers the full duct run in a way that consumer brush kits can't match on longer runs.\n\nBundling both services in a single appointment, when offered by your service provider, is typically the most efficient approach to getting both done without the inertia of scheduling two separate visits.",
+        body: "For the chimney, call a professional chimney sweep annually — inspection and cleaning together. For the dryer vent, annual professional cleaning by a qualified service company covers the full duct run in a way that consumer brush kits can't match on longer runs.\n\nBundling both services in a single appointment, when offered by your service provider, is typically the most efficient approach to getting both done without the inertia of scheduling two separate visits.",
         ctaLinks: [
           {
             before: "Book our ",
@@ -1822,7 +1822,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "US Fish & Wildlife Service: Migratory Bird Treaty Act", url: "https://www.fws.gov/law/migratory-bird-treaty-act-1918" },
-      { name: "CSIA: Wildlife and Chimney Safety", url: "https://www.csia.org" },
+      { name: "NFPA: Wildlife and Chimney Safety", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -1906,7 +1906,7 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Firebox and Combustion Standards", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Common Fireplace Issues", url: "https://www.csia.org" },
+      { name: "NFPA: Common Fireplace Issues", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
@@ -1990,12 +1990,12 @@ export const blogPosts: BlogPost[] = [
     ],
     sources: [
       { name: "NFPA 211: Annual Inspection Requirements", url: "https://www.nfpa.org/codes-and-standards/nfpa-211" },
-      { name: "CSIA: Seasonal Chimney Safety", url: "https://www.csia.org" },
+      { name: "NFPA: Seasonal Chimney Safety", url: "https://www.nfpa.org" },
     ],
     faqs: [
       {
         q: "Can I do this checklist myself, or do I need a professional?",
-        a: "Most of the visual steps — checking the damper, looking up the flue, checking the cap from ground level — you can do yourself. The inspection item requires a CSIA-certified professional. The physical checklist is a supplement to annual professional service, not a replacement for it.",
+        a: "Most of the visual steps — checking the damper, looking up the flue, checking the cap from ground level — you can do yourself. The inspection item requires a professional professional. The physical checklist is a supplement to annual professional service, not a replacement for it.",
       },
       {
         q: "I just bought this house. Is a pre-season check enough?",
@@ -2017,7 +2017,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "1. Verify Your Annual Inspection Is Current",
         anchor: "annual-inspection",
-        body: "Before anything else: when was your last CSIA-certified chimney inspection?\n\nNFPA 211 requires annual inspection for any chimney in use. If you can't remember the last time one was done, or if it's been more than twelve months, schedule a sweep before you light the first fire. An inspection takes about an hour, catches problems you can't see from the firebox, and costs significantly less than any repair you'd need from using a damaged system.\n\nThis is the step most homeowners skip. It's also the one that matters most.",
+        body: "Before anything else: when was your last professional chimney inspection?\n\nNFPA 211 requires annual inspection for any chimney in use. If you can't remember the last time one was done, or if it's been more than twelve months, schedule a sweep before you light the first fire. An inspection takes about an hour, catches problems you can't see from the firebox, and costs significantly less than any repair you'd need from using a damaged system.\n\nThis is the step most homeowners skip. It's also the one that matters most.",
       },
       {
         heading: "2. Check the Damper Before Lighting Anything",

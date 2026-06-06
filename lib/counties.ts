@@ -100,7 +100,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Los Angeles County, CA | Chimney Peak California",
     metaDescription:
-      "CSIA-certified chimney cleaning, repair, and inspection across Los Angeles County. Serving Los Angeles, Long Beach, Pasadena, Glendale, Santa Monica, and more. Request a free estimate online.",
+      "Professional chimney cleaning, chimney repair, chimney inspection, chimney sweep, fireplace repair, and dryer vent cleaning across Los Angeles County. Serving Los Angeles, Long Beach, Pasadena, Glendale, Santa Monica, and more. Request a free estimate online.",
   },
 
   {
@@ -354,7 +354,7 @@ export const counties: County[] = [
     ],
     metaTitle: "Chimney Services in Santa Clara County, CA | Silicon Valley | Chimney Peak California",
     metaDescription:
-      "CSIA-certified chimney cleaning and inspection in Santa Clara County. Serving San Jose, Sunnyvale, Mountain View, Los Gatos, and all of Silicon Valley. Request a free estimate online.",
+      "Professional chimney cleaning, chimney repair, chimney inspection, chimney sweep, fireplace repair, and dryer vent cleaning across Santa Clara County. Serving San Jose, Sunnyvale, Mountain View, Los Gatos, and all of Silicon Valley. Request a free estimate online.",
   },
 
   {
@@ -699,7 +699,7 @@ export const counties: County[] = [
       },
       {
         q: "Stockton recently required chimney inspections for real estate transactions. What does that include?",
-        a: "Stockton's residential transaction inspection requirement calls for an NFPA 211 Level 2 chimney inspection — which includes a video camera scan of the full flue, a written report, and an inspection of all accessible parts of the chimney system. The inspection must be performed by a CSIA-certified technician to be accepted by the city.",
+        a: "Stockton's residential transaction inspection requirement calls for an NFPA 211 Level 2 chimney inspection — which includes a video camera scan of the full flue, a written report, and an inspection of all accessible parts of the chimney system. The inspection must be performed by a trained chimney professional to be accepted by the city.",
       },
     ],
     metaTitle: "Chimney Services in San Joaquin County, CA | Chimney Peak California",

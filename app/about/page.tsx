@@ -9,7 +9,7 @@ import { SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "About Us | Chimney Peak California",
   description:
-    "Learn about Chimney Peak California — CSIA-certified chimney specialists serving California since 2009. Meet our licensed team and our commitment to safety.",
+    "Learn about Chimney Peak California — professional chimney specialists serving California since 2009. Meet our licensed team and our commitment to safety.",
   alternates: { canonical: "/about/" },
 };
 
@@ -29,7 +29,7 @@ export default function AboutPage() {
             About Chimney Peak California
           </h1>
           <p className="text-gray-300 text-xl max-w-2xl leading-relaxed">
-            CSIA-certified chimney specialists serving California homeowners since 2009. Over 12,400 jobs completed. Licensed, insured, and honest about what you actually need.
+            Professional chimney specialists serving California homeowners since 2009. Over 12,400 jobs completed. Licensed, insured, and honest about what you actually need.
           </p>
         </div>
       </section>
@@ -46,13 +46,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Chimney Peak California was founded in 2009 by a team of CSIA-certified technicians who were tired of watching homeowners get pressured into unnecessary repairs by low-bid companies. The typical playbook: advertise an impossibly low cleaning price, then tell the homeowner their chimney needs thousands of dollars in repairs — usually with fabricated photos.
+                  Chimney Peak California was founded in 2009 by a team of experienced chimney technicians who were tired of watching homeowners get pressured into unnecessary repairs by low-bid companies. The typical playbook: advertise an impossibly low cleaning price, then tell the homeowner their chimney needs thousands of dollars in repairs — usually with fabricated photos.
                 </p>
                 <p>
                   We do the opposite. Every inspection comes with a written report and real photos. If your chimney is fine, we tell you. We&apos;ve turned away more work over the years than we care to count because the homeowner didn&apos;t need what they were sold.
                 </p>
                 <p>
-                  Today we operate a full California dispatch, with CSIA-certified technicians based in Los Angeles, San Diego, the Bay Area, and the Central Valley. Every technician is a W-2 employee — not a subcontractor — and every job is backed by our satisfaction guarantee.
+                  Today we operate a full California dispatch, with trained chimney technicians based in Los Angeles, San Diego, the Bay Area, and the Central Valley. Every technician is a W-2 employee — not a subcontractor — and every job is backed by our satisfaction guarantee.
                 </p>
               </div>
             </div>
@@ -96,8 +96,8 @@ export default function AboutPage() {
           <div className="grid sm:grid-cols-2 gap-6">
             {[
               {
-                title: "CSIA Certified",
-                desc: "All field technicians hold current Chimney Safety Institute of America (CSIA) certification. This is not a company-level certificate — each individual technician is credentialed.",
+                title: "Licensed & Insured",
+                desc: "All field technicians are licensed and insured under California state contractor requirements. License details available on request.",
               },
               {
                 title: "Licensed Contractor",

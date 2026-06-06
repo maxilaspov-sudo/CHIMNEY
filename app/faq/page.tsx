@@ -7,7 +7,7 @@ import { SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Chimney FAQ | Common Questions | Chimney Peak California",
   description:
-    "Answers to the most common questions about chimney cleaning, inspection, repair, and fireplace service in California. CSIA-certified answers.",
+    "Answers to the most common questions about chimney cleaning, inspection, repair, and fireplace service in California.",
   alternates: { canonical: "/faq/" },
 };
 
@@ -42,11 +42,11 @@ const FAQS = [
       },
       {
         q: "Do I need a Level 2 inspection when buying a home?",
-        a: "Yes. The NFPA 211 standard requires a Level 2 inspection whenever a property changes ownership. General home inspectors are not trained or equipped to perform this — you need a CSIA-certified chimney professional with camera equipment.",
+        a: "Yes. The NFPA 211 standard requires a Level 2 inspection whenever a property changes ownership. General home inspectors are not trained or equipped to perform this — you need a professional chimney inspector with camera equipment.",
       },
       {
         q: "Will your inspection report satisfy my mortgage lender?",
-        a: "Our written Level 2 reports include the technician's CSIA certification number and are accepted by all major California lenders and insurers. We can also issue a letter on company letterhead for specific lender requirements.",
+        a: "Our written Level 2 reports are accepted by all major California lenders and insurers. We can also issue a letter on company letterhead for specific lender requirements.",
       },
     ],
   },

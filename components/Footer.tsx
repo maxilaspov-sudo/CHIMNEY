@@ -19,7 +19,7 @@ export default function Footer() {
           </Link>
           <p className="text-sm text-gray-400 mb-5 leading-relaxed max-w-xs">
             Professional chimney cleaning, inspection, and repair services throughout California.
-            CSIA certified. Licensed &amp; insured. Keeping your home safe, warm, and efficient.
+            Licensed &amp; insured. Keeping your home safe, warm, and efficient.
           </p>
           <div className="flex flex-col gap-2 text-sm mb-5">
             <a href={`mailto:${SITE.email}`} className="flex items-center gap-2 hover:text-orange-400 transition-colors">
@@ -116,7 +116,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-xs text-gray-500">
             {[
               { icon: <ShieldSm />, text: "Licensed & Insured" },
-              { icon: <CertSm />, text: "CSIA Certified" },
+              { icon: <CertSm />, text: "Licensed & Insured" },
               { icon: <StarSm />, text: `${SITE.googleRating}★ Google Rating` },
               { icon: <CheckSm />, text: "Free Estimates Available" },
               { icon: <ClockSm />, text: "Serving All of California" },

@@ -8,8 +8,8 @@ const badges = [
   },
   {
     icon: <CertIcon />,
-    label: "CSIA Certified",
-    sub: "Every Technician",
+    label: "Trained Technicians",
+    sub: "Every Job",
   },
   {
     icon: <HomeIcon />,
