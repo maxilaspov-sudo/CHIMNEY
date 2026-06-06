@@ -93,7 +93,7 @@ export default function AreasIndexPage() {
               { number: `${cityCount}+`, label: "Cities Served" },
               { number: "18+", label: "Counties Covered" },
               { number: `${SITE.jobsCompleted}`, label: "Jobs Completed" },
-              { number: `${SITE.googleRating}★`, label: "Average Rating" },
+              { number: "Free", label: "Estimates Available" },
             ].map((s, i) => (
               <div key={i}>
                 <p className="text-3xl font-extrabold text-orange-500">{s.number}</p>

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -109,12 +109,6 @@ export default function CaliforniaPage() {
       { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"], opens: "07:00", closes: "19:00" },
       { "@type": "OpeningHoursSpecification", dayOfWeek: ["Saturday"], opens: "08:00", closes: "17:00" },
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: SITE.googleRating,
-      reviewCount: SITE.reviewCount,
-      bestRating: "5",
-    },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Chimney Peak California",
@@ -179,7 +173,7 @@ export default function CaliforniaPage() {
             <div className="flex flex-wrap gap-3 text-sm text-gray-300">
               <span className="flex items-center gap-1"><CheckIcon /> Licensed &amp; Insured</span>
               <span className="flex items-center gap-1"><CheckIcon /> 120+ Cities</span>
-              <span className="flex items-center gap-1"><CheckIcon /> {SITE.googleRating}★ Rated</span>
+              <span className="flex items-center gap-1"><CheckIcon /> Free Estimates Available</span>
             </div>
           </div>
         </div>

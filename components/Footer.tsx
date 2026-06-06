@@ -29,10 +29,9 @@ export default function Footer() {
               <LocationIcon /> Serving all of California
             </span>
           </div>
-          {/* Rating */}
+          {/* Trust */}
           <div className="flex items-center gap-2">
-            <Stars />
-            <span className="text-sm text-gray-300">{SITE.googleRating} Google Rating</span>
+            <span className="text-sm text-gray-400">Licensed &amp; Insured · Serving All of California</span>
           </div>
         </div>
 
@@ -86,7 +85,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-2.5 mb-6">
             {[
               { name: "About Us", href: "/about/" },
-              { name: "Customer Reviews", href: "/reviews/" },
+              { name: "Customer Feedback", href: "/reviews/" },
               { name: "Blog & Tips", href: "/blog/" },
               { name: "FAQ", href: "/faq/" },
               { name: "Contact Us", href: "/contact/" },
@@ -117,7 +116,7 @@ export default function Footer() {
             {[
               { icon: <ShieldSm />, text: "Licensed & Insured" },
               { icon: <CertSm />, text: "Licensed & Insured" },
-              { icon: <StarSm />, text: `${SITE.googleRating}★ Google Rating` },
+              { icon: <CheckSm />, text: "Serving All of California" },
               { icon: <CheckSm />, text: "Free Estimates Available" },
               { icon: <ClockSm />, text: "Serving All of California" },
             ].map((b, i) => (
@@ -142,16 +141,6 @@ export default function Footer() {
       </div>
 
     </footer>
-  );
-}
-
-function Stars() {
-  return (
-    <div role="img" aria-label="4.9 out of 5 stars" className="flex gap-0.5">
-      {[...Array(5)].map((_, i) => (
-        <span key={i} aria-hidden="true" className="text-yellow-400 text-base">★</span>
-      ))}
-    </div>
   );
 }
 

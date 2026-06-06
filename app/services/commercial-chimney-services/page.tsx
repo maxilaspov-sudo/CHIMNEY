@@ -63,12 +63,6 @@ const serviceSchema = {
     url: SITE.baseUrl,
     email: SITE.email,
     address: { "@type": "PostalAddress", addressRegion: "CA", addressCountry: "US" },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: SITE.googleRating,
-      reviewCount: SITE.reviewCount,
-      bestRating: "5",
-    },
   },
   areaServed: { "@type": "State", name: "California" },
 };

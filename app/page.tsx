@@ -262,10 +262,9 @@ export default function HomePage() {
         <div className="relative z-10 container-base py-14 w-full">
           {/* ── Headline + CTAs ─────────────────────────────────── */}
           <div className="max-w-2xl">
-            {/* Rating pill */}
+            {/* Trust pill */}
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white text-xs font-semibold px-4 py-2 rounded-full mb-6">
-              <span className="text-yellow-400">★★★★★</span>
-              <span>{SITE.googleRating} Google Rating · Licensed &amp; Insured · Free Estimates</span>
+              <span>Licensed &amp; Insured · Same-Week Scheduling · Free Estimates</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-white leading-[1.1] mb-5">
@@ -307,35 +306,19 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* ── Google rating card — bottom-right corner, desktop only ── */}
+        {/* ── Trust card — bottom-right corner, desktop only ── */}
         <div className="hidden lg:block absolute bottom-8 right-8 z-10">
-          <div className="bg-white rounded-2xl shadow-2xl p-6 w-[260px]">
-            {/* Google logo */}
-            <div className="flex items-center gap-2 mb-4">
-              <GoogleLogoSmall />
-              <span className="font-semibold text-gray-900 text-sm">Google Reviews</span>
-            </div>
-            {/* Rating */}
-            <div className="flex items-baseline gap-2 mb-1">
-              <span className="text-5xl font-extrabold text-gray-900 leading-none">{SITE.googleRating}</span>
-              <div className="flex gap-0.5">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-yellow-400 text-xl">★</span>
-                ))}
-              </div>
-            </div>
-            <p className="text-sm text-gray-500 mb-4">
-              Verified Google Reviews
-            </p>
-            <div className="border-t border-gray-100 pt-4 space-y-1.5">
-              <p className="text-xs text-gray-600 flex items-center gap-1.5">
-                <GreenCheck /> Licensed &amp; Insured Technicians
-              </p>
+          <div className="bg-white rounded-2xl shadow-2xl p-6 w-[240px]">
+            <p className="font-bold text-gray-900 text-sm mb-3">Professional Chimney Service</p>
+            <div className="border-t border-gray-100 pt-3 space-y-2">
               <p className="text-xs text-gray-600 flex items-center gap-1.5">
                 <GreenCheck /> Licensed &amp; Insured
               </p>
               <p className="text-xs text-gray-600 flex items-center gap-1.5">
-                <GreenCheck /> California Service Area
+                <GreenCheck /> Same-Week Scheduling
+              </p>
+              <p className="text-xs text-gray-600 flex items-center gap-1.5">
+                <GreenCheck /> Serving All of California
               </p>
             </div>
           </div>
@@ -511,15 +494,10 @@ export default function HomePage() {
                 className="rounded-2xl shadow-xl object-cover w-full h-80 lg:h-auto"
                 loading="lazy"
               />
-              {/* Floating Google rating badge */}
+              {/* Trust badge */}
               <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-3 border border-gray-100 hidden sm:block">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-yellow-400 text-lg">★</span>
-                  <div>
-                    <p className="font-bold text-gray-900 text-base leading-none">{SITE.googleRating}/5</p>
-                    <p className="text-[10px] text-gray-500">Google Rating</p>
-                  </div>
-                </div>
+                <p className="font-bold text-[#111827] text-xs leading-tight">Licensed &amp;<br/>Insured</p>
+                <p className="text-[10px] text-orange-500 mt-0.5">CA Contractor</p>
               </div>
             </div>
 
@@ -555,7 +533,7 @@ export default function HomePage() {
                 {[
                   { n: "100%", l: "Licensed\n& Insured" },
                   { n: "Free", l: "Estimate\nAvailable" },
-                  { n: SITE.googleRating + "★", l: "Google\nRating" },
+                  { n: "12K+", l: "Jobs\nCompleted" },
                 ].map((s, i) => (
                   <div key={i} className="text-center">
                     <p className="text-xl font-extrabold text-orange-500">{s.n}</p>
@@ -782,13 +760,3 @@ function CalSmall() { return <svg width="20" height="20" viewBox="0 0 24 24" fil
 function ShieldSmall() { return <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>; }
 function BadgeSmall() { return <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>; }
 
-function GoogleLogoSmall() {
-  return (
-    <svg width="24" height="24" viewBox="0 0 48 48" aria-label="Google" role="img">
-      <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
-      <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
-      <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
-      <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
-    </svg>
-  );
-}

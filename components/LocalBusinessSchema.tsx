@@ -34,12 +34,6 @@ export default function LocalBusinessSchema() {
         closes: "17:00",
       },
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: SITE.googleRating,
-      reviewCount: SITE.reviewCount,
-      bestRating: "5",
-    },
   };
 
   return (

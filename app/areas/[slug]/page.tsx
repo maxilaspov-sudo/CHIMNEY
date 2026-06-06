@@ -111,11 +111,6 @@ export default async function AreaOrCountyPage({ params }: Props) {
       name: area.name,
       containedInPlace: { "@type": "State", name: "California" },
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: SITE.googleRating,
-      reviewCount: SITE.reviewCount,
-    },
   };
 
   // Build nearby areas list: prefer nearbySlugs, fall back to NAV_AREAS

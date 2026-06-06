@@ -41,17 +41,13 @@ export default function Header() {
               Serving all of California
             </span>
             <span className="text-gray-600">|</span>
-            <span className="flex items-center gap-1">
-              <StarRow />
-              <span className="ml-1">{SITE.googleRating} Google Rating</span>
-            </span>
-            <span className="text-gray-600">|</span>
             <span>Licensed &amp; Insured</span>
+            <span className="text-gray-600">|</span>
+            <span>Free Estimates Available</span>
           </span>
           {/* Mobile: condensed single line */}
           <span className="flex sm:hidden items-center gap-1 text-gray-400">
-            <StarRow />
-            <span className="ml-1">{SITE.googleRating} · Licensed &amp; Insured</span>
+            <span>Licensed &amp; Insured · Free Estimates</span>
           </span>
           <Link
             href="/contact/"
@@ -303,18 +299,6 @@ export default function Header() {
         </div>
       )}
     </header>
-  );
-}
-
-function StarRow() {
-  return (
-    <span className="flex gap-px" aria-hidden="true">
-      {[...Array(5)].map((_, i) => (
-        <svg key={i} width="10" height="10" viewBox="0 0 24 24" fill="#F59E0B">
-          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-        </svg>
-      ))}
-    </span>
   );
 }
 

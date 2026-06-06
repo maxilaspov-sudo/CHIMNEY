@@ -1,0 +1,841 @@
+ INFO  Accepting connections at http://localhost:3001
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 21 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/css/9cf5c2aadaaf9f30.css
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 7 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 7 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 7 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /about/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /reviews/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /blog/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /services/chimney-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /services/chimney-inspection/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/app/reviews/page-86d7fa2b32bb55d0.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /services/chimney-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/app/about/page-ef00c7a95f5ea610.js
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /services/chimney-cap-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/app/blog/page-cb28516b1ea0f711.js
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 GET /_next/static/chunks/app/services/%5Bslug%5D/page-6147de4e3b082a14.js
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:05 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:06 AM ::1 GET /favicon.svg
+ HTTP  6/5/2026 10:23:06 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:07 AM ::1 GET /services/fireplace-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:07 AM ::1 GET /services/dryer-vent-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:07 AM ::1 GET /services/chimney-liner-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:07 AM ::1 GET /services/gas-fireplace-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:07 AM ::1 GET /services/chimney-sweep/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:07 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:07 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:07 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:07 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:07 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:23:08 AM ::1 GET /services/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:08 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:16 AM ::1 GET /images/cta-chimney-service-california.jpg
+ HTTP  6/5/2026 10:23:16 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:17 AM ::1 GET /blog/chimney-sweep-vs-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:17 AM ::1 GET /blog/how-often-clean-chimney/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:17 AM ::1 GET /blog/signs-chimney-needs-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:17 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:17 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:17 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:17 AM ::1 GET /_next/static/chunks/app/blog/%5Bslug%5D/page-2792979763573d70.js
+ HTTP  6/5/2026 10:23:17 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/los-angeles/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/san-diego/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /_next/static/chunks/app/areas/%5Bslug%5D/page-0dfd697ad33b52cb.js
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/san-jose/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/san-francisco/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/sacramento/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/fresno/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/oakland/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/long-beach/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/anaheim/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/irvine/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/riverside/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/bakersfield/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/stockton/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/modesto/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:24 AM ::1 GET /areas/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:30 AM ::1 GET /services/fireplace-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:30 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:30 AM ::1 GET /areas/california/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:30 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:30 AM ::1 GET /gallery/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:30 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:30 AM ::1 GET /faq/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:30 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:31 AM ::1 GET /privacy-policy/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:31 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:31 AM ::1 GET /terms-of-service/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:31 AM ::1 GET /sitemap.xml.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:23:31 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:23:31 AM ::1 GET /_next/static/chunks/app/privacy-policy/page-7f54676dacf0cfee.js
+ HTTP  6/5/2026 10:23:31 AM ::1 Returned 404 in 6 ms
+ HTTP  6/5/2026 10:23:31 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:23:31 AM ::1 GET /_next/static/chunks/app/terms-of-service/page-7d6e0cb6cd20c0c1.js
+ HTTP  6/5/2026 10:23:31 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /index.txt?_rsc=1pe6k
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 4 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 4 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 3 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 9 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 5 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 4 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 3 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 4 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 7 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 9 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 6 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 4 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 6 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 2 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 1 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 7 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 6 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /images/cta-chimney-service-california.jpg
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 1 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 1 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /about/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /reviews/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /blog/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /services/chimney-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /services/chimney-inspection/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 3 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/app/about/page-ef00c7a95f5ea610.js
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /services/chimney-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/app/reviews/page-86d7fa2b32bb55d0.js
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 4 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /services/chimney-cap-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/app/blog/page-cb28516b1ea0f711.js
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 6 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 GET /_next/static/chunks/app/services/%5Bslug%5D/page-6147de4e3b082a14.js
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 200 in 7 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 5 ms
+ HTTP  6/5/2026 10:28:48 AM ::1 Returned 304 in 3 ms
+ HTTP  6/5/2026 10:28:51 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:28:51 AM ::1 Returned 304 in 1 ms
+ HTTP  6/5/2026 10:28:51 AM ::1 GET /.well-known/appspecific/com.chrome.devtools.json
+ HTTP  6/5/2026 10:28:51 AM ::1 Returned 404 in 3 ms
+ HTTP  6/5/2026 10:28:58 AM ::1 GET /services/fireplace-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:58 AM ::1 GET /services/dryer-vent-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:58 AM ::1 GET /services/chimney-liner-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:58 AM ::1 GET /services/gas-fireplace-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:58 AM ::1 GET /services/chimney-sweep/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:58 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:28:58 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:28:58 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:28:58 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:28:58 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:28:58 AM ::1 GET /services/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:28:58 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:12 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:35:12 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:13 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:35:13 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:35:13 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:35:13 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:35:13 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:13 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:13 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:35:13 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:13 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:35:13 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:14 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:35:14 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:35:15 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:15 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:16 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:35:16 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:16 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:35:16 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /about/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /reviews/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /blog/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/app/about/page-ef00c7a95f5ea610.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/app/reviews/page-86d7fa2b32bb55d0.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:35:17 AM ::1 GET /_next/static/chunks/app/blog/page-cb28516b1ea0f711.js
+ HTTP  6/5/2026 10:35:17 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /about/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /reviews/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /blog/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/app/about/page-ef00c7a95f5ea610.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/app/reviews/page-86d7fa2b32bb55d0.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:04 AM ::1 GET /_next/static/chunks/app/blog/page-cb28516b1ea0f711.js
+ HTTP  6/5/2026 10:36:04 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/chimney-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/chimney-inspection/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/chimney-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/chimney-cap-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/fireplace-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /_next/static/chunks/app/services/%5Bslug%5D/page-6147de4e3b082a14.js
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/dryer-vent-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/chimney-liner-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/gas-fireplace-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/chimney-sweep/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 GET /services/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:06 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /images/cta-chimney-service-california.jpg
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /services/fireplace-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/los-angeles/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/san-diego/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/san-jose/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/san-francisco/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/sacramento/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /_next/static/chunks/app/areas/%5Bslug%5D/page-0dfd697ad33b52cb.js
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/fresno/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/oakland/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/long-beach/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/anaheim/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/irvine/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/riverside/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/bakersfield/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /areas/california/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /gallery/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 GET /faq/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:36:36 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /blog/how-often-clean-chimney/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /blog/chimney-sweep-vs-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /blog/signs-chimney-needs-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /areas/stockton/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /areas/modesto/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/app/blog/%5Bslug%5D/page-2792979763573d70.js
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /areas/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /privacy-policy/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /terms-of-service/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /sitemap.xml.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 404 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/app/privacy-policy/page-7f54676dacf0cfee.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/app/terms-of-service/page-7d6e0cb6cd20c0c1.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:37 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:36:37 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/chimney-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/chimney-inspection/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/chimney-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/chimney-cap-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /_next/static/chunks/app/services/%5Bslug%5D/page-6147de4e3b082a14.js
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /images/cta-chimney-service-california.jpg
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/chimney-sweep/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/fireplace-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/chimney-liner-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/dryer-vent-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /services/fireplace-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/los-angeles/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/san-diego/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/san-jose/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/san-francisco/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/sacramento/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /_next/static/chunks/app/areas/%5Bslug%5D/page-0dfd697ad33b52cb.js
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/fresno/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/oakland/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/long-beach/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/california/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /areas/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /about/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /reviews/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /gallery/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /_next/static/chunks/app/about/page-ef00c7a95f5ea610.js
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /_next/static/chunks/app/reviews/page-86d7fa2b32bb55d0.js
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /blog/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /_next/static/chunks/app/gallery/page-ad19d1bf603bda92.js
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /faq/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 12 ms
+ HTTP  6/5/2026 10:36:38 AM ::1 GET /_next/static/chunks/app/blog/page-cb28516b1ea0f711.js
+ HTTP  6/5/2026 10:36:38 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 7 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 6 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:19 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:38:19 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 0 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:20 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:38:20 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:22 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:38:22 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:23 AM ::1 GET /
+ HTTP  6/5/2026 10:38:23 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /images/homepage-hero-chimney-cleaning-california.jpg
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/css/555c8e57b9be1560.css
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /images/service-chimney-cleaning.jpg
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /images/service-chimney-inspection.jpg
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/webpack-e0660acd06cd76c9.js
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/4bd1b696-86a7a937ce10b673.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/684-92b645b454a73db8.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/main-app-89d7fea74cd907cd.js
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/874-d1827ac68e8ff349.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/app/layout-cfb778d4709e9a6a.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/63-6e4bcdeac904738d.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/35-4e63782d978982b2.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/483-b464bd365fdcbb61.js
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/app/page-36b8b33c1654c4c1.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /images/service-chimney-repair.jpg
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /images/service-chimney-caps.jpg
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /images/about-chimney-technician-team.jpg
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/media/e4af272ccee01ff0-s.p.woff2
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /about/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /reviews/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /blog/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/app/contact/page-cef97ac5dcd93005.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/app/about/page-ef00c7a95f5ea610.js
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/app/reviews/page-86d7fa2b32bb55d0.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 GET /_next/static/chunks/app/blog/page-cb28516b1ea0f711.js
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:38:24 AM ::1 Returned 200 in 3 ms
+ HTTP  6/5/2026 10:50:42 AM ::1 GET /services/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:50:42 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:50:42 AM ::1 GET /_next/static/css/2e0ca176925180af.css
+ HTTP  6/5/2026 10:50:42 AM ::1 Returned 200 in 7 ms
+ HTTP  6/5/2026 10:50:42 AM ::1 GET /about/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:50:42 AM ::1 Returned 200 in 1 ms
+ HTTP  6/5/2026 10:50:43 AM ::1 GET /contact/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:50:43 AM ::1 Returned 200 in 2 ms
+ HTTP  6/5/2026 10:50:44 AM ::1 GET /services/chimney-inspection/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:50:44 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:50:45 AM ::1 GET /services/chimney-repair/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:50:45 AM ::1 Returned 200 in 5 ms
+ HTTP  6/5/2026 10:50:45 AM ::1 GET /services/chimney-cap-installation/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:50:45 AM ::1 Returned 200 in 4 ms
+ HTTP  6/5/2026 10:51:54 AM ::1 GET /services/chimney-cleaning/index.txt?_rsc=3lb4g
+ HTTP  6/5/2026 10:51:54 AM ::1 Returned 200 in 4 ms

@@ -67,12 +67,6 @@ const serviceSchema = {
     url: SITE.baseUrl,
     email: SITE.email,
     address: { "@type": "PostalAddress", addressRegion: "CA", addressCountry: "US" },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: SITE.googleRating,
-      reviewCount: SITE.reviewCount,
-      bestRating: "5",
-    },
   },
   areaServed: { "@type": "State", name: "California" },
 };
@@ -128,7 +122,7 @@ export default function DryerVentBlockageRemovalPage() {
         <div className="relative z-10 container-base py-16 md:py-20">
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 text-orange-400 text-xs font-bold px-4 py-2 rounded-full mb-5 uppercase tracking-wide">
-              Licensed &amp; Insured · {SITE.googleRating} Stars · {SITE.reviewCount} Reviews
+              Licensed &amp; Insured · Professional Service
             </div>
             <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
               Dryer Vent Blockage Removal in California

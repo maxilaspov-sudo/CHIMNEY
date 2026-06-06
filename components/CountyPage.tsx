@@ -27,12 +27,6 @@ export default function CountyPage({ county }: CountyPageProps) {
       name: county.name,
       containedInPlace: { "@type": "State", name: "California" },
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: SITE.googleRating,
-      reviewCount: SITE.reviewCount,
-      bestRating: "5",
-    },
   };
 
   const faqSchema = {

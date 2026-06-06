@@ -7,8 +7,6 @@ export const SITE = {
   email: "info@chimneycleaningca.com",
   address: "Los Angeles, CA",
   baseUrl: "https://www.chimneycleaningca.com",
-  googleRating: "4.9",
-  reviewCount: "847",
   yearsInBusiness: "15",
   jobsCompleted: "12,400",
   trustCopy: "Professional Chimney Service Team",
