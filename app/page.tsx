@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
+import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import Link from "next/link";
 import Image from "next/image";
 import { SITE, NAV_SERVICES, NAV_AREAS } from "@/lib/constants";
@@ -244,6 +245,7 @@ export default function HomePage() {
 
   return (
     <>
+      <LocalBusinessSchema />
       {/* ══ HERO ═══════════════════════════════════════════════════ */}
       {/* Outdoor rooftop chimney scene — dark overlay for contrast  */}
       <section className="relative min-h-[600px] md:min-h-[680px] flex items-center overflow-hidden">

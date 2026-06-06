@@ -261,6 +261,258 @@ export default async function AreaOrCountyPage({ params }: Props) {
                 </div>
               )}
 
+              {slug === "san-diego" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for San Diego homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in San Diego", href: "/areas/san-diego/chimney-cleaning/" },
+                      { name: "Chimney Repair in San Diego", href: "/areas/san-diego/chimney-repair/" },
+                      { name: "Chimney Sweep in San Diego", href: "/areas/san-diego/chimney-sweep/" },
+                      { name: "Fireplace Repair in San Diego", href: "/areas/san-diego/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in San Diego", href: "/areas/san-diego/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "san-jose" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for San Jose homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in San Jose", href: "/areas/san-jose/chimney-cleaning/" },
+                      { name: "Chimney Repair in San Jose", href: "/areas/san-jose/chimney-repair/" },
+                      { name: "Chimney Sweep in San Jose", href: "/areas/san-jose/chimney-sweep/" },
+                      { name: "Fireplace Repair in San Jose", href: "/areas/san-jose/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in San Jose", href: "/areas/san-jose/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "san-francisco" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for San Francisco homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in San Francisco", href: "/areas/san-francisco/chimney-cleaning/" },
+                      { name: "Chimney Repair in San Francisco", href: "/areas/san-francisco/chimney-repair/" },
+                      { name: "Chimney Sweep in San Francisco", href: "/areas/san-francisco/chimney-sweep/" },
+                      { name: "Fireplace Repair in San Francisco", href: "/areas/san-francisco/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in San Francisco", href: "/areas/san-francisco/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "sacramento" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for Sacramento homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in Sacramento", href: "/areas/sacramento/chimney-cleaning/" },
+                      { name: "Chimney Repair in Sacramento", href: "/areas/sacramento/chimney-repair/" },
+                      { name: "Chimney Sweep in Sacramento", href: "/areas/sacramento/chimney-sweep/" },
+                      { name: "Fireplace Repair in Sacramento", href: "/areas/sacramento/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in Sacramento", href: "/areas/sacramento/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "fresno" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for Fresno homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in Fresno", href: "/areas/fresno/chimney-cleaning/" },
+                      { name: "Chimney Repair in Fresno", href: "/areas/fresno/chimney-repair/" },
+                      { name: "Chimney Sweep in Fresno", href: "/areas/fresno/chimney-sweep/" },
+                      { name: "Fireplace Repair in Fresno", href: "/areas/fresno/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in Fresno", href: "/areas/fresno/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "oakland" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for Oakland homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in Oakland", href: "/areas/oakland/chimney-cleaning/" },
+                      { name: "Chimney Repair in Oakland", href: "/areas/oakland/chimney-repair/" },
+                      { name: "Chimney Sweep in Oakland", href: "/areas/oakland/chimney-sweep/" },
+                      { name: "Fireplace Repair in Oakland", href: "/areas/oakland/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in Oakland", href: "/areas/oakland/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "long-beach" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for Long Beach homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in Long Beach", href: "/areas/long-beach/chimney-cleaning/" },
+                      { name: "Chimney Repair in Long Beach", href: "/areas/long-beach/chimney-repair/" },
+                      { name: "Chimney Sweep in Long Beach", href: "/areas/long-beach/chimney-sweep/" },
+                      { name: "Fireplace Repair in Long Beach", href: "/areas/long-beach/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in Long Beach", href: "/areas/long-beach/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "anaheim" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for Anaheim homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in Anaheim", href: "/areas/anaheim/chimney-cleaning/" },
+                      { name: "Chimney Repair in Anaheim", href: "/areas/anaheim/chimney-repair/" },
+                      { name: "Chimney Sweep in Anaheim", href: "/areas/anaheim/chimney-sweep/" },
+                      { name: "Fireplace Repair in Anaheim", href: "/areas/anaheim/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in Anaheim", href: "/areas/anaheim/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {slug === "irvine" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for Irvine homeowners.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {[
+                      { name: "Chimney Cleaning in Irvine", href: "/areas/irvine/chimney-cleaning/" },
+                      { name: "Chimney Repair in Irvine", href: "/areas/irvine/chimney-repair/" },
+                      { name: "Chimney Sweep in Irvine", href: "/areas/irvine/chimney-sweep/" },
+                      { name: "Fireplace Repair in Irvine", href: "/areas/irvine/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning in Irvine", href: "/areas/irvine/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-3 rounded-xl transition-colors"
+                      >
+                        {s.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Unique fact */}
               <div className="bg-[#1E3A5F] rounded-2xl p-6 text-white mb-8">
                 <h3 className="font-bold text-orange-400 mb-2">Did You Know?</h3>

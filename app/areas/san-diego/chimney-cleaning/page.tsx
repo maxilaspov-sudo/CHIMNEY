@@ -11,57 +11,57 @@ import { SITE } from "@/lib/constants";
 const HERO_IMAGE = "/images/services/Chimney-cleaning.jpg";
 
 export const metadata: Metadata = {
-  title: "Chimney Cleaning Los Angeles | Fireplace & Flue Cleaning",
+  title: "Chimney Cleaning San Diego | Fireplace & Flue Cleaning",
   description:
-    "Professional chimney cleaning in Los Angeles for soot, creosote buildup, fireplace odors, poor draft, and annual chimney maintenance.",
-  alternates: { canonical: "/areas/los-angeles/chimney-cleaning/" },
+    "Professional chimney cleaning in San Diego for soot, creosote buildup, fireplace odors, poor draft, and annual chimney maintenance.",
+  alternates: { canonical: "/areas/san-diego/chimney-cleaning/" },
   openGraph: {
-    title: "Chimney Cleaning Los Angeles | Fireplace & Flue Cleaning",
+    title: "Chimney Cleaning San Diego | Fireplace & Flue Cleaning",
     description:
-      "Professional chimney cleaning in Los Angeles for soot, creosote buildup, fireplace odors, poor draft, and annual chimney maintenance.",
-    url: `${SITE.baseUrl}/areas/los-angeles/chimney-cleaning/`,
+      "Professional chimney cleaning in San Diego for soot, creosote buildup, fireplace odors, poor draft, and annual chimney maintenance.",
+    url: `${SITE.baseUrl}/areas/san-diego/chimney-cleaning/`,
     siteName: SITE.name,
     images: [{ url: `${SITE.baseUrl}/og/home.jpg`, width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chimney Cleaning Los Angeles | Fireplace & Flue Cleaning",
+    title: "Chimney Cleaning San Diego | Fireplace & Flue Cleaning",
     description:
-      "Chimney cleaning in Los Angeles for creosote, soot, fireplace odors, and annual flue maintenance. Free estimate.",
+      "Chimney cleaning in San Diego for creosote, soot, fireplace odors, and annual flue maintenance. Free estimate.",
   },
 };
 
 const FAQS = [
   {
-    q: "How often should I schedule chimney cleaning in Los Angeles?",
-    a: "Most wood-burning fireplace owners in Los Angeles should clean once a year. SCAQMD curtailment days reduce how much wood you can burn, which lowers creosote accumulation compared to colder climates — but annual cleaning still lets us catch buildup before it reaches a dangerous stage. Gas fireplace owners on light-use schedules can often extend to every two years.",
+    q: "How often should I schedule chimney cleaning in San Diego?",
+    a: "Once a year is the standard recommendation for any wood-burning fireplace in regular use. San Diego's mild winters mean most homeowners burn less wood per season than people in colder climates — but annual cleaning still matters because creosote accumulates even from modest use, and the dry brush topography of eastern San Diego County makes any unaddressed buildup a meaningful fire risk. Coastal homes in La Jolla, Del Mar, and Coronado should also have their damper hardware and cap checked annually for marine air corrosion.",
   },
   {
     q: "What are signs my chimney needs cleaning?",
-    a: "Common signs include a fireplace odor that lingers during warm weather, slow draft, smoke entering the room during a fire, visible black staining around the damper plate, and heavy soot visible inside the firebox. A crackling sound in a cold flue can also indicate a past deposit issue.",
+    a: "Persistent fireplace odor during warm months is the most common sign — soot and creosote absorb moisture and release a musty or smoky smell even when the fireplace is not in use. Slow draft, visible black deposits around the damper plate, and smoke entering the room during a fire are other indicators. If you have not had a cleaning in more than two years and use your fireplace regularly, schedule one before the next fire season.",
   },
   {
     q: "Is chimney cleaning the same as chimney sweep?",
-    a: "Not exactly. A cleaning removes soot and creosote deposits from the flue and firebox. A chimney sweep adds a formal NFPA 211 Level 1 inspection with a signed, written report. If you are buying or selling a home in Los Angeles, you need a Level 2 inspection — not just a cleaning.",
+    a: "Not exactly. Chimney cleaning removes soot and creosote deposits from the flue and firebox. A chimney sweep adds a formal NFPA 211 Level 1 inspection with a signed written report documenting the condition of all accessible chimney components. For San Diego homeowners involved in a property sale, a Level 2 inspection — which includes a video camera scan of the full flue — is the required standard, not a basic cleaning.",
   },
   {
     q: "Can chimney cleaning help with fireplace odors?",
-    a: "Yes. Creosote and soot absorb moisture and produce a persistent smell, particularly in summer when unused fireplaces draw warm air down through the flue. Cleaning removes the source. If odors persist after cleaning, a damper seal or chimney cap may also be needed.",
+    a: "Yes. The smell comes from creosote and soot absorbing ambient moisture, particularly during San Diego's summer heat when unused fireplaces draw warm air down through the flue. Cleaning removes the source of the odor. If the smell persists after a thorough cleaning, the damper may not be sealing properly, or a chimney cap may be needed to prevent outside air from drafting down through the flue.",
   },
   {
     q: "Do you also inspect the chimney during cleaning?",
-    a: "We note any damage we observe during the cleaning visit and flag it for you. A formal NFPA 211 Level 1 inspection — with a written condition report — is a separate service. If we find something that warrants a closer look, we will say so before we leave.",
+    a: "We note any visible damage during the cleaning visit and flag it in writing before we leave. A formal NFPA 211 Level 1 inspection — with a signed condition report — is a separate service. If we observe something that warrants a closer look, we will tell you what it is and what a proper inspection would involve. We do not ignore problems and walk away.",
   },
 ];
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Chimney Cleaning Los Angeles",
+  name: "Chimney Cleaning San Diego",
   serviceType: "Chimney Cleaning",
   description:
-    "Professional chimney cleaning in Los Angeles for soot, creosote buildup, fireplace odors, poor draft, and annual chimney maintenance.",
+    "Professional chimney cleaning in San Diego for soot, creosote buildup, fireplace odors, poor draft, and annual chimney maintenance.",
   provider: {
     "@type": "LocalBusiness",
     name: SITE.name,
@@ -69,12 +69,12 @@ const serviceSchema = {
     email: SITE.email,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Los Angeles",
+      addressLocality: "San Diego",
       addressRegion: "CA",
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "Los Angeles" },
+  areaServed: { "@type": "City", name: "San Diego" },
 };
 
 
@@ -88,7 +88,7 @@ const faqSchema = {
   })),
 };
 
-export default function ChimneyCleaningLosAngelesPage() {
+export default function ChimneyCleaningSanDiegoPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
@@ -100,7 +100,7 @@ export default function ChimneyCleaningLosAngelesPage() {
             crumbs={[
               { label: "Home", href: "/" },
               { label: "Service Areas", href: "/areas/" },
-              { label: "Los Angeles", href: "/areas/los-angeles/" },
+              { label: "San Diego", href: "/areas/san-diego/" },
               { label: "Chimney Cleaning" },
             ]}
           />
@@ -110,7 +110,7 @@ export default function ChimneyCleaningLosAngelesPage() {
       <section className="relative min-h-[400px] md:min-h-[500px] flex items-center overflow-hidden">
         <Image
           src={HERO_IMAGE}
-          alt="Technician performing chimney cleaning inside a Los Angeles fireplace"
+          alt="Technician performing chimney cleaning inside a San Diego fireplace"
           fill
           priority
           className="object-cover"
@@ -120,13 +120,13 @@ export default function ChimneyCleaningLosAngelesPage() {
         <div className="relative container-base py-16">
           <div className="max-w-2xl">
             <div className="inline-block bg-orange-500/20 border border-orange-400/30 text-orange-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-              Free estimate · Los Angeles
+              Free estimate · San Diego
             </div>
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-3">
-              Chimney Cleaning in Los Angeles, CA
+              Chimney Cleaning in San Diego, CA
             </h1>
             <p className="text-gray-200 text-lg mb-6 leading-relaxed">
-              Professional chimney flue cleaning for Los Angeles homeowners — removing creosote, soot, and debris before it affects fireplace performance or becomes a fire risk.
+              Professional chimney flue cleaning for San Diego homeowners — removing creosote, soot, and debris before it affects fireplace performance or becomes a fire risk in one of California&apos;s driest counties.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/contact/" className="btn-primary">
@@ -149,29 +149,29 @@ export default function ChimneyCleaningLosAngelesPage() {
 
               <div>
                 <p className="text-gray-600 leading-relaxed text-lg mb-4">
-                  Los Angeles has an estimated 400,000 wood-burning and gas fireplaces — most in older Craftsman bungalows, Mid-Century ranches, and Spanish Colonial homes built before 1960. Chimney cleaning removes the creosote and soot that accumulates with each fire, preventing dangerous buildup and keeping the flue clear for proper draft. For most wood-burning fireplace owners in the city, annual cleaning is the right schedule.
+                  San Diego&apos;s mild climate means most homeowners use their fireplace less than residents in colder parts of California — but less burning does not mean zero buildup. Creosote accumulates with every fire, and in San Diego County&apos;s dry brush environment, any unaddressed deposit in the flue is more consequential than it would be in a wetter climate. Annual chimney cleaning remains the right schedule for most wood-burning fireplaces in the region.
                 </p>
                 <p className="text-gray-600 leading-relaxed text-lg">
-                  If you have not had a cleaning in three or more years, or if you are buying a home with an older fireplace, start with a{" "}
+                  If you have not had a cleaning in several years, or if you are buying a home with an older fireplace in North Park, Mission Hills, or any other neighborhood with pre-1960 construction, a{" "}
                   <Link href="/services/chimney-inspection/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney inspection
                   </Link>{" "}
-                  before scheduling a routine cleaning. Cleaning removes deposits — it does not fix liner cracks, damaged crowns, or structural problems.
+                  should come before a routine cleaning. Cleaning removes deposits — it does not repair liner cracks, fix damaged crowns, or address structural problems.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-bold text-[#111827] mb-4">
-                  Why Chimney Cleaning Matters in Los Angeles Homes
+                  Why Chimney Cleaning Matters in San Diego Homes
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  The South Coast Air Quality Management District issues wood-burning curtailment days during winter months, which means most Angelinos burn less wood per season than homeowners in colder climates. Less burning produces less creosote — but not zero. A gas fireplace that rarely gets used can still accumulate dust, debris, and moisture inside the flue.
+                  San Diego County&apos;s fire risk landscape is one of the most serious in California. Eastern communities — El Cajon, Santee, Ramona, and the Julian area — sit in zones where the San Diego Fire Department recommends annual chimney inspection as a baseline safety practice. An uncleaned flue with Stage 2 or Stage 3 creosote deposits is a direct ignition risk if a chimney fire starts, and dry-season conditions in these areas mean fires spread fast.
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Older Los Angeles homes — particularly those built before 1960 — often have unlined clay tile flues that develop hairline cracks over time. Creosote can collect in those cracks and harden into Stage 2 or Stage 3 deposits that resist standard brush cleaning. A technician familiar with these older systems will recognize the difference.
+                  Coastal homes in La Jolla, Del Mar, Coronado, and Ocean Beach have a different concern: salt air. Marine air accelerates corrosion of metal chimney components — damper plates, firebox hardware, chimney caps, and flashing all deteriorate faster within a mile of the coast. A cleaning visit is also an opportunity to identify this corrosion before a cap fails or a damper plate rusts shut.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Homes near the coast in areas like Pacific Palisades, Malibu, and the South Bay deal with salt-air corrosion of metal components. Damper plates, firebox hardware, and chimney caps corrode faster in marine air. A cleaning visit is also an opportunity to identify this deterioration early.
+                  Homes in older San Diego neighborhoods — Mission Hills, North Park, South Park, Kensington — often have original clay tile flue liners that develop hairline cracks over decades. These cracks can trap creosote and are a reason to add a visual inspection to any cleaning visit in these areas.
                 </p>
               </div>
 
@@ -182,24 +182,24 @@ export default function ChimneyCleaningLosAngelesPage() {
                 <ul className="space-y-3">
                   {[
                     {
-                      title: "Fireplace odor",
-                      desc: "Particularly during warm or humid weather. Creosote and soot absorb moisture and produce a persistent smell even when the fireplace is not in use.",
+                      title: "Fireplace odor during warm weather",
+                      desc: "Creosote and soot absorb moisture and release a persistent smell when ambient temperatures rise. In San Diego, this is most noticeable during the late spring and summer months.",
                     },
                     {
-                      title: "Slow draft or difficult ignition",
-                      desc: "Fires that are hard to start or that produce more smoke than usual may indicate restricted airflow from buildup inside the flue.",
+                      title: "Slow draft or hard-to-start fires",
+                      desc: "Restricted airflow from soot buildup inside the flue can make fires difficult to ignite and cause more smoke than usual at startup.",
                     },
                     {
                       title: "Smoke entering the room",
-                      desc: "Partial blockage in the chimney flue can prevent proper exhaust flow, pushing smoke back through the damper opening into the living space.",
+                      desc: "Partial blockage in the chimney flue — from debris, nesting material, or heavy deposits — prevents proper exhaust flow and pushes smoke back through the damper opening.",
                     },
                     {
-                      title: "Visible soot and black deposits",
-                      desc: "Heavy black buildup inside the firebox, around the damper, or on the fireplace surround are visible indicators of accumulation that needs removal.",
+                      title: "Visible black deposits",
+                      desc: "Heavy black staining inside the firebox, around the damper plate, or on the fireplace surround are visible signs of accumulation that needs removal.",
                     },
                     {
-                      title: "More than a year since the last cleaning",
-                      desc: "If you use your fireplace regularly through the heating season and have not had a cleaning in over a year, schedule one before the next burn season.",
+                      title: "More than a year without service",
+                      desc: "If your fireplace was used through the last heating season and has not been cleaned since, schedule a cleaning before the next one.",
                     },
                   ].map((item, i) => (
                     <li
@@ -232,17 +232,17 @@ export default function ChimneyCleaningLosAngelesPage() {
                   What Our Chimney Cleaning Service Includes
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  A standard chimney cleaning visit covers the full flue system from the firebox to the cap. We begin with a visual check of the firebox, damper, and accessible flue before any work starts. Drop cloths protect the floor and hearth, and the firebox opening is sealed before cleaning to prevent ash and soot from entering the room.
+                  A standard chimney cleaning covers the full flue system from firebox to cap. We start with a visual check of the firebox, damper, and accessible flue before any work begins. Drop cloths protect the floor and hearth, and the firebox opening is sealed before cleaning to keep soot and ash out of the room.
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Industry-grade rotary brushes clear creosote and soot from the full flue length. A commercial HEPA vacuum captures all loosened debris — no ash clouds, no mess left behind. When the cleaning is complete, you receive written notes on the condition of the fireplace and any issues that need further attention.
+                  Industry-grade rotary brushes remove creosote and soot from the full length of the chimney flue. A commercial HEPA vacuum captures all loosened debris — no ash clouds, no mess left in the living space. When cleaning is complete, you receive written notes on the condition of the fireplace and any issues that warrant follow-up.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  If we find Stage 2 or Stage 3 creosote that will not respond to brushing, we will tell you. Heavy deposits may require{" "}
+                  If we find Stage 2 or Stage 3 creosote that will not respond to brushing, we will tell you before we leave. Heavy deposits may require{" "}
                   <Link href="/services/creosote-removal/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chemical creosote treatment
                   </Link>{" "}
-                  alongside or before brushing. We do not brush past the problem and call it done.
+                  alongside standard brushing. We do not brush past the problem and call it done.
                 </p>
               </div>
 
@@ -251,14 +251,14 @@ export default function ChimneyCleaningLosAngelesPage() {
                   Chimney Cleaning vs. Chimney Sweep
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  These terms are used interchangeably, but they describe different service levels. A cleaning removes deposits from the flue and firebox. A{" "}
+                  The terms are used interchangeably, but they describe different levels of service. A cleaning removes deposits from the flue and firebox. A{" "}
                   <Link href="/services/chimney-sweep/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney sweep
                   </Link>{" "}
-                  adds a formal NFPA 211 Level 1 inspection — a systematic check of all accessible chimney components with a signed written report. The inspection identifies cracks, deterioration, and blocked areas that a cleaning alone will not address.
+                  adds a formal NFPA 211 Level 1 inspection — a systematic check of all accessible chimney components with a signed written condition report.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  For Los Angeles homeowners involved in a home sale or refinance, a Level 2 inspection is required under NFPA 211 — and it includes a video camera scan of the full flue. If that is your situation, book a{" "}
+                  For San Diego homeowners involved in a home sale or refinance, a Level 2 inspection is required under NFPA 211 and includes a video camera scan of the full flue. If that applies to your situation, book a{" "}
                   <Link href="/services/chimney-inspection/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney inspection
                   </Link>{" "}
@@ -267,7 +267,7 @@ export default function ChimneyCleaningLosAngelesPage() {
               </div>
 
               <div className="bg-[#1E3A5F] rounded-2xl p-6 text-white">
-                <p className="font-semibold text-lg mb-2">Ready to schedule chimney cleaning in Los Angeles?</p>
+                <p className="font-semibold text-lg mb-2">Ready to schedule chimney cleaning in San Diego?</p>
                 <p className="text-gray-300 text-sm mb-4">
                   Request a free estimate and we will confirm availability for your neighborhood.
                 </p>
@@ -284,7 +284,7 @@ export default function ChimneyCleaningLosAngelesPage() {
                     { name: "Chimney Sweep", href: "/services/chimney-sweep/" },
                     { name: "Chimney Inspection", href: "/services/chimney-inspection/" },
                     { name: "Creosote Removal", href: "/services/creosote-removal/" },
-                    { name: "Los Angeles service area", href: "/areas/los-angeles/" },
+                    { name: "San Diego service area", href: "/areas/san-diego/" },
                   ].map((s) => (
                     <Link
                       key={s.href}
@@ -301,21 +301,21 @@ export default function ChimneyCleaningLosAngelesPage() {
             <div className="flex flex-col gap-6" id="estimate-form">
               <LeadForm
                 heading="Get a Free Estimate"
-                subheading="Chimney cleaning in Los Angeles. We respond within 2 business hours."
+                subheading="Chimney cleaning in San Diego. We respond within 2 business hours."
                 dark={false}
               />
 
               <div className="bg-[#F8FAFC] rounded-2xl p-5 border border-gray-100">
                 <h3 className="font-bold text-[#111827] mb-3 text-sm uppercase tracking-wide">
-                  More in Los Angeles
+                  More in San Diego
                 </h3>
                 <ul className="space-y-2">
                   {[
-                    { name: "Chimney Sweep", href: "/areas/los-angeles/chimney-sweep/" },
-                    { name: "Chimney Repair", href: "/areas/los-angeles/chimney-repair/" },
-                    { name: "Fireplace Repair", href: "/areas/los-angeles/fireplace-repair/" },
-                    { name: "Dryer Vent Cleaning", href: "/areas/los-angeles/dryer-vent-cleaning/" },
-                    { name: "All LA Services", href: "/areas/los-angeles/" },
+                    { name: "Chimney Sweep", href: "/areas/san-diego/chimney-sweep/" },
+                    { name: "Chimney Repair", href: "/areas/san-diego/chimney-repair/" },
+                    { name: "Fireplace Repair", href: "/areas/san-diego/fireplace-repair/" },
+                    { name: "Dryer Vent Cleaning", href: "/areas/san-diego/dryer-vent-cleaning/" },
+                    { name: "All San Diego Services", href: "/areas/san-diego/" },
                   ].map((s) => (
                     <li key={s.href}>
                       <Link
@@ -345,8 +345,8 @@ export default function ChimneyCleaningLosAngelesPage() {
         </div>
       </section>
 
-      <FAQSection faqs={FAQS} heading="Chimney Cleaning Los Angeles — FAQ" addSchema={false} />
-      <CTABanner heading="Schedule chimney cleaning in Los Angeles" />
+      <FAQSection faqs={FAQS} heading="Chimney Cleaning San Diego — FAQ" addSchema={false} />
+      <CTABanner heading="Schedule chimney cleaning in San Diego" />
     </>
   );
 }

@@ -11,57 +11,57 @@ import { SITE } from "@/lib/constants";
 const HERO_IMAGE = "/images/services/chimney-sweep-service.jpg";
 
 export const metadata: Metadata = {
-  title: "Chimney Sweep Los Angeles | Chimney & Fireplace Service",
+  title: "Chimney Sweep San Diego | Chimney & Fireplace Service",
   description:
-    "Professional chimney sweep service in Los Angeles for soot, creosote, fireplace cleaning, chimney flue buildup, and draft problems.",
-  alternates: { canonical: "/areas/los-angeles/chimney-sweep/" },
+    "Professional chimney sweep service in San Diego for soot, creosote, fireplace cleaning, chimney flue buildup, and draft problems.",
+  alternates: { canonical: "/areas/san-diego/chimney-sweep/" },
   openGraph: {
-    title: "Chimney Sweep Los Angeles | Chimney & Fireplace Service",
+    title: "Chimney Sweep San Diego | Chimney & Fireplace Service",
     description:
-      "Professional chimney sweep service in Los Angeles for soot, creosote, fireplace cleaning, chimney flue buildup, and draft problems.",
-    url: `${SITE.baseUrl}/areas/los-angeles/chimney-sweep/`,
+      "Professional chimney sweep service in San Diego for soot, creosote, fireplace cleaning, chimney flue buildup, and draft problems.",
+    url: `${SITE.baseUrl}/areas/san-diego/chimney-sweep/`,
     siteName: SITE.name,
     images: [{ url: `${SITE.baseUrl}/og/home.jpg`, width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chimney Sweep Los Angeles | Chimney & Fireplace Service",
+    title: "Chimney Sweep San Diego | Chimney & Fireplace Service",
     description:
-      "Chimney sweep in Los Angeles — NFPA 211 inspection, soot and creosote removal, written report. Free estimate.",
+      "Chimney sweep in San Diego — NFPA 211 inspection, soot and creosote removal, written report. Free estimate.",
   },
 };
 
 const FAQS = [
   {
     q: "What does a chimney sweep do?",
-    a: "A chimney sweep removes soot and creosote deposits from the flue and firebox, then performs a formal NFPA 211 Level 1 inspection of all accessible chimney components. The visit ends with a written report noting the condition of the chimney and any recommended repairs.",
+    a: "A chimney sweep removes soot and creosote deposits from the flue and firebox, then performs a formal NFPA 211 Level 1 inspection of all accessible chimney components — firebox, damper, smoke shelf, smoke chamber, and visible flue length. The visit ends with a signed written report noting the condition of each component and any recommended repairs or follow-up.",
   },
   {
-    q: "How often should I hire a chimney sweep in Los Angeles?",
-    a: "Once a year is the standard recommendation for any chimney in regular use, per NFPA 211. Los Angeles homeowners who burn wood regularly through the winter heating season should not skip a year. Gas fireplace owners on a light-use schedule may be able to extend to every two years, but should still have the system inspected for debris and liner condition.",
+    q: "How often should I hire a chimney sweep in San Diego?",
+    a: "Once a year is the standard recommendation under NFPA 211 for any chimney in regular use. San Diego's mild climate means most homeowners burn wood less than households in colder states — but the county's dry brush environment means the consequences of an unaddressed flue problem are more serious. Annual sweeping also catches deterioration in coastal hardware (caps, dampers) that corrodes faster near the ocean.",
   },
   {
     q: "Is chimney sweeping messy?",
-    a: "Not when done properly. We seal the firebox opening before cleaning and use a commercial HEPA vacuum to capture all loosened soot and debris. Cloths protect the floor and hearth. There should be no ash clouds or mess left in the room after we leave.",
+    a: "No, when done correctly. We seal the firebox opening before cleaning begins and use a commercial HEPA vacuum to capture all loosened soot and debris. Drop cloths protect the floor and hearth. There should be no ash clouds or cleanup needed after we leave.",
   },
   {
     q: "Can chimney sweep service remove creosote?",
-    a: "A standard sweep removes Stage 1 creosote — the powdery or flaky deposits that brush off easily. Stage 2 creosote is harder and tar-like; it may require chemical treatment before or alongside brushing. Stage 3 creosote will not respond to brushing at all and needs professional chemical treatment. We will tell you what stage you have and what the appropriate approach is.",
+    a: "A standard sweep removes Stage 1 creosote — powdery or flaky deposits that come off easily with brushing. Stage 2 creosote is tar-like and harder; it may need chemical treatment applied before or alongside brushing. Stage 3 is glazed and will not respond to brushing at all — it requires professional chemical treatment as a first step. We identify which stage is present and tell you what the appropriate approach is.",
   },
   {
     q: "Should I schedule an inspection with chimney sweeping?",
-    a: "A chimney sweep already includes a Level 1 inspection. If you are buying or selling a home in Los Angeles, you need a Level 2 inspection, which adds a video camera scan of the full flue. That is a separate, more detailed service — and it is required by NFPA 211 at any change of property ownership.",
+    a: "A chimney sweep already includes a Level 1 inspection as part of the service. If you are buying or selling a home in San Diego, a Level 2 inspection is the correct standard under NFPA 211 — it adds a video camera scan of the full flue and is required at any change of ownership. That is a separate, more detailed service. Ask when you book if your situation calls for Level 2.",
   },
 ];
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Chimney Sweep Los Angeles",
+  name: "Chimney Sweep San Diego",
   serviceType: "Chimney Sweep",
   description:
-    "Professional chimney sweep service in Los Angeles for soot, creosote, fireplace cleaning, chimney flue buildup, and draft problems.",
+    "Professional chimney sweep service in San Diego for soot, creosote, fireplace cleaning, chimney flue buildup, and draft problems.",
   provider: {
     "@type": "LocalBusiness",
     name: SITE.name,
@@ -69,12 +69,12 @@ const serviceSchema = {
     email: SITE.email,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Los Angeles",
+      addressLocality: "San Diego",
       addressRegion: "CA",
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "Los Angeles" },
+  areaServed: { "@type": "City", name: "San Diego" },
 };
 
 
@@ -88,7 +88,7 @@ const faqSchema = {
   })),
 };
 
-export default function ChimneySweepLosAngelesPage() {
+export default function ChimneySweepSanDiegoPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
@@ -100,7 +100,7 @@ export default function ChimneySweepLosAngelesPage() {
             crumbs={[
               { label: "Home", href: "/" },
               { label: "Service Areas", href: "/areas/" },
-              { label: "Los Angeles", href: "/areas/los-angeles/" },
+              { label: "San Diego", href: "/areas/san-diego/" },
               { label: "Chimney Sweep" },
             ]}
           />
@@ -110,7 +110,7 @@ export default function ChimneySweepLosAngelesPage() {
       <section className="relative min-h-[400px] md:min-h-[500px] flex items-center overflow-hidden">
         <Image
           src={HERO_IMAGE}
-          alt="Technician sweeping a fireplace chimney in a Los Angeles home"
+          alt="Technician sweeping a fireplace chimney in a San Diego home"
           fill
           priority
           className="object-cover"
@@ -120,13 +120,13 @@ export default function ChimneySweepLosAngelesPage() {
         <div className="relative container-base py-16">
           <div className="max-w-2xl">
             <div className="inline-block bg-orange-500/20 border border-orange-400/30 text-orange-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-              Free estimate · Los Angeles
+              Free estimate · San Diego
             </div>
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-3">
-              Chimney Sweep in Los Angeles, CA
+              Chimney Sweep in San Diego, CA
             </h1>
             <p className="text-gray-200 text-lg mb-6 leading-relaxed">
-              NFPA 211 chimney sweep service for Los Angeles homeowners — full flue cleaning, Level 1 inspection, and a written condition report in a single visit.
+              NFPA 211 chimney sweep service for San Diego homeowners — full flue cleaning, Level 1 inspection, and a written condition report delivered in a single visit.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/contact/" className="btn-primary">
@@ -149,14 +149,14 @@ export default function ChimneySweepLosAngelesPage() {
 
               <div>
                 <p className="text-gray-600 leading-relaxed text-lg mb-4">
-                  A chimney sweep in Los Angeles is the formal, documented version of chimney maintenance. It combines deposit removal with a systematic inspection of all accessible chimney components — firebox, damper, smoke shelf, smoke chamber, and the full flue length — and produces a written report you can keep for your records, share with your insurer, or present during a home sale.
+                  A chimney sweep in San Diego is the formal, documented version of chimney maintenance. It combines full flue cleaning with a systematic NFPA 211 Level 1 inspection of all accessible chimney components — firebox, damper, smoke shelf, smoke chamber, and visible flue — and produces a signed written report you can keep for your records, share with an insurer, or present during a home sale.
                 </p>
                 <p className="text-gray-600 leading-relaxed text-lg">
-                  If you only need deposits removed and do not require the written report, a{" "}
+                  If you only need soot and creosote removed and do not require the written documentation, a{" "}
                   <Link href="/services/chimney-cleaning/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney cleaning
                   </Link>{" "}
-                  is a more limited service. For home buyers, sellers, or anyone who wants documented proof of chimney condition, a sweep is the right choice.
+                  is the simpler service. For buyers, sellers, or homeowners who want proof of chimney condition for any purpose, a sweep is the correct choice.
                 </p>
               </div>
 
@@ -169,27 +169,27 @@ export default function ChimneySweepLosAngelesPage() {
                     {
                       step: "1",
                       title: "Exterior inspection",
-                      desc: "We check the chimney crown, cap, flashing, and visible masonry from the rooftop before going inside. Damage at the top of the chimney is often the source of problems that show up inside.",
+                      desc: "We check the chimney crown, cap, flashing, and visible masonry from the rooftop before any interior work begins. Damage at the top of the chimney is often the source of problems that appear lower down.",
                     },
                     {
                       step: "2",
                       title: "Damper and smoke shelf check",
-                      desc: "The damper plate is tested for smooth operation and a complete seal. The smoke shelf is checked for debris accumulation and moisture damage.",
+                      desc: "The damper plate is tested for smooth operation and a complete seal. The smoke shelf is checked for debris accumulation and moisture damage — both common in San Diego homes that sit idle through the summer months.",
                     },
                     {
                       step: "3",
                       title: "NFPA 211 Level 1 flue inspection",
-                      desc: "All accessible portions of the flue are inspected using a flashlight and mirror. If anything warrants a camera scan, we flag it and explain what a Level 2 inspection would add.",
+                      desc: "All accessible portions of the flue are inspected. If anything warrants a camera scan, we flag it and explain what a Level 2 inspection would add.",
                     },
                     {
                       step: "4",
                       title: "Full flue cleaning",
-                      desc: "Industry-grade rotary brushes clear creosote and soot from the full chimney flue length. A commercial HEPA vacuum captures all loosened deposits — no ash enters the room.",
+                      desc: "Industry-grade rotary brushes remove creosote and soot from the full chimney flue length. A commercial HEPA vacuum captures all loosened deposits — no ash enters the room.",
                     },
                     {
                       step: "5",
                       title: "Written condition report",
-                      desc: "You receive a signed report with the technician's findings, the condition rating for each component, and any recommended repairs. Photos are included when there is something you need to see.",
+                      desc: "You receive a signed report with the technician's findings, a condition rating for each component, and any recommended repairs. Photos are included when there is something you need to see.",
                     },
                   ].map((item) => (
                     <div key={item.step} className="flex gap-4">
@@ -214,38 +214,38 @@ export default function ChimneySweepLosAngelesPage() {
                   <Link href="/services/chimney-cleaning/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney cleaning
                   </Link>{" "}
-                  removes deposits. A chimney sweep removes deposits and adds a formal NFPA 211 Level 1 inspection with a written, signed report. The report documents the condition of each chimney component at the time of service.
+                  removes deposits. A chimney sweep removes deposits and adds a formal NFPA 211 Level 1 inspection with a written, signed condition report. That distinction matters most in two situations: during a home sale, where a Level 2 inspection is required under NFPA 211 at any change of ownership, and for insurance documentation, where a condition report before a loss event is often required.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  This distinction matters most in two situations: home sales, where a Level 2 inspection report is required at ownership transfer, and insurance claims, where documentation of chimney condition before a loss event is often required. For routine annual maintenance without a documentation requirement, a cleaning accomplishes the same deposit-removal outcome.
+                  For routine annual maintenance where documentation is not needed, a cleaning achieves the same deposit-removal outcome at a lower cost. If you are not sure which is right for your situation, tell us when you inquire and we will point you in the right direction.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-bold text-[#111827] mb-4">
-                  When Los Angeles Homeowners Should Schedule Sweeping
+                  When San Diego Homeowners Should Schedule Sweeping
                 </h2>
                 <ul className="space-y-3">
                   {[
                     {
-                      title: "Before first use each heating season",
-                      desc: "Verify the chimney is clear of summer debris, nesting material, and any damage that occurred during the dry season before lighting the first fire.",
+                      title: "Before the first fire of the heating season",
+                      desc: "Verify the chimney is clear of summer debris, nesting material, and any deterioration that happened during the dry months before lighting the first fire.",
                     },
                     {
                       title: "After a long period of non-use",
-                      desc: "A chimney that has sat unused for a year or more should be swept and inspected before use. Wildlife nesting and deterioration happen whether or not the fireplace is used.",
+                      desc: "A chimney that has sat unused for a year or more should be swept and inspected before use. Wildlife nesting and component deterioration happen whether or not the fireplace is used — particularly in San Diego's warm climate.",
                     },
                     {
                       title: "Before or during a home sale",
-                      desc: "A Level 2 inspection — which includes a video camera scan — is required under NFPA 211 at any change of ownership. Buyers' agents in Los Angeles routinely request this.",
+                      desc: "A Level 2 inspection with a full video camera scan is required under NFPA 211 at any change of ownership. San Diego buyers' agents routinely request it.",
                     },
                     {
-                      title: "After any unusual smoke event",
-                      desc: "If a fire produced more smoke than normal, caused heavy odor, or the chimney made unusual sounds, have it swept before the next use.",
+                      title: "After an unusual smoke event",
+                      desc: "If a fire produced more smoke than normal, caused a strong odor, or the chimney made unusual sounds, have it swept before the next use.",
                     },
                     {
                       title: "After a suspected chimney fire",
-                      desc: "Chimney fires can damage the flue liner without producing visible external signs. The chimney must be swept and inspected before it is used again.",
+                      desc: "Chimney fires can damage the flue liner without leaving visible external signs. The chimney must be swept and inspected before it is used again.",
                     },
                   ].map((item, i) => (
                     <li
@@ -278,23 +278,23 @@ export default function ChimneySweepLosAngelesPage() {
                   Problems a Sweep May Reveal
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Chimney sweep service is also how many homeowners first learn about problems they did not know existed. Common findings during a sweep include damaged or missing chimney caps, deteriorated damper plates, animal nesting material in the smoke shelf or flue, and{" "}
+                  Chimney sweep service is often how San Diego homeowners first learn about problems they did not know existed. Common findings include damaged or missing chimney caps, corroded damper plates — particularly on coastal properties — animal nesting material on the smoke shelf or inside the flue, and{" "}
                   <Link href="/services/creosote-removal/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     heavy creosote deposits
                   </Link>{" "}
                   that have progressed beyond what standard brushing can address.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  For Los Angeles homes with older clay tile flues, a sweep sometimes reveals{" "}
+                  In fire-risk areas like Santee, El Cajon, and the communities east of San Diego, a sweep may also reveal{" "}
                   <Link href="/services/chimney-blockage-removal/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     partial blockages
                   </Link>{" "}
-                  from collapsed tile sections — a common consequence of seismic activity over the decades. These are not always visible from the firebox opening and require a camera scan to confirm.
+                  from debris or deteriorated liner sections. These are not always visible from the firebox opening and require a camera scan to confirm.
                 </p>
               </div>
 
               <div className="bg-[#1E3A5F] rounded-2xl p-6 text-white">
-                <p className="font-semibold text-lg mb-2">Ready to schedule a chimney sweep in Los Angeles?</p>
+                <p className="font-semibold text-lg mb-2">Ready to schedule a chimney sweep in San Diego?</p>
                 <p className="text-gray-300 text-sm mb-4">
                   Request a free estimate and we will confirm availability for your neighborhood.
                 </p>
@@ -312,7 +312,7 @@ export default function ChimneySweepLosAngelesPage() {
                     { name: "Chimney Inspection", href: "/services/chimney-inspection/" },
                     { name: "Creosote Removal", href: "/services/creosote-removal/" },
                     { name: "Chimney Blockage Removal", href: "/services/chimney-blockage-removal/" },
-                    { name: "Los Angeles service area", href: "/areas/los-angeles/" },
+                    { name: "San Diego service area", href: "/areas/san-diego/" },
                   ].map((s) => (
                     <Link
                       key={s.href}
@@ -329,21 +329,21 @@ export default function ChimneySweepLosAngelesPage() {
             <div className="flex flex-col gap-6" id="estimate-form">
               <LeadForm
                 heading="Get a Free Estimate"
-                subheading="Chimney sweep in Los Angeles. We respond within 2 business hours."
+                subheading="Chimney sweep in San Diego. We respond within 2 business hours."
                 dark={false}
               />
 
               <div className="bg-[#F8FAFC] rounded-2xl p-5 border border-gray-100">
                 <h3 className="font-bold text-[#111827] mb-3 text-sm uppercase tracking-wide">
-                  More in Los Angeles
+                  More in San Diego
                 </h3>
                 <ul className="space-y-2">
                   {[
-                    { name: "Chimney Cleaning", href: "/areas/los-angeles/chimney-cleaning/" },
-                    { name: "Chimney Repair", href: "/areas/los-angeles/chimney-repair/" },
-                    { name: "Fireplace Repair", href: "/areas/los-angeles/fireplace-repair/" },
-                    { name: "Dryer Vent Cleaning", href: "/areas/los-angeles/dryer-vent-cleaning/" },
-                    { name: "All LA Services", href: "/areas/los-angeles/" },
+                    { name: "Chimney Cleaning", href: "/areas/san-diego/chimney-cleaning/" },
+                    { name: "Chimney Repair", href: "/areas/san-diego/chimney-repair/" },
+                    { name: "Fireplace Repair", href: "/areas/san-diego/fireplace-repair/" },
+                    { name: "Dryer Vent Cleaning", href: "/areas/san-diego/dryer-vent-cleaning/" },
+                    { name: "All San Diego Services", href: "/areas/san-diego/" },
                   ].map((s) => (
                     <li key={s.href}>
                       <Link
@@ -373,8 +373,8 @@ export default function ChimneySweepLosAngelesPage() {
         </div>
       </section>
 
-      <FAQSection faqs={FAQS} heading="Chimney Sweep Los Angeles — FAQ" addSchema={false} />
-      <CTABanner heading="Schedule a chimney sweep in Los Angeles" />
+      <FAQSection faqs={FAQS} heading="Chimney Sweep San Diego — FAQ" addSchema={false} />
+      <CTABanner heading="Schedule a chimney sweep in San Diego" />
     </>
   );
 }

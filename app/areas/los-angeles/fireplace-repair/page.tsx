@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -77,16 +77,6 @@ const serviceSchema = {
   areaServed: { "@type": "City", name: "Los Angeles" },
 };
 
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE.baseUrl}/` },
-    { "@type": "ListItem", position: 2, name: "Service Areas", item: `${SITE.baseUrl}/areas/` },
-    { "@type": "ListItem", position: 3, name: "Los Angeles", item: `${SITE.baseUrl}/areas/los-angeles/` },
-    { "@type": "ListItem", position: 4, name: "Fireplace Repair", item: `${SITE.baseUrl}/areas/los-angeles/fireplace-repair/` },
-  ],
-};
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -102,7 +92,6 @@ export default function FireplaceRepairLosAngelesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="bg-[#F8FAFC] border-b border-gray-100">

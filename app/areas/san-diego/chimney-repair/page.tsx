@@ -11,57 +11,57 @@ import { SITE } from "@/lib/constants";
 const HERO_IMAGE = "/images/services/Chimney-leak-repair.jpg";
 
 export const metadata: Metadata = {
-  title: "Chimney Repair Los Angeles | Brick, Leak & Masonry Repair",
+  title: "Chimney Repair San Diego | Brick, Leak & Masonry Repair",
   description:
-    "Chimney repair in Los Angeles for cracked brick, leaks, damaged mortar, chimney crown problems, flashing issues, and fireplace draft concerns.",
-  alternates: { canonical: "/areas/los-angeles/chimney-repair/" },
+    "Chimney repair in San Diego for cracked brick, chimney leaks, damaged mortar, crown problems, flashing issues, and fireplace draft concerns.",
+  alternates: { canonical: "/areas/san-diego/chimney-repair/" },
   openGraph: {
-    title: "Chimney Repair Los Angeles | Brick, Leak & Masonry Repair",
+    title: "Chimney Repair San Diego | Brick, Leak & Masonry Repair",
     description:
-      "Chimney repair in Los Angeles for cracked brick, leaks, damaged mortar, chimney crown problems, flashing issues, and fireplace draft concerns.",
-    url: `${SITE.baseUrl}/areas/los-angeles/chimney-repair/`,
+      "Chimney repair in San Diego for cracked brick, chimney leaks, damaged mortar, crown problems, flashing issues, and fireplace draft concerns.",
+    url: `${SITE.baseUrl}/areas/san-diego/chimney-repair/`,
     siteName: SITE.name,
     images: [{ url: `${SITE.baseUrl}/og/home.jpg`, width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chimney Repair Los Angeles | Brick, Leak & Masonry Repair",
+    title: "Chimney Repair San Diego | Brick, Leak & Masonry Repair",
     description:
-      "Chimney repair in Los Angeles — cracked brick, flashing, crown, and masonry. Licensed technicians. Free estimate.",
+      "Chimney repair in San Diego — cracked brick, flashing, crown, and masonry. Licensed technicians. Free estimate.",
   },
 };
 
 const FAQS = [
   {
-    q: "What are the most common chimney repairs in Los Angeles?",
-    a: "The most common repairs we see in Los Angeles are mortar joint repointing, chimney crown repair, flashing replacement, and spalled brick repair. Earthquake activity over the decades has also left many LA chimneys with cracked flue liners that were patched cosmetically but never properly repaired.",
+    q: "What are the most common chimney repairs in San Diego?",
+    a: "The most frequent repairs we handle in San Diego are mortar joint repointing, chimney crown repair, flashing replacement, and brick repair from spalling. Coastal homes in La Jolla, Del Mar, and Coronado also see a higher rate of chimney cap and damper replacement due to salt air corrosion. In eastern communities like El Cajon and Santee, we encounter more heat-related mortar deterioration from the wide seasonal temperature swings in inland valleys.",
   },
   {
     q: "Can cracked chimney bricks cause leaks?",
-    a: "Yes. Spalled or cracked brick allows water to penetrate the masonry. Over time, that moisture works its way through the chimney wall and can appear as ceiling stains, damp areas near the firebox, or water marks on interior walls adjacent to the chimney chase.",
+    a: "Yes. Spalled or cracked brick allows water to enter the masonry. Once moisture is inside, it expands and contracts with temperature changes — accelerating the damage and eventually working its way through to the chimney interior. In San Diego, this is most visible on south- and west-facing chimneys that take direct sun exposure through the dry season and then face winter rain.",
   },
   {
     q: "What causes water damage around a chimney?",
-    a: "The most common sources are damaged or improperly installed flashing, a cracked chimney crown, a missing or undersized chimney cap, and porous masonry that absorbs rainwater. Often more than one of these is present at the same time.",
+    a: "The most common sources are a cracked chimney crown, damaged or improperly installed flashing where the chimney meets the roofline, a missing or undersized chimney cap, and porous masonry that absorbs rainwater directly. In practice, more than one of these is usually present at the same time. San Diego's dry climate can mask water intrusion for years because the damage dries quickly — but it accumulates.",
   },
   {
     q: "Should I repair or rebuild my chimney?",
-    a: "Most chimneys can be repaired rather than rebuilt. A full rebuild is necessary when the masonry is structurally unsound, the chimney has shifted significantly from vertical, or damage is too widespread to address with targeted repairs. An inspection will tell you which situation you are in.",
+    a: "Most San Diego chimneys can be repaired rather than rebuilt. A full rebuild is necessary when the masonry is structurally unsound, the chimney has shifted noticeably from vertical, or the damage is too widespread to address with targeted repairs. The only way to know for certain is a proper inspection — and many homeowners who come to us expecting a rebuild find that targeted repointing and crown repair is all that is needed.",
   },
   {
     q: "How do I know if my chimney flashing is leaking?",
-    a: "Signs include water stains on the ceiling near the chimney, damp areas on walls adjacent to the fireplace, and visible rust or mineral staining where the chimney meets the roofline. Flashing leaks are often mistaken for roof leaks — a closer look at the joint between the chimney and roof is needed to confirm.",
+    a: "Water stains on the ceiling near the chimney, damp or discolored areas on walls adjacent to the fireplace, and visible rust or mineral deposits where the chimney meets the roofline are the clearest signs. Flashing leaks are often mistaken for roof leaks — a targeted inspection of the joint between the chimney and roof is needed to confirm the source.",
   },
 ];
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Chimney Repair Los Angeles",
+  name: "Chimney Repair San Diego",
   serviceType: "Chimney Repair",
   description:
-    "Chimney repair in Los Angeles for cracked brick, leaks, damaged mortar, chimney crown problems, flashing issues, and fireplace draft concerns.",
+    "Chimney repair in San Diego for cracked brick, chimney leaks, damaged mortar, crown problems, flashing issues, and fireplace draft concerns.",
   provider: {
     "@type": "LocalBusiness",
     name: SITE.name,
@@ -69,12 +69,12 @@ const serviceSchema = {
     email: SITE.email,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Los Angeles",
+      addressLocality: "San Diego",
       addressRegion: "CA",
       addressCountry: "US",
     },
   },
-  areaServed: { "@type": "City", name: "Los Angeles" },
+  areaServed: { "@type": "City", name: "San Diego" },
 };
 
 
@@ -88,7 +88,7 @@ const faqSchema = {
   })),
 };
 
-export default function ChimneyRepairLosAngelesPage() {
+export default function ChimneyRepairSanDiegoPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
@@ -100,7 +100,7 @@ export default function ChimneyRepairLosAngelesPage() {
             crumbs={[
               { label: "Home", href: "/" },
               { label: "Service Areas", href: "/areas/" },
-              { label: "Los Angeles", href: "/areas/los-angeles/" },
+              { label: "San Diego", href: "/areas/san-diego/" },
               { label: "Chimney Repair" },
             ]}
           />
@@ -110,7 +110,7 @@ export default function ChimneyRepairLosAngelesPage() {
       <section className="relative min-h-[400px] md:min-h-[500px] flex items-center overflow-hidden">
         <Image
           src={HERO_IMAGE}
-          alt="Technician sealing chimney flashing and repairing a chimney leak on a Los Angeles home"
+          alt="Technician sealing chimney flashing and repairing a chimney leak on a San Diego home"
           fill
           priority
           className="object-cover"
@@ -120,13 +120,13 @@ export default function ChimneyRepairLosAngelesPage() {
         <div className="relative container-base py-16">
           <div className="max-w-2xl">
             <div className="inline-block bg-orange-500/20 border border-orange-400/30 text-orange-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-              Free estimate · Los Angeles
+              Free estimate · San Diego
             </div>
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-3">
-              Chimney Repair in Los Angeles, CA
+              Chimney Repair in San Diego, CA
             </h1>
             <p className="text-gray-200 text-lg mb-6 leading-relaxed">
-              Brick repair, masonry repointing, flashing replacement, crown repair, and chimney leak repair for Los Angeles homes — addressed at the source, not just the symptom.
+              Brick repair, mortar repointing, flashing replacement, crown repair, and chimney leak repair for San Diego homes — targeted at the actual source, not just the visible symptom.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/contact/" className="btn-primary">
@@ -149,29 +149,29 @@ export default function ChimneyRepairLosAngelesPage() {
 
               <div>
                 <p className="text-gray-600 leading-relaxed text-lg mb-4">
-                  Chimney repair in Los Angeles covers a wide range — from routine mortar repointing on a 1950s brick chimney to flashing replacement after rain damage. Getting the right repair starts with identifying the actual source of the problem. Visible damage is often a symptom of something deeper: a missing chimney cap leads to water intrusion, which cracks the crown, which damages the liner underneath. Treating the visible crack without addressing the entry point means the repair fails within a few seasons.
+                  Chimney repair in San Diego covers a wide range — from routine mortar repointing on an older Mission Hills bungalow to flashing replacement after winter rain damage in a newer Eastlake home. Getting the repair right starts with identifying the actual source of the problem, which is rarely the first visible sign. A crack in the chimney crown, for example, often leads to water entering the masonry, which shows up months later as water in the firebox — but treating the firebox without repairing the crown means the problem returns.
                 </p>
                 <p className="text-gray-600 leading-relaxed text-lg">
                   We recommend starting with a{" "}
                   <Link href="/services/chimney-inspection/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney inspection
                   </Link>{" "}
-                  before any repair work. An inspection tells us what is actually failing, so the repair scope and cost reflect the real problem rather than an educated guess.
+                  before any repair work. An inspection identifies what is actually failing so the repair scope reflects the real problem, not a guess based on surface appearance.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-bold text-[#111827] mb-4">
-                  Common Chimney Repair Issues in Los Angeles
+                  Common Chimney Repair Issues in San Diego
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Los Angeles chimneys face a specific combination of stresses. Earthquake activity has been the biggest structural factor — the 1994 Northridge earthquake cracked thousands of flue liners across the region, many of which were patched cosmetically and never received a proper liner inspection or repair. Homes in high-frequency seismic areas should have their flue liners inspected by camera even if no external damage is visible.
+                  San Diego chimneys face a specific combination of environmental stresses. Coastal properties in La Jolla, Del Mar, Pacific Beach, and Coronado experience accelerated corrosion of metal components — chimney caps, damper plates, and flashing hardware deteriorate faster in marine air than in inland areas. Caps that last 15 years in Escondido may need replacement in 8 to 10 years near the ocean.
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Mediterranean climate cycles also take a toll. Wet winters followed by long dry summers cause masonry to absorb water and then dry out repeatedly. Over decades, this cycle erodes mortar joints and causes brick faces to spall. Chimneys that were last pointed in the 1970s or 1980s typically need repointing now.
+                  Inland valley homes in El Cajon, Santee, and Lakeside deal with a wide temperature range — summer highs regularly exceed 100°F while nights can drop sharply in winter. This thermal cycling stresses mortar joints more aggressively than the moderate coastal climate, and chimneys in these areas often need repointing sooner than expected. The same communities sit in fire-hazard zones, which adds urgency to keeping chimney flues clean and structurally sound.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Coastal properties in Pacific Palisades, Malibu, Venice, and the South Bay experience faster corrosion of metal chimney components — flashing, caps, and damper plates deteriorate more quickly in marine air and may need replacement sooner than inland homes.
+                  Older San Diego neighborhoods — North Park, South Park, Kensington, Normal Heights — have a high concentration of Craftsman and Spanish Colonial homes with original brick chimneys built in the 1920s through 1950s. These have not been significantly earthquake-stressed in the same way as Los Angeles, but decades of wet-dry cycles have taken a steady toll on mortar joints and crown surfaces.
                 </p>
               </div>
 
@@ -182,24 +182,24 @@ export default function ChimneyRepairLosAngelesPage() {
                 <ul className="space-y-3">
                   {[
                     {
-                      title: "White staining on brick (efflorescence)",
-                      desc: "A mineral deposit left behind when water moves through masonry and evaporates. It indicates water is penetrating the brick or mortar joints.",
+                      title: "Efflorescence — white staining on brick",
+                      desc: "White mineral deposits on the chimney face are left behind as water moves through masonry and evaporates. It means water is penetrating the brick or mortar joints.",
                     },
                     {
-                      title: "Crumbling or missing mortar joints",
-                      desc: "Mortar that can be scraped out with a finger or that has gaps wider than 1/4 inch needs repointing before water accelerates the damage further.",
+                      title: "Crumbling or recessed mortar joints",
+                      desc: "Mortar that can be scraped out easily, or joints that are recessed more than a quarter inch, need repointing before water accelerates the deterioration.",
                     },
                     {
                       title: "Spalled brick faces",
-                      desc: "When the face of a brick breaks off or flakes away, the exposed core absorbs water faster than finished brick. Spalling progresses quickly once it starts.",
+                      desc: "When the outer face of a brick breaks off or flakes away, the exposed core absorbs water much faster than finished brick. Spalling progresses quickly once it starts.",
                     },
                     {
                       title: "Water in the firebox or ceiling stains",
-                      desc: "Water appearing inside the firebox after rain, or ceiling stains near the chimney, indicate a leak entering somewhere in the chimney system.",
+                      desc: "Water appearing inside the firebox after rain, or damp staining on ceilings near the chimney, are clear signs of an active leak somewhere in the chimney system.",
                     },
                     {
                       title: "Rust on the damper or firebox components",
-                      desc: "Rust inside the firebox is a sign that water has been entering the system. The damper plate, firebox hardware, and smoke shelf should all be checked.",
+                      desc: "Rust inside the firebox means water has been entering the system. The damper plate, smoke shelf, and firebox floor should all be checked when rust appears.",
                     },
                   ].map((item, i) => (
                     <li
@@ -232,22 +232,22 @@ export default function ChimneyRepairLosAngelesPage() {
                   Chimney Leaks, Masonry, Crowns, and Flashing
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Each part of the chimney system that can leak or deteriorate requires a different repair approach. A{" "}
+                  Each part of the chimney system that can fail requires a different repair approach. A{" "}
                   <Link href="/services/chimney-leak-repair/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney leak
                   </Link>{" "}
-                  from damaged flashing at the roofline is a sheet metal and sealant repair. A cracked{" "}
+                  coming from damaged flashing at the roofline is a sheet metal and sealant repair. A cracked{" "}
                   <Link href="/services/chimney-crown-repair/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     chimney crown
                   </Link>{" "}
-                  is a concrete repair that also requires rebuilding the overhang profile to shed water properly. Porous masonry needs a vapor-permeable waterproofing sealer after repointing — not just paint or a standard sealant that traps moisture inside the brick.
+                  requires a concrete repair that rebuilds the correct water-shedding profile — not just patching the visible crack. Porous brick needs a vapor-permeable waterproofing sealer after repointing, not paint or a standard sealant that traps moisture inside the masonry.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
                   For{" "}
                   <Link href="/services/chimney-masonry-repair/" className="text-orange-600 hover:text-orange-700 underline underline-offset-2">
                     masonry repair
                   </Link>
-                  , we use Type S mortar matched to the existing joint profile and color. When brick replacement is needed, we source from regional suppliers and bring samples before work begins. The goal is a repair that is functionally sound and visually consistent with the existing chimney.
+                  , we match Type S mortar to the existing joint profile. When brick replacement is needed, we source materials locally and bring samples before work begins. The repair should be functionally sound and visually consistent with the existing chimney — not visibly patched.
                 </p>
               </div>
 
@@ -256,17 +256,17 @@ export default function ChimneyRepairLosAngelesPage() {
                   Why Inspection Should Come Before Repair
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  A repair quote based on what is visible from the ground or from the rooftop can miss what is happening inside the flue. Video camera inspection maps every crack, joint separation, and liner defect before we set a repair scope. In practice, this saves homeowners from paying for a repair in the wrong location.
+                  A repair estimate based on what is visible from street level or the rooftop can miss what is happening inside the flue. Video camera inspection maps liner cracks, joint separations, and any structural defects before we set a repair scope. In practice, this protects homeowners from paying for repairs in the wrong location.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  If you have had a chimney fire — including a small one that you may not have noticed — the liner should be inspected before any other repair is done. A chimney fire can damage the liner while leaving the exterior masonry intact. Repointing the brickwork on a chimney with an undetected cracked liner addresses the wrong problem.
+                  In San Diego&apos;s fire-risk eastern communities, we particularly recommend camera inspection for any home where the fireplace has not been professionally evaluated in more than three years. The liner condition determines whether the fireplace is safe to use — and that cannot be assessed from the firebox opening alone.
                 </p>
               </div>
 
               <div className="bg-[#1E3A5F] rounded-2xl p-6 text-white">
                 <p className="font-semibold text-lg mb-2">Seeing damage or water near your chimney?</p>
                 <p className="text-gray-300 text-sm mb-4">
-                  Request a free estimate and describe what you are seeing — we will recommend the right starting point.
+                  Request a free estimate and describe what you are observing — we will recommend the right starting point.
                 </p>
                 <Link href="/contact/" className="btn-primary inline-block">
                   Request Free Estimate
@@ -283,7 +283,7 @@ export default function ChimneyRepairLosAngelesPage() {
                     { name: "Chimney Crown Repair", href: "/services/chimney-crown-repair/" },
                     { name: "Chimney Flashing Repair", href: "/services/chimney-flashing-repair/" },
                     { name: "Chimney Cap Replacement", href: "/services/chimney-cap-replacement/" },
-                    { name: "Los Angeles service area", href: "/areas/los-angeles/" },
+                    { name: "San Diego service area", href: "/areas/san-diego/" },
                   ].map((s) => (
                     <Link
                       key={s.href}
@@ -300,21 +300,21 @@ export default function ChimneyRepairLosAngelesPage() {
             <div className="flex flex-col gap-6" id="estimate-form">
               <LeadForm
                 heading="Get a Free Estimate"
-                subheading="Chimney repair in Los Angeles. We respond within 2 business hours."
+                subheading="Chimney repair in San Diego. We respond within 2 business hours."
                 dark={false}
               />
 
               <div className="bg-[#F8FAFC] rounded-2xl p-5 border border-gray-100">
                 <h3 className="font-bold text-[#111827] mb-3 text-sm uppercase tracking-wide">
-                  More in Los Angeles
+                  More in San Diego
                 </h3>
                 <ul className="space-y-2">
                   {[
-                    { name: "Chimney Cleaning", href: "/areas/los-angeles/chimney-cleaning/" },
-                    { name: "Chimney Sweep", href: "/areas/los-angeles/chimney-sweep/" },
-                    { name: "Fireplace Repair", href: "/areas/los-angeles/fireplace-repair/" },
-                    { name: "Dryer Vent Cleaning", href: "/areas/los-angeles/dryer-vent-cleaning/" },
-                    { name: "All LA Services", href: "/areas/los-angeles/" },
+                    { name: "Chimney Cleaning", href: "/areas/san-diego/chimney-cleaning/" },
+                    { name: "Chimney Sweep", href: "/areas/san-diego/chimney-sweep/" },
+                    { name: "Fireplace Repair", href: "/areas/san-diego/fireplace-repair/" },
+                    { name: "Dryer Vent Cleaning", href: "/areas/san-diego/dryer-vent-cleaning/" },
+                    { name: "All San Diego Services", href: "/areas/san-diego/" },
                   ].map((s) => (
                     <li key={s.href}>
                       <Link
@@ -344,8 +344,8 @@ export default function ChimneyRepairLosAngelesPage() {
         </div>
       </section>
 
-      <FAQSection faqs={FAQS} heading="Chimney Repair Los Angeles — FAQ" addSchema={false} />
-      <CTABanner heading="Schedule chimney repair in Los Angeles" />
+      <FAQSection faqs={FAQS} heading="Chimney Repair San Diego — FAQ" addSchema={false} />
+      <CTABanner heading="Schedule chimney repair in San Diego" />
     </>
   );
 }

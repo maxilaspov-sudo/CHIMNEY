@@ -230,13 +230,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }));
 
-  const losAngelesServicePages: MetadataRoute.Sitemap = [
-    { url: `${base}/areas/los-angeles/chimney-cleaning/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
-    { url: `${base}/areas/los-angeles/chimney-repair/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
-    { url: `${base}/areas/los-angeles/chimney-sweep/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
-    { url: `${base}/areas/los-angeles/fireplace-repair/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
-    { url: `${base}/areas/los-angeles/dryer-vent-cleaning/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+  const servicePageCities = [
+    "los-angeles",
+    "san-diego",
+    "san-jose",
+    "san-francisco",
+    "sacramento",
+    "fresno",
+    "oakland",
+    "long-beach",
+    "anaheim",
+    "irvine",
+  ];
+  const serviceTypes = [
+    "chimney-cleaning",
+    "chimney-repair",
+    "chimney-sweep",
+    "fireplace-repair",
+    "dryer-vent-cleaning",
+  ];
+  const cityServicePages: MetadataRoute.Sitemap = servicePageCities.flatMap((city) =>
+    serviceTypes.map((svc) => ({
+      url: `${base}/areas/${city}/${svc}/`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    }))
+  );
+
+  const legalPages: MetadataRoute.Sitemap = [
+    { url: `${base}/privacy-policy/`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
+    { url: `${base}/terms-of-service/`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
   ];
 
-  return [...staticPages, ...servicePages, ...blogPosts, ...cityPages, ...countyPages, ...losAngelesServicePages];
+  return [...staticPages, ...servicePages, ...blogPosts, ...cityPages, ...countyPages, ...cityServicePages, ...legalPages];
 }
