@@ -31,9 +31,9 @@ export const services: Service[] = [
       "Professional chimney cleaning removes dangerous creosote, soot, and debris from your flue — protecting your family from chimney fires and carbon monoxide.",
     longDesc:
       "Creosote is the byproduct of burning wood. Every fire deposits a thin layer inside your flue. After a season of regular use, that layer can reach dangerous levels. Stage 3 creosote — a tar-like glaze — won't brush off and requires chemical treatment. Our certified technicians inspect the full flue system, remove all deposits using industry-grade rotary brushes and HEPA-filtered vacuums, and leave no mess behind. The NFPA 211 standard recommends annual cleaning for wood-burning appliances. We follow that standard on every job.",
-    heroImage: "/images/service-chimney-cleaning.jpg",
-    heroImageMedium: "/images/service-chimney-cleaning.jpg",
-    heroAlt: "Technician cleaning a residential chimney with chimney sweep equipment",
+    heroImage: "/images/services/Chimney-cleaning.jpg",
+    heroImageMedium: "/images/services/Chimney-cleaning.jpg",
+    heroAlt: "Technician performing chimney cleaning inside a residential fireplace",
     price: "Free estimate",
     duration: "1–2 hours",
     benefits: [
@@ -95,10 +95,9 @@ export const services: Service[] = [
       "Our professional chimney sweeps inspect and clean wood-burning fireplaces, gas inserts, and factory-built fireplaces to current NFPA 211 standards.",
     longDesc:
       "A chimney sweep covers more ground than a cleaning alone. We check for cracks in the flue liner, deteriorated mortar joints, a faulty damper, missing spark arrestors, and animal nesting material. The inspection portion follows NFPA 211 Level 1 protocol, which is the minimum standard for any chimney in regular use. We document every finding with notes and, when possible, camera images, then walk you through any repairs before we leave.",
-    heroImage: "/images/chimney-sweep.jpg",
-    heroImageMedium: "/images/chimney-sweep.jpg",
-    heroAlt:
-      "Close-up of red brick chimneys on a residential rooftop — California chimney sweep inspection",
+    heroImage: "/images/services/chimney-sweep-service.jpg",
+    heroImageMedium: "/images/services/chimney-sweep-service.jpg",
+    heroAlt: "Technician sweeping a fireplace chimney with professional brush equipment",
     price: "Free estimate",
     duration: "1.5–2.5 hours",
     benefits: [
@@ -219,9 +218,9 @@ export const services: Service[] = [
       "Spalled brick, cracked crowns, failing mortar, and damaged flashing repaired by licensed masons. We match existing brick and mortar so repairs are invisible.",
     longDesc:
       "Water is the leading cause of chimney damage in California. Rain and freeze-thaw cycles erode mortar joints, crack crowns, and allow moisture to penetrate brick. Left unaddressed, a cracked crown allows water to enter the flue and saturate the masonry from the inside — leading to spalled brick, rusted dampers, and eventual structural failure. Our repairs address the root cause, not just the symptom. We use Type S mortar matched to your existing joint profile and color-matched brick when replacement is needed.",
-    heroImage: "/images/service-chimney-repair.jpg",
-    heroImageMedium: "/images/service-chimney-repair.jpg",
-    heroAlt: "Technician repairing brick masonry on a residential chimney",
+    heroImage: "/images/services/Chimney-repair.jpg",
+    heroImageMedium: "/images/services/Chimney-repair.jpg",
+    heroAlt: "Technicians repairing brick chimney masonry and chimney cap area",
     price: "Free estimate",
     duration: "Varies by scope",
     benefits: [
@@ -405,10 +404,9 @@ export const services: Service[] = [
       "Stainless steel liner installation and HeatShield ceramic liner repair. Restores safe draft and prevents combustible gases from reaching your home structure.",
     longDesc:
       "The flue liner is the most critical safety component of your chimney. It contains combustion gases and heat, preventing them from contacting the wood framing around your chase. Clay tile liners develop cracks from thermal cycling, earthquake movement, or chimney fires. Once cracked, combustion gases — including carbon monoxide — can seep through the masonry and enter your home. We repair clay liners using HeatShield CeCure, a castable ceramic resurfacer, or install a new continuous stainless-steel liner when damage is severe. Both solutions are approved by the NFPA 211 standard.",
-    heroImage: "/images/chimney-liner-repair.jpg",
-    heroImageMedium: "/images/chimney-liner-repair.jpg",
-    heroAlt:
-      "Chimney flue opening on a residential roof — chimney liner repair and replacement service in California",
+    heroImage: "/images/services/Chimney-liner-repair.jpg",
+    heroImageMedium: "/images/services/Chimney-liner-repair.jpg",
+    heroAlt: "Stainless steel chimney liner repair on a residential chimney",
     price: "Free estimate — varies by liner type and flue length",
     duration: "Half day to full day",
     benefits: [

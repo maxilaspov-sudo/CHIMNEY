@@ -8,7 +8,7 @@ import FAQSection from "@/components/FAQSection";
 import CTABanner from "@/components/CTABanner";
 import { NAV_AREAS, SITE } from "@/lib/constants";
 
-const HERO_IMAGE = "/images/chimney-leak-repair.jpg";
+const HERO_IMAGE = "/images/services/Chimney-leak-repair.jpg";
 
 export const metadata: Metadata = {
   title: "Chimney Leak Repair in California | Stop Water Damage",
@@ -109,7 +109,7 @@ export default function ChimneyLeakRepairPage() {
       <section className="relative min-h-[400px] flex items-center bg-[#111827]">
         <Image
           src={HERO_IMAGE}
-          alt="Chimney leak repair on a residential roof in California"
+          alt="Technician sealing chimney flashing to repair a chimney leak"
           fill
           priority
           className="object-cover object-center opacity-30"

@@ -27,8 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const HERO_IMAGE =
-  "https://images.pexels.com/photos/14681670/pexels-photo-14681670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+const HERO_IMAGE = "/images/services/gas-fireplace-repair.jpg";
 
 const SIGNS = [
   {
@@ -179,7 +178,7 @@ export default function GasFireplaceRepairPage() {
       <section className="relative min-h-[400px] md:min-h-[500px] flex items-center overflow-hidden">
         <Image
           src={HERO_IMAGE}
-          alt="Blue and orange gas fireplace flames — professional gas fireplace repair service in California"
+          alt="Technician repairing a gas fireplace insert and burner system"
           fill
           priority
           className="object-cover"

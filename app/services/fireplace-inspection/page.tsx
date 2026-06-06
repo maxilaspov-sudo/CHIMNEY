@@ -113,7 +113,7 @@ export default function FireplaceInspectionPage() {
       <section className="relative min-h-[400px] flex items-center bg-[#111827]">
         <Image
           src={HERO_IMAGE}
-          alt="Technician inspecting a residential fireplace in California"
+          alt="Technician inspecting a residential fireplace with a flashlight"
           fill
           priority
           className="object-cover object-center opacity-30"
