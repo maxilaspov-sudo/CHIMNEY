@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-const HERO_IMAGE = "/images/services/gas-fireplace-repair.jpg";
+const HERO_IMAGE = "/images/services/Gas-fireplace-repair.jpg";
 
 const SIGNS = [
   {

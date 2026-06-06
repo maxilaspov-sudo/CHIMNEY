@@ -155,9 +155,9 @@ export const services: Service[] = [
       "Level 1, Level 2, and Level 3 chimney inspections by certified technicians. Required for home sales, insurance claims, and post-storm assessments.",
     longDesc:
       "The NFPA 211 standard defines three levels of chimney inspection. Level 1 is for chimneys in regular use with no changes in service. Level 2 is required when you buy or sell a home, change fuel types, or add a new appliance — it includes a video scan of the full flue. Level 3 is reserved for serious structural concerns and may require removing portions of the chimney to assess internal damage. We perform all three levels and provide a detailed written report accepted by insurers, home buyers, and real estate attorneys.",
-    heroImage: "/images/service-chimney-inspection.jpg",
-    heroImageMedium: "/images/service-chimney-inspection.jpg",
-    heroAlt: "Technician inspecting an indoor fireplace and chimney system in a California home",
+    heroImage: "/images/services/Chimney-inspection.jpg",
+    heroImageMedium: "/images/services/Chimney-inspection.jpg",
+    heroAlt: "Technician inspecting a residential fireplace with a flashlight",
     price: "Free estimate",
     duration: "1–3 hours depending on level",
     benefits: [
