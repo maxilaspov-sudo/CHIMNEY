@@ -232,6 +232,35 @@ export default async function AreaOrCountyPage({ params }: Props) {
                 ))}
               </div>
 
+              {/* Local service pages — shown only for cities that have them */}
+              {slug === "los-angeles" && (
+                <div className="mb-10">
+                  <h3 className="text-lg font-bold text-[#1E3A5F] mb-1">
+                    Chimney &amp; Fireplace Services in {area.name}
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-4">
+                    Explore local chimney, fireplace, and dryer vent services available for {area.name} homeowners.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {[
+                      { name: "Chimney Cleaning", href: "/areas/los-angeles/chimney-cleaning/" },
+                      { name: "Chimney Repair", href: "/areas/los-angeles/chimney-repair/" },
+                      { name: "Chimney Sweep", href: "/areas/los-angeles/chimney-sweep/" },
+                      { name: "Fireplace Repair", href: "/areas/los-angeles/fireplace-repair/" },
+                      { name: "Dryer Vent Cleaning", href: "/areas/los-angeles/dryer-vent-cleaning/" },
+                    ].map((s) => (
+                      <Link
+                        key={s.href}
+                        href={s.href}
+                        className="text-sm bg-white border border-gray-200 hover:border-orange-400 hover:text-orange-600 text-gray-700 font-medium px-4 py-2 rounded-full transition-colors"
+                      >
+                        {s.name} in {area.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Unique fact */}
               <div className="bg-[#1E3A5F] rounded-2xl p-6 text-white mb-8">
                 <h3 className="font-bold text-orange-400 mb-2">Did You Know?</h3>

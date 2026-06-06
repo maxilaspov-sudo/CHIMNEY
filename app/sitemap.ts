@@ -230,5 +230,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }));
 
-  return [...staticPages, ...servicePages, ...blogPosts, ...cityPages, ...countyPages];
+  const losAngelesServicePages: MetadataRoute.Sitemap = [
+    { url: `${base}/areas/los-angeles/chimney-cleaning/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${base}/areas/los-angeles/chimney-repair/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${base}/areas/los-angeles/chimney-sweep/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${base}/areas/los-angeles/fireplace-repair/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${base}/areas/los-angeles/dryer-vent-cleaning/`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.85 },
+  ];
+
+  return [...staticPages, ...servicePages, ...blogPosts, ...cityPages, ...countyPages, ...losAngelesServicePages];
 }
