@@ -115,7 +115,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-xs text-gray-500">
             {[
               { icon: <ShieldSm />, text: "Licensed & Insured" },
-              { icon: <CertSm />, text: "Certified Technicians" },
+              { icon: <CertSm />, text: "Trained Technicians" },
               { icon: <CheckSm />, text: "Free Estimates Available" },
               { icon: <ClockSm />, text: "Same-Week Scheduling" },
               { icon: <CheckSm />, text: "Serving All of California" },

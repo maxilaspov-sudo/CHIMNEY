@@ -77,7 +77,7 @@ export default function AboutPage() {
             {[
               { number: "2009", label: "Year Founded" },
               { number: "12,400+", label: "Jobs Completed" },
-              { number: "15+", label: "Years Experience" },
+              { number: "17+", label: "Years Experience" },
               { number: "CA", label: "Statewide Service" },
             ].map((stat, i) => (
               <div key={i} className="card text-center">

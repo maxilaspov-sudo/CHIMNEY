@@ -391,7 +391,7 @@ export default function CaliforniaPage() {
             </div>
             <LeadForm
               heading="Get a Free California Estimate"
-              subheading="We respond within 2 hours during business hours."
+              subheading="We respond within 2 business hours."
             />
           </div>
         </div>

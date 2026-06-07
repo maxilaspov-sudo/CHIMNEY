@@ -7,7 +7,7 @@ export const SITE = {
   email: "info@chimneycleaningca.com",
   address: "Los Angeles, CA",
   baseUrl: "https://www.chimneycleaningca.com",
-  yearsInBusiness: "15",
+  yearsInBusiness: "17",
   jobsCompleted: "12,400",
   trustCopy: "Professional Chimney Service Team",
 };

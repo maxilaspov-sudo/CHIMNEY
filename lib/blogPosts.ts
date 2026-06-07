@@ -326,7 +326,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "Can I fix draft problems myself?",
-        a: "Some causes — like a cold flue — can be addressed without a professional. Others, like a blocked or damaged flue, a cracked liner, or a structural issue with the firebox opening, require inspection and repair by a certified technician. When in doubt, stop using the fireplace and call.",
+        a: "Some causes — like a cold flue — can be addressed without a professional. Others, like a blocked or damaged flue, a cracked liner, or a structural issue with the firebox opening, require inspection and repair by a trained technician. When in doubt, stop using the fireplace and call.",
       },
       {
         q: "How long does it take to fix a smoke backdraft problem?",
@@ -1762,7 +1762,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "How Each Cleaning Works",
         anchor: "cleaning-process",
-        body: "Chimney cleaning: a certified technician sets up a HEPA vacuum inside the firebox to capture falling debris, then uses rotary brushes sized to the flue liner to scrub the walls from the top of the chimney down. The process removes creosote from every accessible surface of the liner, the smoke shelf, and the firebox. A cleaning typically includes a visual inspection of the accessible flue components.\n\nDryer vent cleaning: a technician disconnects the dryer, runs a flexible rotating brush through the full duct from both ends, and uses compressed air on longer or more complex runs. The exterior termination cap is cleaned and confirmed to be opening freely during operation. The dryer is reconnected and operation is verified.",
+        body: "Chimney cleaning: a trained technician sets up a HEPA vacuum inside the firebox to capture falling debris, then uses rotary brushes sized to the flue liner to scrub the walls from the top of the chimney down. The process removes creosote from every accessible surface of the liner, the smoke shelf, and the firebox. A cleaning typically includes a visual inspection of the accessible flue components.\n\nDryer vent cleaning: a technician disconnects the dryer, runs a flexible rotating brush through the full duct from both ends, and uses compressed air on longer or more complex runs. The exterior termination cap is cleaned and confirmed to be opening freely during operation. The dryer is reconnected and operation is verified.",
       },
       {
         heading: "How Often Each Needs Service",
@@ -1875,7 +1875,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "When to Call a Professional",
         anchor: "when-to-call",
-        body: "If you hear or smell evidence of an animal in the chimney, don't use the fireplace and call for an inspection. A certified technician can assess whether the flue is clear, what's present, and whether a wildlife removal service is needed before cleaning and capping.\n\nFor chimney swift situations, call before taking any action — the legal requirements around nesting birds are specific and the consequences of violating them are real. A professional familiar with local wildlife rules can advise on the appropriate timeline for your situation.",
+        body: "If you hear or smell evidence of an animal in the chimney, don't use the fireplace and call for an inspection. A trained technician can assess whether the flue is clear, what's present, and whether a wildlife removal service is needed before cleaning and capping.\n\nFor chimney swift situations, call before taking any action — the legal requirements around nesting birds are specific and the consequences of violating them are real. A professional familiar with local wildlife rules can advise on the appropriate timeline for your situation.",
       },
     ],
   },

@@ -48,7 +48,7 @@ export default function ContactPage() {
             {/* Lead form */}
             <LeadForm
               heading="Request a Free Estimate"
-              subheading="Fill out the form and we'll respond within 2 hours."
+              subheading="Fill out the form and we'll respond within 2 business hours."
             />
 
             {/* Contact info */}
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 <h3 className="font-bold text-orange-800 mb-3">What to Expect</h3>
                 <ul className="text-sm text-orange-700 space-y-2">
                   {[
-                    "We respond within 2 hours during business hours",
+                    "We respond within 2 business hours",
                     "Flat pricing quoted before any work begins",
                     "Trained, licensed technician dispatched",
                     "Written inspection report included",

@@ -96,7 +96,7 @@ function validateName(name: string): boolean {
 
 export default function LeadForm({
   heading = "Get Your Free Estimate",
-  subheading = "We respond within 2 hours during business hours. Same-week appointments available.",
+  subheading = "We respond within 2 business hours. Same-week appointments available.",
   dark = false,
 }: LeadFormProps) {
   // useId generates a unique prefix per component instance, preventing duplicate
@@ -391,7 +391,7 @@ export default function LeadForm({
             )}
           </button>
           <p className={`text-xs text-center mt-2 ${dark ? "text-gray-400" : "text-gray-500"}`}>
-            No spam. No pressure. We typically respond within 2 hours.
+            No spam. No pressure. We typically respond within 2 business hours.
           </p>
         </div>
       </form>

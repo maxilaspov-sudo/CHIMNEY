@@ -142,7 +142,7 @@ const CHIP_LINKS = [
 const WHY_BULLETS = [
   "Experienced & Licensed Chimney Technicians",
   "Upfront Pricing — No Hidden Fees",
-  "Top Rated by Your Neighbors",
+  "Clear Recommendations, No Pressure",
   "Proudly Serving All of California",
 ];
 
@@ -280,7 +280,7 @@ export default function HomePage() {
             {/* Trust bullets */}
             <div className="flex flex-col sm:flex-row flex-wrap gap-x-6 gap-y-2 mb-8">
               {[
-                "Certified & Insured Technicians",
+                "Trained & Insured Technicians",
                 "Same-Week Scheduling",
                 "Written Reports Included",
               ].map((item, i) => (
@@ -332,7 +332,7 @@ export default function HomePage() {
         <div className="container-base py-5">
           <div className="grid grid-cols-2 md:grid-cols-4">
             {[
-              { icon: <HomeSmall />, title: "Certified Chimney", sub: "Technicians" },
+              { icon: <HomeSmall />, title: "Trained Chimney", sub: "Technicians" },
               { icon: <CalSmall />, title: "Same-Week", sub: "Scheduling" },
               { icon: <ShieldSmall />, title: "Licensed & Insured", sub: "CA Contractor" },
               { icon: <BadgeSmall />, title: "Free Estimate", sub: "Available" },
@@ -549,7 +549,7 @@ export default function HomePage() {
             <div>
               <LeadForm
                 heading="Request a Free Quote"
-                subheading="We respond within 2 hours. Same-week appointments available."
+                subheading="We respond within 2 business hours. Same-week appointments available."
               />
             </div>
 

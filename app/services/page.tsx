@@ -89,7 +89,7 @@ export default function ServicesIndexPage() {
               Expert Solutions for Every Chimney Need
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto">
-              From routine maintenance to complete rebuilds, our certified technicians
+              From routine maintenance to complete rebuilds, our trained technicians
               deliver reliable, high-quality service you can trust.
             </p>
           </div>

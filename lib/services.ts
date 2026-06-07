@@ -30,7 +30,7 @@ export const services: Service[] = [
     shortDesc:
       "Professional chimney cleaning removes dangerous creosote, soot, and debris from your flue — protecting your family from chimney fires and carbon monoxide.",
     longDesc:
-      "Creosote is the byproduct of burning wood. Every fire deposits a thin layer inside your flue. After a season of regular use, that layer can reach dangerous levels. Stage 3 creosote — a tar-like glaze — won't brush off and requires chemical treatment. Our certified technicians inspect the full flue system, remove all deposits using industry-grade rotary brushes and HEPA-filtered vacuums, and leave no mess behind. The NFPA 211 standard recommends annual cleaning for wood-burning appliances. We follow that standard on every job.",
+      "Creosote is the byproduct of burning wood. Every fire deposits a thin layer inside your flue. After a season of regular use, that layer can reach dangerous levels. Stage 3 creosote — a tar-like glaze — won't brush off and requires chemical treatment. Our trained technicians inspect the full flue system, remove all deposits using industry-grade rotary brushes and HEPA-filtered vacuums, and leave no mess behind. The NFPA 211 standard recommends annual cleaning for wood-burning appliances. We follow that standard on every job.",
     heroImage: "/images/services/Chimney-cleaning.jpg",
     heroImageMedium: "/images/services/Chimney-cleaning.jpg",
     heroAlt: "Technician performing chimney cleaning inside a residential fireplace",
@@ -152,7 +152,7 @@ export const services: Service[] = [
     name: "Chimney Inspection",
     tagline: "Protect your home with a proper NFPA 211 chimney inspection",
     shortDesc:
-      "Level 1, Level 2, and Level 3 chimney inspections by certified technicians. Required for home sales, insurance claims, and post-storm assessments.",
+      "Level 1, Level 2, and Level 3 chimney inspections by trained technicians. Required for home sales, insurance claims, and post-storm assessments.",
     longDesc:
       "The NFPA 211 standard defines three levels of chimney inspection. Level 1 is for chimneys in regular use with no changes in service. Level 2 is required when you buy or sell a home, change fuel types, or add a new appliance — it includes a video scan of the full flue. Level 3 is reserved for serious structural concerns and may require removing portions of the chimney to assess internal damage. We perform all three levels and provide a detailed written report accepted by insurers, home buyers, and real estate attorneys.",
     heroImage: "/images/services/Chimney-inspection.jpg",

@@ -293,7 +293,7 @@ export default function AreasIndexPage() {
                 </ul>
               </div>
             </div>
-            <LeadForm heading="Request Service in Your City" subheading="We respond within 2 hours." />
+            <LeadForm heading="Request Service in Your City" subheading="We respond within 2 business hours." />
           </div>
         </div>
       </section>
