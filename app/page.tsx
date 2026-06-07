@@ -330,14 +330,14 @@ export default function HomePage() {
       {/* ══ TRUST BADGES BAR ════════════════════════════════════════ */}
       <div className="bg-[#111827] border-b border-gray-800">
         <div className="container-base py-5">
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-gray-700/50">
+          <div className="grid grid-cols-2 md:grid-cols-4">
             {[
               { icon: <HomeSmall />, title: "Certified Chimney", sub: "Technicians" },
               { icon: <CalSmall />, title: "Same-Week", sub: "Scheduling" },
               { icon: <ShieldSmall />, title: "Licensed & Insured", sub: "CA Contractor" },
               { icon: <BadgeSmall />, title: "Free Estimate", sub: "Available" },
             ].map((b, i) => (
-              <div key={i} className="flex items-center gap-3 px-4 py-3 first:pl-0">
+              <div key={i} className="flex items-center gap-3 px-4 py-3 border-r border-gray-700/50 odd:pl-0 even:border-r-0 md:even:border-r md:last:border-r-0">
                 <div className="text-orange-500 shrink-0">{b.icon}</div>
                 <div>
                   <p className="font-bold text-white text-sm leading-tight">{b.title}</p>

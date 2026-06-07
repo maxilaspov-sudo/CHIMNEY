@@ -115,10 +115,10 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-xs text-gray-500">
             {[
               { icon: <ShieldSm />, text: "Licensed & Insured" },
-              { icon: <CertSm />, text: "Licensed & Insured" },
-              { icon: <CheckSm />, text: "Serving All of California" },
+              { icon: <CertSm />, text: "Certified Technicians" },
               { icon: <CheckSm />, text: "Free Estimates Available" },
-              { icon: <ClockSm />, text: "Serving All of California" },
+              { icon: <ClockSm />, text: "Same-Week Scheduling" },
+              { icon: <CheckSm />, text: "Serving All of California" },
             ].map((b, i) => (
               <span key={i} className="flex items-center gap-1.5">
                 {b.icon} {b.text}

@@ -61,11 +61,9 @@ export default function FAQSection({
                   </svg>
                 </span>
               </button>
-              {open === i && (
-                <div className="px-5 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-50 pt-4">
-                  {faq.a}
-                </div>
-              )}
+              <div className={`px-5 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-50 pt-4${open === i ? "" : " hidden"}`}>
+                {faq.a}
+              </div>
             </div>
           ))}
         </div>
