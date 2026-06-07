@@ -52,21 +52,25 @@ export default async function BlogPostPage({ params }: Props) {
 
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
     image: post.heroImage,
+    url: SITE.baseUrl + `/blog/${slug}/`,
     datePublished: post.publishDate,
-    dateModified: post.updatedDate,
+    dateModified: post.updatedDate ?? post.publishDate,
     author: {
       "@type": "Organization",
-      name: post.author,
-      url: SITE.baseUrl + "/about/",
+      name: SITE.name,
     },
     publisher: {
       "@type": "Organization",
       name: SITE.name,
       url: SITE.baseUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: SITE.baseUrl + "/og/home.jpg",
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
